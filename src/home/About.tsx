@@ -34,11 +34,11 @@ export class About extends React.Component<unknown, unknown> {
             <div className="rounded bg-white shadow-dark padding-30">
               <Grid container spacing={4} justifyContent={'space-between'} alignItems={'stretch'}>
                 <Grid item md>
-                  <Grid container spacing={2} justifyContent={'space-between'} direction={'column'} sx={{height: '100%'}}>
-                    <Grid item xs={'auto'}>
+                  <Grid container spacing={2} justifyContent={'space-between'} direction={'row'} sx={{height: '100%'}}>
+                    <Grid item xs={12}>
                       <div className="mb-2" style={{textAlign: 'justify'}} dangerouslySetInnerHTML={ { __html: profile.description } } />
                     </Grid>
-                    <Grid item xs={'auto'}>
+                    <Grid item xs={12}>
                       <div className="mt-auto mb-3">
                         <Link href={profile.resume} className="btn btn-kd" sx={{
                           color: (theme: Theme) => theme.palette.text.secondary,
