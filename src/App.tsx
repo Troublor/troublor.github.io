@@ -1,25 +1,44 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Header, Home, Footer, About, Education, WorkExperience, Services, Review, Tools, Contact } from './home';
+import ScrollTopArrow from './components/ScrollTopArrow';
 
-function App() {
+import './components/Icons';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './scss/main.scss';
+import ResearchExperience from './home/ResearchExperience';
+import {defaultTheme} from './theme';
+import {Container, Grid, ThemeProvider} from '@mui/material';
+import Publications from './home/Publications';
+
+function App (): React.ReactElement {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <ThemeProvider theme={defaultTheme}>
+        <Header />
+        <main>
+          <Home />
+          <Container>
+            <About />
+            <Education />
+            <Publications/>
+            <Grid container>
+              <Grid item md={6}>
+                <ResearchExperience />
+              </Grid>
+              <Grid md={6}>
+                <WorkExperience />
+              </Grid>
+            </Grid>
+          </Container>
+          {/*<Services />*/}
+          {/*<Review />*/}
+          {/*<Tools />*/}
+          <Contact />
+        </main>
+        <Footer />
+        <ScrollTopArrow />
+      </ThemeProvider>
+    </>
   );
 }
 
