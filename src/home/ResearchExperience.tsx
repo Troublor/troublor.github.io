@@ -1,7 +1,7 @@
 import React from 'react';
 import { Section, Timeline } from '../components';
 import profile from './data/profile';
-import {Box, Grid, styled, Typography} from '@mui/material';
+import {Box, Grid, styled, Theme, Typography} from '@mui/material';
 import Chip from '@mui/material/Chip';
 
 const StyledBox = styled(Box)(({theme}) => ({
@@ -29,7 +29,9 @@ export class ResearchExperience extends React.Component {
                 </Timeline>
               ))}
 
-              <span className="line" />
+              <Box component={'span'} sx={{
+                backgroundColor: (theme: Theme) => theme.palette.primary.main,
+              }} className="line" />
             </div>
           </Grid>
         </Grid>

@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Section, Timeline } from '../components';
 import profile from './data/profile';
-import {Grid, Stack, Typography} from '@mui/material';
+import {Box, Grid, Stack, Theme, Typography} from '@mui/material';
 
 export class WorkExperience extends React.Component {
   render (): React.ReactElement{
@@ -24,7 +24,9 @@ export class WorkExperience extends React.Component {
                 </Timeline>
               ))}
 
-              <span className="line" />
+              <Box component={'span'} sx={{
+                backgroundColor: (theme: Theme) => theme.palette.primary.main,
+              }} className="line" />
             </div>
           </Grid>
         </Grid>
