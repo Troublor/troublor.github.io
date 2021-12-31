@@ -1,7 +1,7 @@
 import React from 'react';
 import { IconProp } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {styled, Theme, Typography} from '@mui/material';
+import {styled, Typography} from '@mui/material';
 
 const Fade = require('react-reveal/Fade');
 

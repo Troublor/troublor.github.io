@@ -1,5 +1,5 @@
 import React from 'react';
-import { Header, Home, Footer, About, Education, WorkExperience, Services, Review, Tools, Contact } from './home';
+import { Header, Home, Footer, About, Education, WorkExperience, Contact } from './home';
 import ScrollTopArrow from './components/ScrollTopArrow';
 
 import './components/Icons';

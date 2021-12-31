@@ -6,7 +6,7 @@ import {Scroller} from '../components';
 import {fab} from '@fortawesome/free-brands-svg-icons';
 import profile from './data/profile';
 import avatar from '../img/avatar.jpg';
-import {Container, Theme, styled, Box, Stack, Typography, Button} from '@mui/material';
+import {Container, Theme, styled, Box, Typography} from '@mui/material';
 
 const Dot = styled('div')({
   color: '#ff4c60',

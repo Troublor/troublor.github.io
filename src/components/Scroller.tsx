@@ -36,6 +36,7 @@ export class Scroller extends React.Component<Props & React.AnchorHTMLAttributes
   };
 
   render () : React.ReactElement{
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const { offset, ...rest } = this.props;
     return (
       <a {...rest} style={{color: '#FFFFFF', textDecoration: 'none'}} onClick={this.smoothScroll}>

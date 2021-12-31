@@ -1,5 +1,5 @@
 import React from 'react';
-import { Skill, Counter, Section } from '../components';
+import { Counter, Section } from '../components';
 import { IconPrefix, IconName } from '@fortawesome/fontawesome-svg-core';
 import profile from './data/profile';
 import portrait from '../img/portrait.jpg';
