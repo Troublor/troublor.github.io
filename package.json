@@ -7,7 +7,7 @@
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
-    "@types/eslint": "^7",
+    "@types/eslint": "^8",
     "@types/jest": "^27.0.3",
     "@types/lodash": "^4.14.177",
     "@types/node": "^16.11.17",
