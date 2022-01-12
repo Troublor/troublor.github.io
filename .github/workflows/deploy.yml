@@ -33,6 +33,6 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: rsync -a build/* troublor@tgs.dns.troublor.xyz:~/server/tgs/dist/frontend/profile
+        run: rsync -a ./build/* troublor@tgs.dns.troublor.xyz:~/server/tgs/dist/frontend/profile
         
         
