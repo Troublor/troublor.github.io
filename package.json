@@ -1,5 +1,5 @@
 {
-  "name": "profile",
+  "name": "tgs-frontend",
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
