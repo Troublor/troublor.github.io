@@ -24,6 +24,7 @@ jobs:
         with:
           node-version: 16.x
           cache: yarn
+          cache-dependency-path: yarn.lock
 
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
