@@ -1,6 +1,6 @@
 import React from 'react';
-import { Section, Timeline } from '../components';
-import profile from './data/profile';
+import { Section, Timeline } from '../../components';
+import profile from '../data/profile';
 import {Box, Grid, Theme, Typography} from '@mui/material';
 import Chip from '@mui/material/Chip';
 

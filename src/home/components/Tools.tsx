@@ -1,6 +1,6 @@
 import React from 'react';
 import { Row, Col, Container } from 'react-bootstrap';
-import knowledge from './data/knowledge.json';
+import knowledge from '../data/knowledge.json';
 
 const tools = knowledge.tools;
 

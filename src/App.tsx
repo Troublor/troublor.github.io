@@ -1,45 +1,18 @@
 import React from 'react';
-import { Header, Home, Footer, About, Education, WorkExperience, Contact } from './home';
-import ScrollTopArrow from './components/ScrollTopArrow';
+import {BrowserRouter, Route, Routes} from 'react-router-dom';
+import Home from './home';
+import NotFound from './4xx/NotFound';
 
-import './components/Icons';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './scss/main.scss';
-import ResearchExperience from './home/ResearchExperience';
-import {defaultTheme} from './theme';
-import {Container, Grid, ThemeProvider} from '@mui/material';
-import Publications from './home/Publications';
-
-function App (): React.ReactElement {
-  return (
-    <>
-      <ThemeProvider theme={defaultTheme}>
-        <Header />
-        <main>
-          <Home />
-          <Container>
-            <About />
-            <Education />
-            <Publications/>
-            <Grid container>
-              <Grid item md={6}>
-                <ResearchExperience />
-              </Grid>
-              <Grid md={6}>
-                <WorkExperience />
-              </Grid>
-            </Grid>
-          </Container>
-          {/*<Services />*/}
-          {/*<Review />*/}
-          {/*<Tools />*/}
-          <Contact />
-        </main>
-        <Footer />
-        <ScrollTopArrow />
-      </ThemeProvider>
-    </>
-  );
+export default class App extends React.Component {
+  render() {
+    return (
+      <BrowserRouter>
+        <Routes>
+          <Route path={'/'} element={<Home/>}/>
+          <Route path={'*'} element={<NotFound/>}/>
+        </Routes>
+      </BrowserRouter>
+    );
+  }
 }
 
-export default App;

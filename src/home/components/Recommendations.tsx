@@ -1,10 +1,10 @@
 import React from 'react';
-import { Section } from '../components';
+import { Section } from '../../components';
 import { Row, Col } from 'react-bootstrap';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import RecommendationConfig from './data/recommendations.json';
+import RecommendationConfig from '../data/recommendations.json';
 
 const recommendations = RecommendationConfig.recommendations;
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import {Box, Button, Grid, Stack, Theme} from '@mui/material';
-import {Section} from '../components';
-import profile from './data/profile';
+import {Section} from '../../components';
+import profile from '../data/profile';
 import {Title} from './common';
 
 export class Publications extends React.Component {
