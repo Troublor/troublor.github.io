@@ -23,10 +23,11 @@ jobs:
         uses: actions/setup-node@v2.5.1
         with:
           node-version: 16.x
-    
+          cache: yarn
+
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-      
+
       - name: build
         run: |
           yarn 
@@ -41,4 +42,4 @@ jobs:
           remote_host: ${{ secrets.DEPLOY_HOST }}
           remote_user: ${{ secrets.DEPLOY_USER }}
           remote_key: ${{ secrets.DEPLOY_KEY }}
-        
+

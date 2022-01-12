@@ -29,3 +29,11 @@ jobs:
     - run: yarn
     - run: yarn lint
     - run: yarn build
+    - name: Commit any changes due to lint
+      # You may pin to the exact commit or the version.
+      # uses: EndBug/add-and-commit@2bdc0a61a03738a1d1bda24d566ad0dbe3083d87
+      uses: EndBug/add-and-commit@v7.2.1
+      with:
+        add: .
+        author_name: GitHub Action
+        message: changes by lint script
