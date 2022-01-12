@@ -31,7 +31,7 @@ jobs:
       - name: build
         run: |
           yarn 
-          yarn build
+          PUBLIC_URL=/profile yarn build
 
       - name: rsync deployments
         uses: burnett01/rsync-deployments@5.2
