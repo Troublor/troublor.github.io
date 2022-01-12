@@ -1,10 +1,10 @@
 import React from 'react';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import ParticlesContainer from '../components/ParticlesContainer';
+import ParticlesContainer from '../../components/ParticlesContainer';
 import TextLoop from 'react-text-loop';
-import {Scroller} from '../components';
+import {Scroller} from '../../components';
 import {fab} from '@fortawesome/free-brands-svg-icons';
-import profile from './data/profile';
+import profile from '../data/profile';
 import avatar from '../img/avatar.jpg';
 import {Container, Theme, styled, Box, Typography} from '@mui/material';
 

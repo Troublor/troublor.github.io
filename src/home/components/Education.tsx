@@ -1,7 +1,7 @@
 import {Box, Grid, Theme} from '@mui/material';
 import React from 'react';
-import {Section, Timeline} from '../components';
-import profile from './data/profile';
+import {Section, Timeline} from '../../components';
+import profile from '../data/profile';
 
 
 export class Education extends React.Component {

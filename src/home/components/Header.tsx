@@ -1,7 +1,7 @@
 import React from 'react';
-import { Scroller } from '../components';
+import { Scroller } from '../../components';
 import { Container, Navbar, Nav } from 'react-bootstrap';
-import details from './data/details.json';
+import details from '../data/details.json';
 import {styled} from '@mui/material';
 
 const Logo = styled('span')({

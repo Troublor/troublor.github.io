@@ -1,7 +1,7 @@
 import React from 'react';
-import {Section} from '../components';
+import {Section} from '../../components';
 import {Container, Grid, Link, Stack, Typography} from '@mui/material';
-import profile from './data/profile';
+import profile from '../data/profile';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 
 export class Contact extends React.Component {

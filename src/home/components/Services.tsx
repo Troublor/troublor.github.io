@@ -1,7 +1,7 @@
 import React from 'react';
-import { Section, ServiceBox } from '../components';
+import { Section, ServiceBox } from '../../components';
 import { Row, Col } from 'react-bootstrap';
-import ServiceConfig from './data/services.json';
+import ServiceConfig from '../data/services.json';
 
 const services = ServiceConfig.services;
 

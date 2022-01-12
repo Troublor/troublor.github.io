@@ -1,7 +1,7 @@
 import React from 'react';
-import { Counter, Section } from '../components';
+import { Counter, Section } from '../../components';
 import { IconPrefix, IconName } from '@fortawesome/fontawesome-svg-core';
-import profile from './data/profile';
+import profile from '../data/profile';
 import portrait from '../img/portrait.jpg';
 import avatar from '../img/avatar.jpg';
 import {Grid, Link, styled, Theme} from '@mui/material';

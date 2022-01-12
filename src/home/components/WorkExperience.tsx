@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
-import { Section, Timeline } from '../components';
-import profile from './data/profile';
+import { Section, Timeline } from '../../components';
+import profile from '../data/profile';
 import {Box, Grid, Stack, Theme, Typography} from '@mui/material';
 
 export class WorkExperience extends React.Component {
