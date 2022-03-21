@@ -40,6 +40,7 @@ export class Publications extends React.Component {
                     <Stack direction={'row'} mt={1} spacing={2}>
                       {p.projectUrl && (<Button variant={'outlined'} size={'small'} href={p.projectUrl}>Project</Button>) }
                       {p.paperUrl && (<Button variant={'outlined'} size={'small'} href={p.paperUrl}>Paper</Button>) }
+                      {p.arxivUrl && (<Button variant={'outlined'} size={'small'} href={p.arxivUrl}>ArXiv</Button>) }
                     </Stack>
                   </Grid>
                 </Grid>

@@ -117,6 +117,101 @@ export default <Profile>{
   ],
   publications: [
     {
+      title: '[Conditionally Accepted] Surakav: Generating Realistic Traces for a Strong Website Fingerprinting Defense',
+      year: '2022',
+      authors: [
+        'Jiajun Gong', 'Wuqi Zhang', 'Charles Zhang', 'Tao Wang',
+      ],
+      venue: 'The 43rd IEEE Symposium on Security and Privacy ',
+      venueShort: 'S&P',
+      abstract: `
+      Website Fingerprinting (WF) attacks utilize size and timing information of encrypted network traffic to infer the user's browsing activity, posing a great threat to privacy-enhancing technologies like Tor; nevertheless, Tor has not adopted any defense because existing defenses are not convincing enough to show their effectiveness. Some defenses have been overcome by newer attacks; other defenses are never implemented and tested in the real open-world scenario.
+In this paper, we propose Surakav, a tunable and practical defense that is effective against WF attacks with reasonable overhead. Surakav makes use of a Generative Adversarial Network (GAN) to generate realistic sending patterns and regulates buffered data according to the sampled patterns. We implement Surakav and evaluate it on the live Tor network. Experiments show that Surakav is able to reduce the attacker's true positive rate by 57% with 55% data overhead and 16% time overhead, saving 42% data overhead compared to FRONT. In the heavyweight setting, Surakav outperforms the strongest known defense, Tamaraw, requiring 50% less overhead in data and time to lower the attacker's true positive rate to only 8%. We also show that two existing defenses, Walkie-Talkie and TrafficSliver, can be fortified with our GAN-based trace generator.
+    `,
+      projectUrl: 'https://github.com/websitefingerprinting/surakav-imp',
+      arxivUrl: '',
+      paperUrl: '',
+      /* eslint-disable no-useless-escape */
+      bibtex: `
+    `,
+    },
+    {
+      title: 'Fast Test Input Generation for Finding Deviated Behaviors in Compressed Deep Neural Network',
+      year: '2021',
+      authors: [
+        'Yongqiang Tian', 'Wuqi Zhang', 'Ming Wen', 'Shing-Chi Cheung', 'Chengnian Sun', 'Shiqing Ma', 'Yu Jiang',
+      ],
+      venue: 'arXiv:2112.02819',
+      venueShort: 'arXiv',
+      abstract: `
+      Model compression can significantly reduce sizes of deep neural network (DNN) models so that large, sophisticated models after compression can be deployed on resource-limited mobile and IoT devices. However, model compression often introduces deviated behaviors into a compressed model: the original and compressed models output different prediction results for the same input. Hence, it is critical to warn developers and help them comprehensively evaluate possible consequences of such behaviors before deployment. To this end, we propose TriggerFinder, a novel, effective and efficient testing approach to automatically identifying inputs to trigger deviated behaviors in compressed models. Given an input i as a seed, TriggerFinder iteratively applies a series of mutation operations to change i until the resulting input triggers a deviated behavior. 
+However, compressed models usually hide their architecture and gradient information; without such internal information as guidance, it becomes difficult to effectively and efficiently trigger deviated behaviors. To tackle this challenge, we propose a novel fitness function to determine the mutated input that is closer to the inputs that can trigger the deviated predictions. Furthermore, TriggerFinder models this search problem as a Markov Chain process and leverages the Metropolis-Hasting algorithm to guide the selection of mutation operators. 
+We evaluated TriggerFinder on 18 compressed models with two datasets. The experiment results demonstrate that TriggerFinder can successfully find triggering inputs for all seed inputs while the baseline fails in certain cases. As for efficiency, TriggerFinder is 5.2x-115.8x as fast as the baselines. Furthermore, the queries required by TriggerFinder to find one triggering input is only 51.8x-535.6x as small as the baseline.
+    `,
+      projectUrl: '',
+      arxivUrl: 'https://arxiv.org/abs/2112.02819',
+      paperUrl: '',
+      /* eslint-disable no-useless-escape */
+      bibtex: `
+@article{DBLP:journals/corr/abs-2112-02819,
+  author    = {Yongqiang Tian and
+               Wuqi Zhang and
+               Ming Wen and
+               Shing{-}Chi Cheung and
+               Chengnian Sun and
+               Shiqing Ma and
+               Yu Jiang},
+  title     = {Fast Test Input Generation for Finding Deviated Behaviors in Compressed
+               Deep Neural Network},
+  journal   = {CoRR},
+  volume    = {abs/2112.02819},
+  year      = {2021},
+  url       = {https://arxiv.org/abs/2112.02819},
+  eprinttype = {arXiv},
+  eprint    = {2112.02819},
+  timestamp = {Wed, 08 Dec 2021 14:48:59 +0100},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-2112-02819.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+    `,
+    },
+    {
+      title: 'WFDefProxy: Modularly Implementing and Empirically Evaluating Website Fingerprinting Defenses',
+      year: '2021',
+      authors: [
+        'Jiajun Gong', 'Wuqi Zhang', 'Charles Zhang', 'Tao Wang',
+      ],
+      venue: 'arXiv:2111.12629',
+      venueShort: 'arXiv',
+      abstract: `
+      Tor, an onion-routing anonymity network, has been shown to be vulnerable to Website Fingerprinting (WF), which de-anonymizes web browsing by analyzing the unique characteristics of the encrypted network traffic. Although many defenses have been proposed, few have been implemented and tested in the real world; others were only simulated. Due to its synthetic nature, simulation may fail to capture the real performance of these defenses. To figure out how these defenses perform in the real world, we propose WFDefProxy, a general platform for WF defense implementation on Tor using pluggable transports. We create the first full implementation of three WF defenses: FRONT, Tamaraw and Random-WT. We evaluate each defense in both simulation and implementation to compare their results, and we find that simulation correctly captures the strength of each defense against attacks. In addition, we confirm that Random-WT is not effective in both simulation and implementation, reducing the strongest attacker's accuracy by only 7%. 
+We also found a minor difference in overhead between simulation and implementation. We analyze how this may be due to assumptions made in simulation regarding packet delays and queuing, or the soft stop condition we implemented in WFDefProxy to detect the end of a page load. The implementation of FRONT cost about 23% more data overhead than simulation, while the implementation of Tamaraw cost about 28% - 45% less data overhead. In addition, the implementation of Tamaraw incurred only 21% time overhead, compared to 51% - 242% estimated by simulation in previous work.
+    `,
+      projectUrl: '',
+      arxivUrl: 'https://arxiv.org/abs/2111.12629',
+      paperUrl: '',
+      /* eslint-disable no-useless-escape */
+      bibtex: `
+@article{DBLP:journals/corr/abs-2111-12629,
+  author    = {Jiajun Gong and
+               Wuqi Zhang and
+               Charles Zhang and
+               Tao Wang},
+  title     = {WFDefProxy: Modularly Implementing and Empirically Evaluating Website
+               Fingerprinting Defenses},
+  journal   = {CoRR},
+  volume    = {abs/2111.12629},
+  year      = {2021},
+  url       = {https://arxiv.org/abs/2111.12629},
+  eprinttype = {arXiv},
+  eprint    = {2111.12629},
+  timestamp = {Fri, 26 Nov 2021 13:48:43 +0100},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-2111-12629.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+} 
+    `,
+    },
+    {
       title: 'ÐArcher: Detecting On-Chain-Off-Chain Synchronization Bugs in Decentralized Applications',
       year: '2021',
       authors: [
@@ -175,7 +270,7 @@ export default <Profile>{
     `,
     },
     {
-      title: 'Characterizing Transaction-Reverting Statements inEthereum Smart Contracts',
+      title: 'Characterizing Transaction-Reverting Statements in Ethereum Smart Contracts',
       year: '2021',
       authors: [
         'Lu Liu', 'Lili Wei', 'Wuqi Zhang', 'Ming Wen', 'Yepang Liu', 'Shing-Chi Cheung',
