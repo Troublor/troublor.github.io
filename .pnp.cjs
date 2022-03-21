@@ -48,7 +48,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@testing-library/react", "virtual:ac96d55e3e09bcc97f2b69b036ace5a06a9fc3e8bfce0a921e9d18b1b58e0b9f21077812a9ffb27dbe5d234e8f6f84bac22328163bdc823baa07c252155ae16b#npm:12.1.2"],
             ["@testing-library/user-event", "virtual:ac96d55e3e09bcc97f2b69b036ace5a06a9fc3e8bfce0a921e9d18b1b58e0b9f21077812a9ffb27dbe5d234e8f6f84bac22328163bdc823baa07c252155ae16b#npm:13.5.0"],
             ["@types/eslint", "npm:7.29.0"],
-            ["@types/find-package-json", "npm:1.2.2"],
             ["@types/jest", "npm:27.4.0"],
             ["@types/lodash", "npm:4.14.178"],
             ["@types/node", "npm:17.0.8"],
@@ -68,7 +67,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["bootstrap", "virtual:ac96d55e3e09bcc97f2b69b036ace5a06a9fc3e8bfce0a921e9d18b1b58e0b9f21077812a9ffb27dbe5d234e8f6f84bac22328163bdc823baa07c252155ae16b#npm:5.1.3"],
             ["eslint", "npm:7.32.0"],
             ["eslint-plugin-react", "virtual:ac96d55e3e09bcc97f2b69b036ace5a06a9fc3e8bfce0a921e9d18b1b58e0b9f21077812a9ffb27dbe5d234e8f6f84bac22328163bdc823baa07c252155ae16b#npm:7.28.0"],
-            ["find-package-json", "npm:1.2.0"],
             ["jest", "virtual:ac96d55e3e09bcc97f2b69b036ace5a06a9fc3e8bfce0a921e9d18b1b58e0b9f21077812a9ffb27dbe5d234e8f6f84bac22328163bdc823baa07c252155ae16b#npm:27.4.7"],
             ["react", "npm:17.0.2"],
             ["react-ace", "virtual:ac96d55e3e09bcc97f2b69b036ace5a06a9fc3e8bfce0a921e9d18b1b58e0b9f21077812a9ffb27dbe5d234e8f6f84bac22328163bdc823baa07c252155ae16b#npm:9.5.0"],
@@ -6262,16 +6260,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
-      ["@types/find-package-json", [
-        ["npm:1.2.2", {
-          "packageLocation": "./.yarn/cache/@types-find-package-json-npm-1.2.2-5012b0694c-578e0ddec1.zip/node_modules/@types/find-package-json/",
-          "packageDependencies": [
-            ["@types/find-package-json", "npm:1.2.2"],
-            ["@types/node", "npm:17.0.8"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
       ["@types/graceful-fs", [
         ["npm:4.1.5", {
           "packageLocation": "./.yarn/cache/@types-graceful-fs-npm-4.1.5-91d62e1050-d076bb61f4.zip/node_modules/@types/graceful-fs/",
@@ -11466,15 +11454,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["commondir", "npm:1.0.1"],
             ["make-dir", "npm:3.1.0"],
             ["pkg-dir", "npm:4.2.0"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
-      ["find-package-json", [
-        ["npm:1.2.0", {
-          "packageLocation": "./.yarn/cache/find-package-json-npm-1.2.0-0adfc8b282-ea3fc597c3.zip/node_modules/find-package-json/",
-          "packageDependencies": [
-            ["find-package-json", "npm:1.2.0"]
           ],
           "linkType": "HARD",
         }]
@@ -17284,7 +17263,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@testing-library/react", "virtual:ac96d55e3e09bcc97f2b69b036ace5a06a9fc3e8bfce0a921e9d18b1b58e0b9f21077812a9ffb27dbe5d234e8f6f84bac22328163bdc823baa07c252155ae16b#npm:12.1.2"],
             ["@testing-library/user-event", "virtual:ac96d55e3e09bcc97f2b69b036ace5a06a9fc3e8bfce0a921e9d18b1b58e0b9f21077812a9ffb27dbe5d234e8f6f84bac22328163bdc823baa07c252155ae16b#npm:13.5.0"],
             ["@types/eslint", "npm:7.29.0"],
-            ["@types/find-package-json", "npm:1.2.2"],
             ["@types/jest", "npm:27.4.0"],
             ["@types/lodash", "npm:4.14.178"],
             ["@types/node", "npm:17.0.8"],
@@ -17304,7 +17282,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["bootstrap", "virtual:ac96d55e3e09bcc97f2b69b036ace5a06a9fc3e8bfce0a921e9d18b1b58e0b9f21077812a9ffb27dbe5d234e8f6f84bac22328163bdc823baa07c252155ae16b#npm:5.1.3"],
             ["eslint", "npm:7.32.0"],
             ["eslint-plugin-react", "virtual:ac96d55e3e09bcc97f2b69b036ace5a06a9fc3e8bfce0a921e9d18b1b58e0b9f21077812a9ffb27dbe5d234e8f6f84bac22328163bdc823baa07c252155ae16b#npm:7.28.0"],
-            ["find-package-json", "npm:1.2.0"],
             ["jest", "virtual:ac96d55e3e09bcc97f2b69b036ace5a06a9fc3e8bfce0a921e9d18b1b58e0b9f21077812a9ffb27dbe5d234e8f6f84bac22328163bdc823baa07c252155ae16b#npm:27.4.7"],
             ["react", "npm:17.0.2"],
             ["react-ace", "virtual:ac96d55e3e09bcc97f2b69b036ace5a06a9fc3e8bfce0a921e9d18b1b58e0b9f21077812a9ffb27dbe5d234e8f6f84bac22328163bdc823baa07c252155ae16b#npm:9.5.0"],

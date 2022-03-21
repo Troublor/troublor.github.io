@@ -3328,15 +3328,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/find-package-json@npm:^1":
-  version: 1.2.2
-  resolution: "@types/find-package-json@npm:1.2.2"
-  dependencies:
-    "@types/node": "*"
-  checksum: 578e0ddec122b0e27e9177b146883bb381abd5dd1876a96531a2c4c9eca214f724adda90af894f28f181a7cc93fec7804beaf7dccd758f45dc2856bd7f998645
-  languageName: node
-  linkType: hard
-
 "@types/graceful-fs@npm:^4.1.2":
   version: 4.1.5
   resolution: "@types/graceful-fs@npm:4.1.5"
@@ -7393,13 +7384,6 @@ __metadata:
     make-dir: ^3.0.2
     pkg-dir: ^4.1.0
   checksum: 1e61c2e64f5c0b1c535bd85939ae73b0e5773142713273818cc0b393ee3555fb0fd44e1a5b161b8b6c3e03e98c2fcc9c227d784850a13a90a8ab576869576817
-  languageName: node
-  linkType: hard
-
-"find-package-json@npm:^1.2.0":
-  version: 1.2.0
-  resolution: "find-package-json@npm:1.2.0"
-  checksum: ea3fc597c3b3bbdb93f91d62debe7b58f388d55e71c2879e3bd77472c78ce8f7ac2c38f5a2d314176f05cb54808554203c72518b27689efa76e46284094a4370
   languageName: node
   linkType: hard
 
@@ -11925,7 +11909,6 @@ __metadata:
     "@testing-library/react": ^12.1.2
     "@testing-library/user-event": ^13.5.0
     "@types/eslint": ^7
-    "@types/find-package-json": ^1
     "@types/jest": ^27.0.3
     "@types/lodash": ^4.14.177
     "@types/node": ^17.0.8
@@ -11945,7 +11928,6 @@ __metadata:
     bootstrap: 5.1.3
     eslint: ^7.32.0
     eslint-plugin-react: ^7.28.0
-    find-package-json: ^1.2.0
     jest: ^27.3.1
     react: ^17.0.2
     react-ace: ^9.5.0
