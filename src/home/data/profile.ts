@@ -117,7 +117,7 @@ export default <Profile>{
   ],
   publications: [
     {
-      title: '[Conditionally Accepted] Surakav: Generating Realistic Traces for a Strong Website Fingerprinting Defense',
+      title: 'Surakav: Generating Realistic Traces for a Strong Website Fingerprinting Defense',
       year: '2022',
       authors: [
         'Jiajun Gong', 'Wuqi Zhang', 'Charles Zhang', 'Tao Wang',
@@ -144,8 +144,8 @@ In this paper, we propose Surakav, a tunable and practical defense that is effec
       venue: 'arXiv:2112.02819',
       venueShort: 'arXiv',
       abstract: `
-      Model compression can significantly reduce sizes of deep neural network (DNN) models so that large, sophisticated models after compression can be deployed on resource-limited mobile and IoT devices. However, model compression often introduces deviated behaviors into a compressed model: the original and compressed models output different prediction results for the same input. Hence, it is critical to warn developers and help them comprehensively evaluate possible consequences of such behaviors before deployment. To this end, we propose TriggerFinder, a novel, effective and efficient testing approach to automatically identifying inputs to trigger deviated behaviors in compressed models. Given an input i as a seed, TriggerFinder iteratively applies a series of mutation operations to change i until the resulting input triggers a deviated behavior. 
-However, compressed models usually hide their architecture and gradient information; without such internal information as guidance, it becomes difficult to effectively and efficiently trigger deviated behaviors. To tackle this challenge, we propose a novel fitness function to determine the mutated input that is closer to the inputs that can trigger the deviated predictions. Furthermore, TriggerFinder models this search problem as a Markov Chain process and leverages the Metropolis-Hasting algorithm to guide the selection of mutation operators. 
+      Model compression can significantly reduce sizes of deep neural network (DNN) models so that large, sophisticated models after compression can be deployed on resource-limited mobile and IoT devices. However, model compression often introduces deviated behaviors into a compressed model: the original and compressed models output different prediction results for the same input. Hence, it is critical to warn developers and help them comprehensively evaluate possible consequences of such behaviors before deployment. To this end, we propose TriggerFinder, a novel, effective and efficient testing approach to automatically identifying inputs to trigger deviated behaviors in compressed models. Given an input i as a seed, TriggerFinder iteratively applies a series of mutation operations to change i until the resulting input triggers a deviated behavior.
+However, compressed models usually hide their architecture and gradient information; without such internal information as guidance, it becomes difficult to effectively and efficiently trigger deviated behaviors. To tackle this challenge, we propose a novel fitness function to determine the mutated input that is closer to the inputs that can trigger the deviated predictions. Furthermore, TriggerFinder models this search problem as a Markov Chain process and leverages the Metropolis-Hasting algorithm to guide the selection of mutation operators.
 We evaluated TriggerFinder on 18 compressed models with two datasets. The experiment results demonstrate that TriggerFinder can successfully find triggering inputs for all seed inputs while the baseline fails in certain cases. As for efficiency, TriggerFinder is 5.2x-115.8x as fast as the baselines. Furthermore, the queries required by TriggerFinder to find one triggering input is only 51.8x-535.6x as small as the baseline.
     `,
       projectUrl: '',
@@ -184,7 +184,7 @@ We evaluated TriggerFinder on 18 compressed models with two datasets. The experi
       venue: 'arXiv:2111.12629',
       venueShort: 'arXiv',
       abstract: `
-      Tor, an onion-routing anonymity network, has been shown to be vulnerable to Website Fingerprinting (WF), which de-anonymizes web browsing by analyzing the unique characteristics of the encrypted network traffic. Although many defenses have been proposed, few have been implemented and tested in the real world; others were only simulated. Due to its synthetic nature, simulation may fail to capture the real performance of these defenses. To figure out how these defenses perform in the real world, we propose WFDefProxy, a general platform for WF defense implementation on Tor using pluggable transports. We create the first full implementation of three WF defenses: FRONT, Tamaraw and Random-WT. We evaluate each defense in both simulation and implementation to compare their results, and we find that simulation correctly captures the strength of each defense against attacks. In addition, we confirm that Random-WT is not effective in both simulation and implementation, reducing the strongest attacker's accuracy by only 7%. 
+      Tor, an onion-routing anonymity network, has been shown to be vulnerable to Website Fingerprinting (WF), which de-anonymizes web browsing by analyzing the unique characteristics of the encrypted network traffic. Although many defenses have been proposed, few have been implemented and tested in the real world; others were only simulated. Due to its synthetic nature, simulation may fail to capture the real performance of these defenses. To figure out how these defenses perform in the real world, we propose WFDefProxy, a general platform for WF defense implementation on Tor using pluggable transports. We create the first full implementation of three WF defenses: FRONT, Tamaraw and Random-WT. We evaluate each defense in both simulation and implementation to compare their results, and we find that simulation correctly captures the strength of each defense against attacks. In addition, we confirm that Random-WT is not effective in both simulation and implementation, reducing the strongest attacker's accuracy by only 7%.
 We also found a minor difference in overhead between simulation and implementation. We analyze how this may be due to assumptions made in simulation regarding packet delays and queuing, or the soft stop condition we implemented in WFDefProxy to detect the end of a page load. The implementation of FRONT cost about 23% more data overhead than simulation, while the implementation of Tamaraw cost about 28% - 45% less data overhead. In addition, the implementation of Tamaraw incurred only 21% time overhead, compared to 51% - 242% estimated by simulation in previous work.
     `,
       projectUrl: '',
@@ -208,7 +208,7 @@ We also found a minor difference in overhead between simulation and implementati
   timestamp = {Fri, 26 Nov 2021 13:48:43 +0100},
   biburl    = {https://dblp.org/rec/journals/corr/abs-2111-12629.bib},
   bibsource = {dblp computer science bibliography, https://dblp.org}
-} 
+}
     `,
     },
     {
@@ -280,24 +280,24 @@ We also found a minor difference in overhead between simulation and implementati
       awards: [
       ],
       abstract: `
-Smart contracts are programs stored on blockchains to execute transactions. 
+Smart contracts are programs stored on blockchains to execute transactions.
 When input constraints or security properties are violated at runtime, the transaction being executed by a smart contract needs to be reverted to avoid undesirable consequences.
 On Ethereum, the most popular blockchain that supports smart contracts, developers can choose among three transaction-reverting statements (i.e., require, if...revert, and if...throw) to handle anomalous transactions.
-While these transaction-reverting statements are vital for preventing smart contracts from exhibiting abnormal behaviors or suffering malicious attacks, there is limited understanding of how they are used in practice. 
-In this work, we perform the first empirical study to characterize transaction-reverting statements in Ethereum smart contracts. 
+While these transaction-reverting statements are vital for preventing smart contracts from exhibiting abnormal behaviors or suffering malicious attacks, there is limited understanding of how they are used in practice.
+In this work, we perform the first empirical study to characterize transaction-reverting statements in Ethereum smart contracts.
 We measured the prevalence of these statements in 3,866 verified smart contracts from popular dapps and built a taxonomy of their purposes via manually analyzing 557 transaction-reverting statements.
 We also compared template contracts and their corresponding custom contracts to understand how developers customize the use of transaction-reverting statements.
-Finally, we analyzed the security impact of transaction-reverting statements by removing them from smart contracts and comparing the mutated contracts against the original ones. 
+Finally, we analyzed the security impact of transaction-reverting statements by removing them from smart contracts and comparing the mutated contracts against the original ones.
 Our study led to important findings.
 For example, we found that transaction-reverting statements are commonly used to perform seven types of authority verifications or validity checks, and missing such statements may compromise the security of smart contracts.
 We also found that current smart contract security analyzers cannot effectively handle transaction-reverting statements when detecting security vulnerabilities.
-Our findings can shed light on further research in the broad area of smart contract quality assurance and provide practical guidance to smart contract developers on the appropriate use of transaction-reverting statements. 
+Our findings can shed light on further research in the broad area of smart contract quality assurance and provide practical guidance to smart contract developers on the appropriate use of transaction-reverting statements.
         `,
       projectUrl: 'https://github.com/transaction-reverting-statements/Characterizing-require-statement-in-Ethereum-Smart-Contract',
       arxivUrl: 'https://arxiv.org/abs/2108.10799',
       paperUrl: '{ASSETS}/Characterizing_Transaction_Reverting_Statements-ASE21.pdf',
       slidesUrl: '',
-      bibtex: ` 
+      bibtex: `
         `,
     },
   ],
