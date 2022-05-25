@@ -6,10 +6,13 @@ name: Deployment
 on:
   # Triggers the workflow on push events but only for the release branch
   push:
-    branches: [ release ]
+    branches: [ main ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
+
+env:
+  PUBLIC_URL: https://troublor.github.io
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -29,16 +32,7 @@ jobs:
 
       - name: build
         run: |
-          yarn 
+          yarn
           yarn build
-
-      - name: rsync deployments
-        uses: burnett01/rsync-deployments@5.2
-        with:
-          switches: -av
-          path: build/
-          remote_path: ${{ secrets.DEPLOY_PATH }}
-          remote_host: ${{ secrets.DEPLOY_HOST }}
-          remote_user: ${{ secrets.DEPLOY_USER }}
-          remote_key: ${{ secrets.DEPLOY_KEY }}
+          yarn deploy
 

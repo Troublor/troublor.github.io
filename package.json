@@ -1,6 +1,7 @@
 {
-  "name": "profile",
+  "name": "HomePage",
   "version": "0.1.1",
+  "homepage": "https://troublor.github.io/",
   "private": true,
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.16.5",
