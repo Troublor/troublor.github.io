@@ -34,4 +34,4 @@ jobs:
         with:
           add: .
           author_name: GitHub Action
-          message: changes by lint script
+          message: changes by format script
