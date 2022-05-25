@@ -1,4 +1,4 @@
-@import "../base/variables";
+@import '../base/variables';
 /*=================================================================*/
 /*                      HEADER
 /*=================================================================*/
@@ -56,7 +56,7 @@
     border-radius: 0.25rem;
   }
 
-  button{
+  button {
     &.navbar-toggler {
       &:focus {
         outline: 0;

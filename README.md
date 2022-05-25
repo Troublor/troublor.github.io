@@ -10,12 +10,14 @@ It is developed with [Create React App](https://create-react-app.dev/).
 
 ## Development
 
-Install dependencies: 
+Install dependencies:
+
 ```bash
 yarn
 ```
 
-Start development server (with hot reload): 
+Start development server (with hot reload):
+
 ```bash
 yarn start
 ```
@@ -25,7 +27,7 @@ yarn start
 The deployment is automated using [GitHub Action](.github/workflows/deploy.yml).
 
 Upon a push/merge to `release` branch, the deployment will be triggered.
-The automation script will build the react app using `yarn build` and upload artifacts to tgs server. 
+The automation script will build the react app using `yarn build` and upload artifacts to tgs server.
 The react app will be served by [tgs-backend](http://github.com/Troublor/tgs).
 
 ## License

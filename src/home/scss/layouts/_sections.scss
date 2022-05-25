@@ -1,4 +1,4 @@
-@import "../base/variables";
+@import '../base/variables';
 /*=================================================================*/
 /*                      SECTIONS
 /*=================================================================*/
@@ -47,7 +47,7 @@ section {
   position: relative;
 
   &:before {
-    content: "";
+    content: '';
     background-image: url(../../img/dots-bg.svg);
     display: block;
     height: 37px;

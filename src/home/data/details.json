@@ -2,7 +2,7 @@
   "firstName": "William",
   "middleName": "Aaron",
   "lastName": "Cheung",
-  "avatar": "\/static\/img\/logo.jpg",
+  "avatar": "/static/img/logo.jpg",
   "titles": [
     "Full Stack Software Developer",
     "Software Engineering Researcher",

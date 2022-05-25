@@ -1,4 +1,4 @@
-import React, {CSSProperties} from 'react';
+import React, { CSSProperties } from 'react';
 import Particles from 'react-tsparticles';
 
 const particleStyle: CSSProperties = {
@@ -9,7 +9,7 @@ const particleStyle: CSSProperties = {
 };
 
 export class ParticlesContainer extends React.Component {
-  render (): React.ReactElement {
+  render(): React.ReactElement {
     return (
       <>
         <Particles

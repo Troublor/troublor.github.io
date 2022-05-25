@@ -8,15 +8,22 @@ const services = ServiceConfig.services;
 const Pulse = require('react-reveal/Pulse');
 
 export class Services extends React.Component {
-  render () {
+  render() {
     return (
       <Section id="services" title="Services">
         <Row>
-          { services.map(s => (
+          {services.map((s) => (
             <Col md={4} key={s.title}>
               <Pulse delay={s.delay}>
-                <ServiceBox title={s.title} image={s.photo} backgroundColor={s.backgroundColor}>
-                  <div className="mb-0" dangerouslySetInnerHTML={ { __html: s.content } } />
+                <ServiceBox
+                  title={s.title}
+                  image={s.photo}
+                  backgroundColor={s.backgroundColor}
+                >
+                  <div
+                    className="mb-0"
+                    dangerouslySetInnerHTML={{ __html: s.content }}
+                  />
                 </ServiceBox>
               </Pulse>
             </Col>
@@ -25,7 +32,12 @@ export class Services extends React.Component {
         <Row>
           <Col md={12}>
             <div className="mt-3 text-center">
-              <div className="mb-0" dangerouslySetInnerHTML={ { __html: ServiceConfig.customContent } } />
+              <div
+                className="mb-0"
+                dangerouslySetInnerHTML={{
+                  __html: ServiceConfig.customContent,
+                }}
+              />
             </div>
           </Col>
         </Row>

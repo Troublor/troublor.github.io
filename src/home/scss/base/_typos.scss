@@ -1,9 +1,14 @@
-@import "variables";
+@import 'variables';
 /*=================================================================*/
 /*                      TYPOGRAPHY
 /*=================================================================*/
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #454360;
   font-family: $font-family;
   font-weight: $font-bold;
@@ -43,7 +48,7 @@ blockquote {
   padding: 20px 20px;
   margin: 0 0 20px;
   font-size: $font-size-normal;
-  background: #F7F7F7;
+  background: #f7f7f7;
   border-radius: 10px;
 }
 
@@ -65,5 +70,3 @@ pre {
   border: 1px solid #ccc;
   border-radius: 0;
 }
-
-

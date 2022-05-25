@@ -13,19 +13,8 @@
     "esModuleInterop": true,
     "strict": true,
     "strictNullChecks": true,
-    "lib": [
-      "ES2020",
-      "DOM"
-    ],
-    "types": [
-      "node",
-      "jest",
-      "react",
-      "react-dom",
-    ]
+    "lib": ["ES2020", "DOM"],
+    "types": ["node", "jest", "react", "react-dom"]
   },
-  "include": [
-    "src",
-  ]
+  "include": ["src"]
 }
-

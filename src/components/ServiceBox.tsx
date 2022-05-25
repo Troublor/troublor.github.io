@@ -2,13 +2,13 @@ import React from 'react';
 import styled from 'styled-components';
 
 interface Props {
-  title: string
-  backgroundColor: string
-  image: string
+  title: string;
+  backgroundColor: string;
+  image: string;
 }
 
 export class ServiceBox extends React.Component<Props> {
-  render () {
+  render() {
     const props = this.props;
 
     const bgColor = props.backgroundColor ? props.backgroundColor : '##342054';

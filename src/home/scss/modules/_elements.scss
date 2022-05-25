@@ -1,5 +1,5 @@
-$font-awesome: "Font Awesome 5 Free";
-@import "../base/variables";
+$font-awesome: 'Font Awesome 5 Free';
+@import '../base/variables';
 
 /*=================================================================*/
 /*                      ELEMENTS
@@ -70,7 +70,10 @@ $font-awesome: "Font Awesome 5 Free";
   background: $color-white;
 }
 
-.shadow-dark, .kd-header .dropdown-menu, .form-control, .form-control:focus {
+.shadow-dark,
+.kd-header .dropdown-menu,
+.form-control,
+.form-control:focus {
   box-shadow: 0px 5px 20px 0px rgba(69, 67, 96, 0.1);
 }
 
@@ -96,7 +99,7 @@ $font-awesome: "Font Awesome 5 Free";
 
 .triangle-left {
   &:before {
-    content: "";
+    content: '';
     width: 0;
     height: 0;
     border-top: 10px solid transparent;
@@ -110,7 +113,7 @@ $font-awesome: "Font Awesome 5 Free";
 
 .triangle-top {
   &:before {
-    content: "";
+    content: '';
     width: 0;
     height: 0;
     border-left: 10px solid transparent;
@@ -128,7 +131,7 @@ $font-awesome: "Font Awesome 5 Free";
   height: 7px;
   margin-bottom: 0;
   overflow: hidden;
-  background-color: #F1F1F1;
+  background-color: #f1f1f1;
   border-radius: 15px;
   box-shadow: none;
 }

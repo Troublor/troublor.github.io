@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const ScrollTopArrow = () => {
-
   const [showScroll, setShowScroll] = useState(false);
 
   const checkScrollTop = () => {
@@ -20,7 +19,11 @@ const ScrollTopArrow = () => {
   window.addEventListener('scroll', checkScrollTop);
 
   return (
-    <div id="return-to-top" style={{ display: showScroll ? 'block' : 'none' }} onClick={scrollTop}>
+    <div
+      id="return-to-top"
+      style={{ display: showScroll ? 'block' : 'none' }}
+      onClick={scrollTop}
+    >
       <FontAwesomeIcon icon={['fas', 'arrow-up']} />
     </div>
   );

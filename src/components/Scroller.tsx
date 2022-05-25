@@ -2,11 +2,13 @@ import React from 'react';
 import * as smoothScroll from 'smoothscroll-polyfill';
 
 interface Props {
-  offset?: number
+  offset?: number;
 }
 
-export class Scroller extends React.Component<Props & React.AnchorHTMLAttributes<HTMLAnchorElement>> {
-  componentDidMount (): void {
+export class Scroller extends React.Component<
+  Props & React.AnchorHTMLAttributes<HTMLAnchorElement>
+> {
+  componentDidMount(): void {
     smoothScroll.polyfill();
   }
 
@@ -22,7 +24,8 @@ export class Scroller extends React.Component<Props & React.AnchorHTMLAttributes
     if (id) {
       const $anchor = document.getElementById(id);
       if ($anchor) {
-        const offsetTop = $anchor.getBoundingClientRect().top + window.pageYOffset;
+        const offsetTop =
+          $anchor.getBoundingClientRect().top + window.pageYOffset;
         window.scroll({
           top: offsetTop - offset,
           behavior: 'smooth',
@@ -35,11 +38,15 @@ export class Scroller extends React.Component<Props & React.AnchorHTMLAttributes
     }
   };
 
-  render () : React.ReactElement{
+  render(): React.ReactElement {
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const { offset, ...rest } = this.props;
     return (
-      <a {...rest} style={{color: '#FFFFFF', textDecoration: 'none'}} onClick={this.smoothScroll}>
+      <a
+        {...rest}
+        style={{ color: '#FFFFFF', textDecoration: 'none' }}
+        onClick={this.smoothScroll}
+      >
         {this.props.children}
       </a>
     );

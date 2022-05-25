@@ -1,13 +1,13 @@
 import React from 'react';
-import {Container} from '@mui/material';
+import { Container } from '@mui/material';
 
 interface Props {
-  id: string
-  title: string
+  id: string;
+  title: string;
 }
 
 export class Section extends React.Component<Props> {
-  render () {
+  render() {
     return (
       <section id={this.props.id}>
         <Container>

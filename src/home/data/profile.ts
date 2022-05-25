@@ -1,4 +1,4 @@
-import {Profile} from './types';
+import { Profile } from './types';
 
 export default <Profile>{
   name: {
@@ -21,7 +21,8 @@ export default <Profile>{
   username: 'Troublor',
   domain: 'troublor.xyz',
   github: 'https://github.com/Troublor',
-  resume: 'https://github.com/Troublor/curriculum-vitae/blob/main/release/cv-latest.pdf',
+  resume:
+    'https://github.com/Troublor/curriculum-vitae/blob/main/release/cv-latest.pdf',
   description: `I am currently a Ph.D. candidate supervised by professor Shing-Chi Cheung at The Hong Kong University of Science and Technology (HKUST) with a research focus: software engineering, especially in software testing and analysis.
     As a member of the CASTLE Research Group at HKUST, it is very nice to work with a professional and very kind professor, as well as a group of innovative researchers.`,
   titles: [
@@ -71,7 +72,8 @@ export default <Profile>{
     {
       period: '2020 - 2021',
       location: 'Hong Kong, China',
-      organization: 'Hong Kong Applied Science and Technology Research Institute (ASTRI)',
+      organization:
+        'Hong Kong Applied Science and Technology Research Institute (ASTRI)',
       position: 'Ethereum Application Developer',
       description: '',
     },
@@ -96,9 +98,7 @@ export default <Profile>{
       institute: 'The Hong Kong University of Science and Technology (HKUST)',
       group: 'CASTLE Research Group',
       role: 'Postgraduate Research Student',
-      focus: [
-        'Software Engineering','Software Testing', 'Program Analysis',
-      ],
+      focus: ['Software Engineering', 'Software Testing', 'Program Analysis'],
     },
     {
       period: '2019',
@@ -109,7 +109,7 @@ export default <Profile>{
     },
     {
       period: '2018',
-      group: 'Prof. Huaiyu Dai\'s Group',
+      group: "Prof. Huaiyu Dai's Group",
       institute: 'North Carolina State University',
       role: 'Undergraduate Summer Research Student',
       focus: ['Complex Network'],
@@ -117,11 +117,10 @@ export default <Profile>{
   ],
   publications: [
     {
-      title: 'Surakav: Generating Realistic Traces for a Strong Website Fingerprinting Defense',
+      title:
+        'Surakav: Generating Realistic Traces for a Strong Website Fingerprinting Defense',
       year: '2022',
-      authors: [
-        'Jiajun Gong', 'Wuqi Zhang', 'Charles Zhang', 'Tao Wang',
-      ],
+      authors: ['Jiajun Gong', 'Wuqi Zhang', 'Charles Zhang', 'Tao Wang'],
       venue: 'The 43rd IEEE Symposium on Security and Privacy ',
       venueShort: 'S&P',
       abstract: `
@@ -136,10 +135,17 @@ In this paper, we propose Surakav, a tunable and practical defense that is effec
     `,
     },
     {
-      title: 'Fast Test Input Generation for Finding Deviated Behaviors in Compressed Deep Neural Network',
+      title:
+        'Fast Test Input Generation for Finding Deviated Behaviors in Compressed Deep Neural Network',
       year: '2021',
       authors: [
-        'Yongqiang Tian', 'Wuqi Zhang', 'Ming Wen', 'Shing-Chi Cheung', 'Chengnian Sun', 'Shiqing Ma', 'Yu Jiang',
+        'Yongqiang Tian',
+        'Wuqi Zhang',
+        'Ming Wen',
+        'Shing-Chi Cheung',
+        'Chengnian Sun',
+        'Shiqing Ma',
+        'Yu Jiang',
       ],
       venue: 'arXiv:2112.02819',
       venueShort: 'arXiv',
@@ -176,11 +182,10 @@ We evaluated TriggerFinder on 18 compressed models with two datasets. The experi
     `,
     },
     {
-      title: 'WFDefProxy: Modularly Implementing and Empirically Evaluating Website Fingerprinting Defenses',
+      title:
+        'WFDefProxy: Modularly Implementing and Empirically Evaluating Website Fingerprinting Defenses',
       year: '2021',
-      authors: [
-        'Jiajun Gong', 'Wuqi Zhang', 'Charles Zhang', 'Tao Wang',
-      ],
+      authors: ['Jiajun Gong', 'Wuqi Zhang', 'Charles Zhang', 'Tao Wang'],
       venue: 'arXiv:2111.12629',
       venueShort: 'arXiv',
       abstract: `
@@ -212,12 +217,18 @@ We also found a minor difference in overhead between simulation and implementati
     `,
     },
     {
-      title: 'ÐArcher: Detecting On-Chain-Off-Chain Synchronization Bugs in Decentralized Applications',
+      title:
+        'ÐArcher: Detecting On-Chain-Off-Chain Synchronization Bugs in Decentralized Applications',
       year: '2021',
       authors: [
-        'Wuqi Zhang', 'Lili Wei', 'Shuqing Li', 'Yepang Liu', 'Shing-Chi Cheung',
+        'Wuqi Zhang',
+        'Lili Wei',
+        'Shuqing Li',
+        'Yepang Liu',
+        'Shing-Chi Cheung',
       ],
-      venue: 'Proceedings of the 29th ACM Joint European SoftwareEngineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE ’21)',
+      venue:
+        'Proceedings of the 29th ACM Joint European SoftwareEngineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE ’21)',
       venueShort: 'ESEC/FSE',
       abstract: `
     Since the emergence of Ethereum, blockchain-based decentralized applications (DApps) have become increasingly popular and important. To balance the security, performance, and costs, a DApp typically consists of two layers: an on-chain layer to execute transactions and store crucial data on blockchain, and an off-chain layer to interact with users. A DApp needs to proactively synchronize its off-chain layer with the on-chain layer, otherwise, the inconsistent data in the off-chain layer could mislead users and cause undesirable consequences, e.g., loss of transaction fees. However, transactions sent to blockchain are not guaranteed to be executed and could even be reversed after execution due to chain reorganization. Such non-determinism in the transaction execution is unique to blockchain and DApp developers may fail to perform the on-chain-off-chain synchronization accurately due to their unfamiliarity of the complex transaction lifecycle.
@@ -270,15 +281,21 @@ We also found a minor difference in overhead between simulation and implementati
     `,
     },
     {
-      title: 'Characterizing Transaction-Reverting Statements in Ethereum Smart Contracts',
+      title:
+        'Characterizing Transaction-Reverting Statements in Ethereum Smart Contracts',
       year: '2021',
       authors: [
-        'Lu Liu', 'Lili Wei', 'Wuqi Zhang', 'Ming Wen', 'Yepang Liu', 'Shing-Chi Cheung',
+        'Lu Liu',
+        'Lili Wei',
+        'Wuqi Zhang',
+        'Ming Wen',
+        'Yepang Liu',
+        'Shing-Chi Cheung',
       ],
-      venue: 'The 36th IEEE/ACM International Conference on Automated Software Engineering',
+      venue:
+        'The 36th IEEE/ACM International Conference on Automated Software Engineering',
       venueShort: 'ASE',
-      awards: [
-      ],
+      awards: [],
       abstract: `
 Smart contracts are programs stored on blockchains to execute transactions.
 When input constraints or security properties are violated at runtime, the transaction being executed by a smart contract needs to be reverted to avoid undesirable consequences.
@@ -293,9 +310,11 @@ For example, we found that transaction-reverting statements are commonly used to
 We also found that current smart contract security analyzers cannot effectively handle transaction-reverting statements when detecting security vulnerabilities.
 Our findings can shed light on further research in the broad area of smart contract quality assurance and provide practical guidance to smart contract developers on the appropriate use of transaction-reverting statements.
         `,
-      projectUrl: 'https://github.com/transaction-reverting-statements/Characterizing-require-statement-in-Ethereum-Smart-Contract',
+      projectUrl:
+        'https://github.com/transaction-reverting-statements/Characterizing-require-statement-in-Ethereum-Smart-Contract',
       arxivUrl: 'https://arxiv.org/abs/2108.10799',
-      paperUrl: '{ASSETS}/Characterizing_Transaction_Reverting_Statements-ASE21.pdf',
+      paperUrl:
+        '{ASSETS}/Characterizing_Transaction_Reverting_Statements-ASE21.pdf',
       slidesUrl: '',
       bibtex: `
         `,

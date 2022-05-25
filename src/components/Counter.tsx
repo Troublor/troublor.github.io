@@ -6,15 +6,15 @@ import CountUp from 'react-countup';
 import VisibilitySensor from 'react-visibility-sensor';
 
 interface Props {
-  className?: string
-  description: string
-  count: number
-  icon: IconProp
-  iconSize?: SizeProp
+  className?: string;
+  description: string;
+  count: number;
+  icon: IconProp;
+  iconSize?: SizeProp;
 }
 
 interface State {
-  loaded: boolean
+  loaded: boolean;
 }
 
 const Box = styled.div({
@@ -24,7 +24,7 @@ const Box = styled.div({
 });
 
 export class Counter extends React.Component<Props, State> {
-  constructor (props: Props) {
+  constructor(props: Props) {
     super(props);
 
     this.state = {
@@ -40,7 +40,7 @@ export class Counter extends React.Component<Props, State> {
     }
   };
 
-  render (): React.ReactElement {
+  render(): React.ReactElement {
     const props = this.props;
 
     return (
@@ -52,8 +52,12 @@ export class Counter extends React.Component<Props, State> {
           <div className="details">
             <h3 className="mb-0 mt-0 number">
               <em className="count">
-                <VisibilitySensor onChange={this.onChange} delayedCall >
-                  <CountUp start={0} end={this.state.loaded ? props.count : 0} duration={0.5}/>
+                <VisibilitySensor onChange={this.onChange} delayedCall>
+                  <CountUp
+                    start={0}
+                    end={this.state.loaded ? props.count : 0}
+                    duration={0.5}
+                  />
                 </VisibilitySensor>
               </em>
             </h3>

@@ -12,6 +12,7 @@
     "@types/jest": "^27.0.3",
     "@types/lodash": "^4.14.177",
     "@types/node": "^17.0.8",
+    "@types/prettier": "^2",
     "@types/react": "^17.0.38",
     "@types/react-dom": "^17.0.11",
     "@types/react-fontawesome": "^1.6.5",
@@ -43,6 +44,7 @@
     "@mui/material": "^5.2.6",
     "bootstrap": "5.1.3",
     "gh-pages": "^4.0.0",
+    "prettier": "^2.6.2",
     "react": "^17.0.2",
     "react-ace": "^9.5.0",
     "react-bootstrap": "^2.1.1",
@@ -65,8 +67,9 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "DISABLE_ESLINT_PLUGIN=true react-scripts build",
+    "format": "prettier --write .",
     "deploy": "gh-pages -d build",
-    "lint": "eslint --fix --ext .js,.ts,.tsx ./src",
+    "lint": "eslint --ext .js,.ts,.tsx ./src",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -75,6 +78,12 @@
       "react-app",
       "react-app/jest"
     ]
+  },
+  "prettier": {
+    "trailingComma": "all",
+    "tabWidth": 2,
+    "semi": true,
+    "singleQuote": true
   },
   "browserslist": {
     "production": [

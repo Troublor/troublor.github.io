@@ -5,11 +5,11 @@ import knowledge from '../data/knowledge.json';
 const tools = knowledge.tools;
 
 export class Tools extends React.Component {
-  render () {
+  render() {
     return (
       <Container>
         <Row>
-          { tools.map((t, index) => (
+          {tools.map((t, index) => (
             <React.Fragment key={t.name}>
               {index % 4 === 0 && <div className="w-100 d-none d-md-block" />}
               <Col md={3} xs={6}>

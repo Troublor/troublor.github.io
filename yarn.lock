@@ -3463,6 +3463,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/prettier@npm:^2":
+  version: 2.6.1
+  resolution: "@types/prettier@npm:2.6.1"
+  checksum: b25ec46d18129fa40c1a1f42feb7406e8f19901ba5261ba3c71600ad14996ae07b4f4b727a9b83da673948011e59d870fc519166f05b5d49e9ad39db1aea8c93
+  languageName: node
+  linkType: hard
+
 "@types/prettier@npm:^2.1.5":
   version: 2.4.3
   resolution: "@types/prettier@npm:2.4.3"
@@ -4194,6 +4201,7 @@ __metadata:
     "@types/jest": ^27.0.3
     "@types/lodash": ^4.14.177
     "@types/node": ^17.0.8
+    "@types/prettier": ^2
     "@types/react": ^17.0.38
     "@types/react-dom": ^17.0.11
     "@types/react-fontawesome": ^1.6.5
@@ -4212,6 +4220,7 @@ __metadata:
     eslint-plugin-react: ^7.28.0
     gh-pages: ^4.0.0
     jest: ^27.3.1
+    prettier: ^2.6.2
     react: ^17.0.2
     react-ace: ^9.5.0
     react-bootstrap: ^2.1.1
@@ -12046,6 +12055,15 @@ __metadata:
   version: 1.1.2
   resolution: "prelude-ls@npm:1.1.2"
   checksum: c4867c87488e4a0c233e158e4d0d5565b609b105d75e4c05dc760840475f06b731332eb93cc8c9cecb840aa8ec323ca3c9a56ad7820ad2e63f0261dadcb154e4
+  languageName: node
+  linkType: hard
+
+"prettier@npm:^2.6.2":
+  version: 2.6.2
+  resolution: "prettier@npm:2.6.2"
+  bin:
+    prettier: bin-prettier.js
+  checksum: 48d08dde8e9fb1f5bccdd205baa7f192e9fc8bc98f86e1b97d919de804e28c806b0e6cc685e4a88211aa7987fa9668f30baae19580d87ced3ed0f2ec6572106f
   languageName: node
   linkType: hard
 

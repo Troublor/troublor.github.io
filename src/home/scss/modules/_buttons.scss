@@ -20,7 +20,8 @@
     outline: 0;
   }
 
-  &.disabled, &:disabled {
+  &.disabled,
+  &:disabled {
     opacity: 1;
     cursor: not-allowed;
   }

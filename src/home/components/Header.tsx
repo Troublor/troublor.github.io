@@ -2,7 +2,7 @@ import React from 'react';
 import { Scroller } from '../../components';
 import { Container, Navbar, Nav } from 'react-bootstrap';
 import details from '../data/details.json';
-import {styled} from '@mui/material';
+import { styled } from '@mui/material';
 
 const Logo = styled('span')({
   color: '#fff',
@@ -17,12 +17,12 @@ const Dot = styled('span')({
   display: 'inline',
 });
 
-const StyledHeader  = styled('header')(({theme}) => ({
+const StyledHeader = styled('header')(({ theme }) => ({
   backgroundColor: theme.palette.primary.main,
 }));
 
 export class Header extends React.Component {
-  render () {
+  render() {
     return (
       <StyledHeader className="kd-header fixed-top">
         <Container>
@@ -38,19 +38,29 @@ export class Header extends React.Component {
             <Navbar.Collapse id="navbarNavDropdown">
               <Nav className="ml-auto" as="ul">
                 <Nav.Item as="li">
-                  <Scroller href="#home" className="nav-link">Home</Scroller>
+                  <Scroller href="#home" className="nav-link">
+                    Home
+                  </Scroller>
                 </Nav.Item>
                 <Nav.Item as="li">
-                  <Scroller href="#about" className="nav-link">About</Scroller>
+                  <Scroller href="#about" className="nav-link">
+                    About
+                  </Scroller>
                 </Nav.Item>
                 <Nav.Item as="li">
-                  <Scroller href="#education" className="nav-link">Education</Scroller>
+                  <Scroller href="#education" className="nav-link">
+                    Education
+                  </Scroller>
                 </Nav.Item>
                 <Nav.Item as="li">
-                  <Scroller href="#research_experience" className="nav-link">Experience</Scroller>
+                  <Scroller href="#research_experience" className="nav-link">
+                    Experience
+                  </Scroller>
                 </Nav.Item>
                 <Nav.Item as="li">
-                  <Scroller href="#contact" className="nav-link">Contact</Scroller>
+                  <Scroller href="#contact" className="nav-link">
+                    Contact
+                  </Scroller>
                 </Nav.Item>
               </Nav>
             </Navbar.Collapse>

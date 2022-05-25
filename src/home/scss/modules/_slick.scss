@@ -1,4 +1,4 @@
-@import "../base/variables";
+@import '../base/variables';
 
 /*=================================================================*/
 /*                      SLICK SETTINGS
@@ -12,7 +12,8 @@
   }
 }
 
-.slick-next, .slick-prev {
+.slick-next,
+.slick-prev {
   width: 40px;
   height: 40px;
   line-height: 40px;
@@ -23,7 +24,8 @@
   z-index: 1;
   transform: translateX(0px);
 
-  &:hover, &:focus{
+  &:hover,
+  &:focus {
     background: $color-foreground;
   }
 }
@@ -34,12 +36,13 @@
     background: $color-foreground;
   }
 
-  &:before, &:after {
+  &:before,
+  &:after {
     left: 17px;
   }
 
   &:before {
-    content: "";
+    content: '';
     background: $color-white;
     display: block;
     width: 1px;
@@ -50,7 +53,7 @@
   }
 
   &:after {
-    content: "";
+    content: '';
     background: $color-white;
     display: block;
     width: 1px;
@@ -68,12 +71,13 @@
     background: $color-foreground;
   }
 
-  &:before, &:after {
+  &:before,
+  &:after {
     left: 20px;
   }
 
   &:before {
-    content: "";
+    content: '';
     background: $color-white;
     display: block;
     width: 1px;
@@ -84,7 +88,7 @@
   }
 
   &:after {
-    content: "";
+    content: '';
     background: $color-white;
     display: block;
     width: 1px;
@@ -133,8 +137,8 @@
       padding: 0;
 
       &:before {
-        content: "";
-        background: #D4D4FF;
+        content: '';
+        background: #d4d4ff;
         border-radius: 3px;
         opacity: 1;
         height: 6px;

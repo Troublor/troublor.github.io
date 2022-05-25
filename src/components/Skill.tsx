@@ -2,18 +2,18 @@ import React from 'react';
 import VisibilitySensor from 'react-visibility-sensor';
 
 interface Props {
-  title: string
-  percent: number
-  backgroundColor?: string
+  title: string;
+  percent: number;
+  backgroundColor?: string;
 }
 
 interface State {
-  completed: number
-  loaded: boolean
+  completed: number;
+  loaded: boolean;
 }
 
 export class Skill extends React.Component<Props, State> {
-  constructor (props: Props) {
+  constructor(props: Props) {
     super(props);
 
     this.state = {
@@ -31,7 +31,7 @@ export class Skill extends React.Component<Props, State> {
     }
   };
 
-  render () {
+  render() {
     const props = this.props;
 
     const bgColor = props.backgroundColor ? props.backgroundColor : '#f1f1f1';
@@ -45,7 +45,13 @@ export class Skill extends React.Component<Props, State> {
           </div>
         </VisibilitySensor>
         <div className="progress">
-          <div className="progress-bar data-background" style={{ width: `${this.state.completed}%`, backgroundColor: `${bgColor}` }} />
+          <div
+            className="progress-bar data-background"
+            style={{
+              width: `${this.state.completed}%`,
+              backgroundColor: `${bgColor}`,
+            }}
+          />
         </div>
       </div>
     );
