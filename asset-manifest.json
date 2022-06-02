@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "https://troublor.github.io/static/css/main.58fc5c99.css",
-    "main.js": "https://troublor.github.io/static/js/main.c54bf25d.js",
+    "main.js": "https://troublor.github.io/static/js/main.f2f31bca.js",
     "static/js/136.74706ee1.chunk.js": "https://troublor.github.io/static/js/136.74706ee1.chunk.js",
     "static/media/map.svg": "https://troublor.github.io/static/media/map.0d7639e83802dec1e213.svg",
     "static/media/portrait.jpg": "https://troublor.github.io/static/media/portrait.441f65683ea6e5e1c600.jpg",
@@ -13,11 +13,11 @@
     "static/media/slick.woff": "https://troublor.github.io/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "https://troublor.github.io/index.html",
     "main.58fc5c99.css.map": "https://troublor.github.io/static/css/main.58fc5c99.css.map",
-    "main.c54bf25d.js.map": "https://troublor.github.io/static/js/main.c54bf25d.js.map",
+    "main.f2f31bca.js.map": "https://troublor.github.io/static/js/main.f2f31bca.js.map",
     "136.74706ee1.chunk.js.map": "https://troublor.github.io/static/js/136.74706ee1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.58fc5c99.css",
-    "static/js/main.c54bf25d.js"
+    "static/js/main.f2f31bca.js"
   ]
 }
