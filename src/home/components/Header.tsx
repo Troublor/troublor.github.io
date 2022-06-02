@@ -53,6 +53,11 @@ export class Header extends React.Component {
                   </Scroller>
                 </Nav.Item>
                 <Nav.Item as="li">
+                  <Scroller href="#publications" className="nav-link">
+                    Publications
+                  </Scroller>
+                </Nav.Item>
+                <Nav.Item as="li">
                   <Scroller href="#research_experience" className="nav-link">
                     Experience
                   </Scroller>

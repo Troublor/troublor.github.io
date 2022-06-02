@@ -109,6 +109,7 @@ export default <Profile>{
     },
     {
       period: '2018',
+      /* eslint-disable-next-line */
       group: "Prof. Huaiyu Dai's Group",
       institute: 'North Carolina State University',
       role: 'Undergraduate Summer Research Student',
