@@ -83,7 +83,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-scroll", "virtual:22abdd8991bc181e4e084311c8103e9d1e14e748c1db9409c9932da7d6044a2f5460dd76b69768c9e6ddf4543467d651b1add8c429223af0045f243ef731a8c5#npm:1.8.4"],
             ["react-slick", "virtual:22abdd8991bc181e4e084311c8103e9d1e14e748c1db9409c9932da7d6044a2f5460dd76b69768c9e6ddf4543467d651b1add8c429223af0045f243ef731a8c5#npm:0.28.1"],
             ["react-text-loop", "virtual:22abdd8991bc181e4e084311c8103e9d1e14e748c1db9409c9932da7d6044a2f5460dd76b69768c9e6ddf4543467d651b1add8c429223af0045f243ef731a8c5#npm:2.3.0"],
-            ["react-tsparticles", "virtual:22abdd8991bc181e4e084311c8103e9d1e14e748c1db9409c9932da7d6044a2f5460dd76b69768c9e6ddf4543467d651b1add8c429223af0045f243ef731a8c5#npm:1.39.0"],
+            ["react-tsparticles", "virtual:22abdd8991bc181e4e084311c8103e9d1e14e748c1db9409c9932da7d6044a2f5460dd76b69768c9e6ddf4543467d651b1add8c429223af0045f243ef731a8c5#npm:2.4.0"],
             ["react-visibility-sensor", "virtual:22abdd8991bc181e4e084311c8103e9d1e14e748c1db9409c9932da7d6044a2f5460dd76b69768c9e6ddf4543467d651b1add8c429223af0045f243ef731a8c5#npm:5.1.1"],
             ["sass", "npm:1.48.0"],
             ["slick-carousel", "virtual:22abdd8991bc181e4e084311c8103e9d1e14e748c1db9409c9932da7d6044a2f5460dd76b69768c9e6ddf4543467d651b1add8c429223af0045f243ef731a8c5#npm:1.8.1"],
@@ -4679,7 +4679,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ]],
       ["@fortawesome/fontawesome-common-types", [
         ["npm:0.2.36", {
-          "packageLocation": "./.yarn/unplugged/@fortawesome-fontawesome-common-types-npm-0.2.36-4ead73741a/node_modules/@fortawesome/fontawesome-common-types/",
+          "packageLocation": "./.yarn/cache/@fortawesome-fontawesome-common-types-npm-0.2.36-4ead73741a-d604ac51da.zip/node_modules/@fortawesome/fontawesome-common-types/",
           "packageDependencies": [
             ["@fortawesome/fontawesome-common-types", "npm:0.2.36"]
           ],
@@ -4688,7 +4688,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ]],
       ["@fortawesome/fontawesome-svg-core", [
         ["npm:1.2.36", {
-          "packageLocation": "./.yarn/unplugged/@fortawesome-fontawesome-svg-core-npm-1.2.36-a7e9aa4045/node_modules/@fortawesome/fontawesome-svg-core/",
+          "packageLocation": "./.yarn/cache/@fortawesome-fontawesome-svg-core-npm-1.2.36-a7e9aa4045-3011d8c145.zip/node_modules/@fortawesome/fontawesome-svg-core/",
           "packageDependencies": [
             ["@fortawesome/fontawesome-svg-core", "npm:1.2.36"],
             ["@fortawesome/fontawesome-common-types", "npm:0.2.36"]
@@ -4698,7 +4698,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ]],
       ["@fortawesome/free-brands-svg-icons", [
         ["npm:5.15.4", {
-          "packageLocation": "./.yarn/unplugged/@fortawesome-free-brands-svg-icons-npm-5.15.4-59d1d43e20/node_modules/@fortawesome/free-brands-svg-icons/",
+          "packageLocation": "./.yarn/cache/@fortawesome-free-brands-svg-icons-npm-5.15.4-59d1d43e20-06e38132fb.zip/node_modules/@fortawesome/free-brands-svg-icons/",
           "packageDependencies": [
             ["@fortawesome/free-brands-svg-icons", "npm:5.15.4"],
             ["@fortawesome/fontawesome-common-types", "npm:0.2.36"]
@@ -4708,7 +4708,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ]],
       ["@fortawesome/free-regular-svg-icons", [
         ["npm:5.15.4", {
-          "packageLocation": "./.yarn/unplugged/@fortawesome-free-regular-svg-icons-npm-5.15.4-04f383e3ab/node_modules/@fortawesome/free-regular-svg-icons/",
+          "packageLocation": "./.yarn/cache/@fortawesome-free-regular-svg-icons-npm-5.15.4-04f383e3ab-2e6039e3bb.zip/node_modules/@fortawesome/free-regular-svg-icons/",
           "packageDependencies": [
             ["@fortawesome/free-regular-svg-icons", "npm:5.15.4"],
             ["@fortawesome/fontawesome-common-types", "npm:0.2.36"]
@@ -4718,7 +4718,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ]],
       ["@fortawesome/free-solid-svg-icons", [
         ["npm:5.15.4", {
-          "packageLocation": "./.yarn/unplugged/@fortawesome-free-solid-svg-icons-npm-5.15.4-6d9ac1e440/node_modules/@fortawesome/free-solid-svg-icons/",
+          "packageLocation": "./.yarn/cache/@fortawesome-free-solid-svg-icons-npm-5.15.4-6d9ac1e440-eb037b7038.zip/node_modules/@fortawesome/free-solid-svg-icons/",
           "packageDependencies": [
             ["@fortawesome/free-solid-svg-icons", "npm:5.15.4"],
             ["@fortawesome/fontawesome-common-types", "npm:0.2.36"]
@@ -7410,7 +7410,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-scroll", "virtual:22abdd8991bc181e4e084311c8103e9d1e14e748c1db9409c9932da7d6044a2f5460dd76b69768c9e6ddf4543467d651b1add8c429223af0045f243ef731a8c5#npm:1.8.4"],
             ["react-slick", "virtual:22abdd8991bc181e4e084311c8103e9d1e14e748c1db9409c9932da7d6044a2f5460dd76b69768c9e6ddf4543467d651b1add8c429223af0045f243ef731a8c5#npm:0.28.1"],
             ["react-text-loop", "virtual:22abdd8991bc181e4e084311c8103e9d1e14e748c1db9409c9932da7d6044a2f5460dd76b69768c9e6ddf4543467d651b1add8c429223af0045f243ef731a8c5#npm:2.3.0"],
-            ["react-tsparticles", "virtual:22abdd8991bc181e4e084311c8103e9d1e14e748c1db9409c9932da7d6044a2f5460dd76b69768c9e6ddf4543467d651b1add8c429223af0045f243ef731a8c5#npm:1.39.0"],
+            ["react-tsparticles", "virtual:22abdd8991bc181e4e084311c8103e9d1e14e748c1db9409c9932da7d6044a2f5460dd76b69768c9e6ddf4543467d651b1add8c429223af0045f243ef731a8c5#npm:2.4.0"],
             ["react-visibility-sensor", "virtual:22abdd8991bc181e4e084311c8103e9d1e14e748c1db9409c9932da7d6044a2f5460dd76b69768c9e6ddf4543467d651b1add8c429223af0045f243ef731a8c5#npm:5.1.1"],
             ["sass", "npm:1.48.0"],
             ["slick-carousel", "virtual:22abdd8991bc181e4e084311c8103e9d1e14e748c1db9409c9932da7d6044a2f5460dd76b69768c9e6ddf4543467d651b1add8c429223af0045f243ef731a8c5#npm:1.8.1"],
@@ -9331,7 +9331,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ]],
       ["core-js", [
         ["npm:3.21.1", {
-          "packageLocation": "./.yarn/unplugged/core-js-npm-3.21.1-4b064616b4/node_modules/core-js/",
+          "packageLocation": "./.yarn/cache/core-js-npm-3.21.1-4b064616b4-d68eddd831.zip/node_modules/core-js/",
           "packageDependencies": [
             ["core-js", "npm:3.21.1"]
           ],
@@ -9351,14 +9351,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ]],
       ["core-js-pure", [
         ["npm:3.20.3", {
-          "packageLocation": "./.yarn/unplugged/core-js-pure-npm-3.20.3-b1adc4abc2/node_modules/core-js-pure/",
+          "packageLocation": "./.yarn/cache/core-js-pure-npm-3.20.3-b1adc4abc2-a8ec443908.zip/node_modules/core-js-pure/",
           "packageDependencies": [
             ["core-js-pure", "npm:3.20.3"]
           ],
           "linkType": "HARD",
         }],
         ["npm:3.21.1", {
-          "packageLocation": "./.yarn/unplugged/core-js-pure-npm-3.21.1-8959cc165d/node_modules/core-js-pure/",
+          "packageLocation": "./.yarn/cache/core-js-pure-npm-3.21.1-8959cc165d-00a5dff599.zip/node_modules/core-js-pure/",
           "packageDependencies": [
             ["core-js-pure", "npm:3.21.1"]
           ],
@@ -18235,21 +18235,21 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["react-tsparticles", [
-        ["npm:1.39.0", {
-          "packageLocation": "./.yarn/unplugged/react-tsparticles-virtual-6590ddf39f/node_modules/react-tsparticles/",
+        ["npm:2.4.0", {
+          "packageLocation": "./.yarn/cache/react-tsparticles-npm-2.4.0-77ba9ef38a-c9aaf82066.zip/node_modules/react-tsparticles/",
           "packageDependencies": [
-            ["react-tsparticles", "npm:1.39.0"]
+            ["react-tsparticles", "npm:2.4.0"]
           ],
           "linkType": "SOFT",
         }],
-        ["virtual:22abdd8991bc181e4e084311c8103e9d1e14e748c1db9409c9932da7d6044a2f5460dd76b69768c9e6ddf4543467d651b1add8c429223af0045f243ef731a8c5#npm:1.39.0", {
-          "packageLocation": "./.yarn/unplugged/react-tsparticles-virtual-6590ddf39f/node_modules/react-tsparticles/",
+        ["virtual:22abdd8991bc181e4e084311c8103e9d1e14e748c1db9409c9932da7d6044a2f5460dd76b69768c9e6ddf4543467d651b1add8c429223af0045f243ef731a8c5#npm:2.4.0", {
+          "packageLocation": "./.yarn/__virtual__/react-tsparticles-virtual-884dd69981/0/cache/react-tsparticles-npm-2.4.0-77ba9ef38a-c9aaf82066.zip/node_modules/react-tsparticles/",
           "packageDependencies": [
-            ["react-tsparticles", "virtual:22abdd8991bc181e4e084311c8103e9d1e14e748c1db9409c9932da7d6044a2f5460dd76b69768c9e6ddf4543467d651b1add8c429223af0045f243ef731a8c5#npm:1.39.0"],
+            ["react-tsparticles", "virtual:22abdd8991bc181e4e084311c8103e9d1e14e748c1db9409c9932da7d6044a2f5460dd76b69768c9e6ddf4543467d651b1add8c429223af0045f243ef731a8c5#npm:2.4.0"],
             ["@types/react", "npm:17.0.38"],
             ["fast-deep-equal", "npm:3.1.3"],
             ["react", "npm:17.0.2"],
-            ["tsparticles", "npm:1.39.0"]
+            ["tsparticles-engine", "npm:2.4.0"]
           ],
           "packagePeers": [
             "@types/react",
@@ -20094,11 +20094,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
-      ["tsparticles", [
-        ["npm:1.39.0", {
-          "packageLocation": "./.yarn/unplugged/tsparticles-npm-1.39.0-4f636c81d6/node_modules/tsparticles/",
+      ["tsparticles-engine", [
+        ["npm:2.4.0", {
+          "packageLocation": "./.yarn/cache/tsparticles-engine-npm-2.4.0-aec3481d8d-451368466b.zip/node_modules/tsparticles-engine/",
           "packageDependencies": [
-            ["tsparticles", "npm:1.39.0"]
+            ["tsparticles-engine", "npm:2.4.0"]
           ],
           "linkType": "HARD",
         }]
