@@ -4228,7 +4228,7 @@ __metadata:
     react-scroll: ^1.8.4
     react-slick: ^0.28.1
     react-text-loop: ^2.3.0
-    react-tsparticles: ^1.37.6
+    react-tsparticles: ^2.5.1
     react-visibility-sensor: ^5.1.1
     sass: ^1.48.0
     slick-carousel: ^1.8.1
@@ -12610,15 +12610,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-tsparticles@npm:^1.37.6":
-  version: 1.39.0
-  resolution: "react-tsparticles@npm:1.39.0"
+"react-tsparticles@npm:^2.5.1":
+  version: 2.5.1
+  resolution: "react-tsparticles@npm:2.5.1"
   dependencies:
     fast-deep-equal: ^3.1.3
-    tsparticles: ^1.39.0
+    tsparticles-engine: ^2.5.0
   peerDependencies:
     react: ">=16"
-  checksum: bd708918b1b7cd29dab9d22c32ce50aacc65f4f6a3312d1c1faf178f7518feed54c0de5cc4d13b02c782579344888e6ecc5b4a7b8ea903b2456abc912699020a
+  checksum: fab26123304d1b6aff164da9078d0bea7bce602c35caf4a0aa01e8b4e18af8c49f1c61ed0e7351764346c5edb8c55aee4244b167e07e1270d0232035428af6c4
   languageName: node
   linkType: hard
 
@@ -14222,10 +14222,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tsparticles@npm:^1.39.0":
-  version: 1.39.0
-  resolution: "tsparticles@npm:1.39.0"
-  checksum: 960f005a1d9869d6634f3226f21c2914c29b05329319d69f91e410337d527e1d0ff060c8e3eb5cacc83dcc0302f15386260a647c70c4b92aac2e5b6910c5ae8d
+"tsparticles-engine@npm:^2.5.0":
+  version: 2.5.0
+  resolution: "tsparticles-engine@npm:2.5.0"
+  checksum: d25dff4c4eca464b80b38b91b1644c397aea37c2860ca5f36e4eb3bd466094a89af694f1f372ada4ae173effda27de346b3a91c4664f9c91238a8e9cff69cdff
   languageName: node
   linkType: hard
 

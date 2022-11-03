@@ -83,7 +83,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-scroll", "virtual:22abdd8991bc181e4e084311c8103e9d1e14e748c1db9409c9932da7d6044a2f5460dd76b69768c9e6ddf4543467d651b1add8c429223af0045f243ef731a8c5#npm:1.8.4"],
             ["react-slick", "virtual:22abdd8991bc181e4e084311c8103e9d1e14e748c1db9409c9932da7d6044a2f5460dd76b69768c9e6ddf4543467d651b1add8c429223af0045f243ef731a8c5#npm:0.28.1"],
             ["react-text-loop", "virtual:22abdd8991bc181e4e084311c8103e9d1e14e748c1db9409c9932da7d6044a2f5460dd76b69768c9e6ddf4543467d651b1add8c429223af0045f243ef731a8c5#npm:2.3.0"],
-            ["react-tsparticles", "virtual:22abdd8991bc181e4e084311c8103e9d1e14e748c1db9409c9932da7d6044a2f5460dd76b69768c9e6ddf4543467d651b1add8c429223af0045f243ef731a8c5#npm:1.39.0"],
+            ["react-tsparticles", "virtual:22abdd8991bc181e4e084311c8103e9d1e14e748c1db9409c9932da7d6044a2f5460dd76b69768c9e6ddf4543467d651b1add8c429223af0045f243ef731a8c5#npm:2.5.1"],
             ["react-visibility-sensor", "virtual:22abdd8991bc181e4e084311c8103e9d1e14e748c1db9409c9932da7d6044a2f5460dd76b69768c9e6ddf4543467d651b1add8c429223af0045f243ef731a8c5#npm:5.1.1"],
             ["sass", "npm:1.48.0"],
             ["slick-carousel", "virtual:22abdd8991bc181e4e084311c8103e9d1e14e748c1db9409c9932da7d6044a2f5460dd76b69768c9e6ddf4543467d651b1add8c429223af0045f243ef731a8c5#npm:1.8.1"],
@@ -7410,7 +7410,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-scroll", "virtual:22abdd8991bc181e4e084311c8103e9d1e14e748c1db9409c9932da7d6044a2f5460dd76b69768c9e6ddf4543467d651b1add8c429223af0045f243ef731a8c5#npm:1.8.4"],
             ["react-slick", "virtual:22abdd8991bc181e4e084311c8103e9d1e14e748c1db9409c9932da7d6044a2f5460dd76b69768c9e6ddf4543467d651b1add8c429223af0045f243ef731a8c5#npm:0.28.1"],
             ["react-text-loop", "virtual:22abdd8991bc181e4e084311c8103e9d1e14e748c1db9409c9932da7d6044a2f5460dd76b69768c9e6ddf4543467d651b1add8c429223af0045f243ef731a8c5#npm:2.3.0"],
-            ["react-tsparticles", "virtual:22abdd8991bc181e4e084311c8103e9d1e14e748c1db9409c9932da7d6044a2f5460dd76b69768c9e6ddf4543467d651b1add8c429223af0045f243ef731a8c5#npm:1.39.0"],
+            ["react-tsparticles", "virtual:22abdd8991bc181e4e084311c8103e9d1e14e748c1db9409c9932da7d6044a2f5460dd76b69768c9e6ddf4543467d651b1add8c429223af0045f243ef731a8c5#npm:2.5.1"],
             ["react-visibility-sensor", "virtual:22abdd8991bc181e4e084311c8103e9d1e14e748c1db9409c9932da7d6044a2f5460dd76b69768c9e6ddf4543467d651b1add8c429223af0045f243ef731a8c5#npm:5.1.1"],
             ["sass", "npm:1.48.0"],
             ["slick-carousel", "virtual:22abdd8991bc181e4e084311c8103e9d1e14e748c1db9409c9932da7d6044a2f5460dd76b69768c9e6ddf4543467d651b1add8c429223af0045f243ef731a8c5#npm:1.8.1"],
@@ -18235,21 +18235,21 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["react-tsparticles", [
-        ["npm:1.39.0", {
-          "packageLocation": "./.yarn/unplugged/react-tsparticles-virtual-6590ddf39f/node_modules/react-tsparticles/",
+        ["npm:2.5.1", {
+          "packageLocation": "./.yarn/unplugged/react-tsparticles-virtual-1a6a246468/node_modules/react-tsparticles/",
           "packageDependencies": [
-            ["react-tsparticles", "npm:1.39.0"]
+            ["react-tsparticles", "npm:2.5.1"]
           ],
           "linkType": "SOFT",
         }],
-        ["virtual:22abdd8991bc181e4e084311c8103e9d1e14e748c1db9409c9932da7d6044a2f5460dd76b69768c9e6ddf4543467d651b1add8c429223af0045f243ef731a8c5#npm:1.39.0", {
-          "packageLocation": "./.yarn/unplugged/react-tsparticles-virtual-6590ddf39f/node_modules/react-tsparticles/",
+        ["virtual:22abdd8991bc181e4e084311c8103e9d1e14e748c1db9409c9932da7d6044a2f5460dd76b69768c9e6ddf4543467d651b1add8c429223af0045f243ef731a8c5#npm:2.5.1", {
+          "packageLocation": "./.yarn/unplugged/react-tsparticles-virtual-1a6a246468/node_modules/react-tsparticles/",
           "packageDependencies": [
-            ["react-tsparticles", "virtual:22abdd8991bc181e4e084311c8103e9d1e14e748c1db9409c9932da7d6044a2f5460dd76b69768c9e6ddf4543467d651b1add8c429223af0045f243ef731a8c5#npm:1.39.0"],
+            ["react-tsparticles", "virtual:22abdd8991bc181e4e084311c8103e9d1e14e748c1db9409c9932da7d6044a2f5460dd76b69768c9e6ddf4543467d651b1add8c429223af0045f243ef731a8c5#npm:2.5.1"],
             ["@types/react", "npm:17.0.38"],
             ["fast-deep-equal", "npm:3.1.3"],
             ["react", "npm:17.0.2"],
-            ["tsparticles", "npm:1.39.0"]
+            ["tsparticles-engine", "npm:2.5.0"]
           ],
           "packagePeers": [
             "@types/react",
@@ -20094,11 +20094,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
-      ["tsparticles", [
-        ["npm:1.39.0", {
-          "packageLocation": "./.yarn/unplugged/tsparticles-npm-1.39.0-4f636c81d6/node_modules/tsparticles/",
+      ["tsparticles-engine", [
+        ["npm:2.5.0", {
+          "packageLocation": "./.yarn/unplugged/tsparticles-engine-npm-2.5.0-2ca3629fef/node_modules/tsparticles-engine/",
           "packageDependencies": [
-            ["tsparticles", "npm:1.39.0"]
+            ["tsparticles-engine", "npm:2.5.0"]
           ],
           "linkType": "HARD",
         }]
