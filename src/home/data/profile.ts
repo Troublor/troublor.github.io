@@ -121,7 +121,15 @@ export default <Profile>{
       title:
         'Front-Running Attack Benchmark Construction and Vulnerability Detection Technique Evaluation',
       year: '2022',
-      authors: ['Wuqi Zhang', 'Lili Wei', 'Shing-Chi Cheung', 'Yepang Liu', 'Shuqing Li', 'Lu Liu', 'Michael R. Lyu'],
+      authors: [
+        'Wuqi Zhang',
+        'Lili Wei',
+        'Shing-Chi Cheung',
+        'Yepang Liu',
+        'Shuqing Li',
+        'Lu Liu',
+        'Michael R. Lyu',
+      ],
       venue: 'arXiv:2212.12110',
       venueShort: 'arXiv',
       abstract: `
