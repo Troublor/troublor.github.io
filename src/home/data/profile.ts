@@ -119,6 +119,22 @@ export default <Profile>{
   publications: [
     {
       title:
+        'Front-Running Attack Benchmark Construction and Vulnerability Detection Technique Evaluation',
+      year: '2022',
+      authors: ['Wuqi Zhang', 'Lili Wei', 'Shing-Chi Cheung', 'Yepang Liu', 'Shuqing Li', 'Lu Liu', 'Michael R. Lyu'],
+      venue: 'arXiv:2212.12110',
+      venueShort: 'arXiv',
+      abstract: `
+      Front-running attacks have been a major concern on the blockchain. Attackers launch front-running attacks by inserting additional transactions before upcoming victim transactions to manipulate victim transaction executions and make profits. Recent studies have shown that front-running attacks are prevalent on the Ethereum blockchain and have caused millions of US dollars loss. Vulnerable smart contracts, blockchain programs invoked by transactions, are held responsible for front-running attacks. Although techniques to detect front-running vulnerabilities have been proposed, their performance on real-world vulnerable contracts is unclear. There is no large-scale benchmark based on real attacks to evaluate their capabilities. This motivates us to build a benchmark consisting of 513 real-world attacks with vulnerable code labeled in 235 distinct smart contracts. We propose automated techniques to effectively collect real-world attacks and localize the corresponding vulnerable code at scale. Our experiments show that our approaches are effective, achieving higher recall in finding real attacks and higher precision in pinpointing vulnerabilities compared to the existing techniques. The evaluation of seven state-of-the-art vulnerability detection techniques on the benchmark reveals their inadequacy in detecting front-running vulnerabilities, with a low recall of at most 6.04%. Our further analysis identifies four common limitations in existing techniques: lack of support for inter-contract analysis, inefficient constraint solving for cryptographic operations, improper vulnerability patterns, and lack of token support.
+    `,
+      projectUrl: '',
+      arxivUrl: 'https://arxiv.org/abs/2212.12110',
+      paperUrl: '',
+      /* eslint-disable no-useless-escape */
+      bibtex: '',
+    },
+    {
+      title:
         'Surakav: Generating Realistic Traces for a Strong Website Fingerprinting Defense',
       year: '2022',
       authors: ['Jiajun Gong', 'Wuqi Zhang', 'Charles Zhang', 'Tao Wang'],
