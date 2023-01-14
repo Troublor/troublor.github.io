@@ -3,8 +3,8 @@ export default {
   avatar: '/static/img/portrait.jpg',
   objective: `
     <p>
-        I am a Ph.D. candidate at The Hong Kong University of Science and Technology. 
-        
+        I am a Ph.D. candidate at The Hong Kong University of Science and Technology.
+
     </p>
   `,
   resumeUrl:
@@ -31,30 +31,5 @@ export default {
       color: 'rgb(51, 105, 30)',
     },
   ],
-  statistics: [
-    {
-      number: 28,
-      title: 'Open-source projects',
-      iconPrefix: 'fab',
-      iconName: 'osi',
-    },
-    {
-      number: 59,
-      title: 'Projects completed',
-      iconPrefix: 'fas',
-      iconName: 'tasks',
-    },
-    {
-      number: 3285,
-      title: 'Cup of coffee',
-      iconPrefix: 'fas',
-      iconName: 'coffee',
-    },
-    {
-      number: 2,
-      title: 'Publications',
-      iconPrefix: 'far',
-      iconName: 'newspaper',
-    },
-  ],
+  statistics: [],
 };

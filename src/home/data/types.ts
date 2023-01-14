@@ -5,6 +5,7 @@ export interface Profile {
     last: string;
     formal: string;
     previous: string[];
+    initials: string;
   };
   emails: {
     work: string;
@@ -75,4 +76,9 @@ export interface Publication {
   paperUrl: string;
   slidesUrl: string;
   bibtex: string;
+}
+
+export interface MiscData {
+  technologies: { name: string; url: string }[];
+  quotes: { sentence: string; origin: string }[];
 }

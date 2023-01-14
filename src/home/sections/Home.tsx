@@ -1,24 +1,14 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import ParticlesContainer from '../../components/ParticlesContainer';
 import TextLoop from 'react-text-loop';
-import { Scroller } from '../../components';
 import { fab } from '@fortawesome/free-brands-svg-icons';
+import { fas } from '@fortawesome/free-solid-svg-icons';
 import profile from '../data/profile';
 import avatar from '../img/avatar.jpg';
-import {
-  Container,
-  Theme,
-  styled,
-  Stack,
-  Avatar,
-  Box,
-  Link,
-  Typography,
-  Button,
-} from '@mui/material';
+import { Stack, Avatar, Box, Link, Typography, Button } from '@mui/material';
 import details from '../data/details.json';
 import { ThemedProps } from '../../theme';
+import { Scroller } from '../../components';
 
 export class Home extends React.Component<ThemedProps> {
   private centerBoxSX = {
@@ -31,6 +21,7 @@ export class Home extends React.Component<ThemedProps> {
   render(): React.ReactElement {
     return (
       <Box
+        id={'home'}
         component="section"
         sx={{
           bgcolor: 'primary.main',
@@ -41,6 +32,11 @@ export class Home extends React.Component<ThemedProps> {
           direction="column"
           spacing={2}
           sx={{
+            zIndex: 1,
+            position: 'absolute',
+            left: 0,
+            right: 0,
+            margin: 'auto',
             height: '100%',
             justifyContent: 'center',
             color: this.props.theme.palette.primary.contrastText,
@@ -87,6 +83,7 @@ export class Home extends React.Component<ThemedProps> {
           <Box sx={this.centerBoxSX}>
             {profile.socialNetworks.map((network) => (
               <Link
+                key={network.iconName}
                 href={network.link}
                 underline="none"
                 target="_blank"
@@ -99,20 +96,47 @@ export class Home extends React.Component<ThemedProps> {
             ))}
           </Box>
           <Box sx={this.centerBoxSX}>
-            <Button
-              variant="contained"
-              color="secondary"
-              sx={{ textTransform: 'none', borderRadius: 6 }}
-            >
-              <Typography
-                variant="h6"
-                component="h6"
-                noWrap
-                sx={{ fontWeight: 700 }}
+            <Scroller key={'contact-btn'} href={'#contact'} offset={100}>
+              <Button
+                variant="contained"
+                color="secondary"
+                sx={{ textTransform: 'none', borderRadius: 6 }}
               >
-                Contact Me
-              </Typography>
-            </Button>
+                <Typography
+                  variant="h6"
+                  component="h6"
+                  noWrap
+                  sx={{ fontWeight: 700 }}
+                >
+                  Contact Me
+                </Typography>
+              </Button>
+            </Scroller>
+          </Box>
+        </Stack>
+        <Stack
+          direction="column"
+          spacing={1}
+          sx={{
+            position: 'absolute',
+            left: 0,
+            right: 0,
+            margin: 'auto',
+            height: '100%',
+            justifyContent: 'end',
+            color: this.props.theme.palette.primary.contrastText,
+          }}
+        >
+          <Box sx={this.centerBoxSX}>
+            <Typography variant={'body2'} component={'span'}>
+              Scroll Down
+            </Typography>
+          </Box>
+          <Box sx={{ ...this.centerBoxSX }}>
+            <FontAwesomeIcon size={'1x'} icon={fas['faMouse']} />
+          </Box>
+          <Box sx={{ ...this.centerBoxSX }}>
+            <FontAwesomeIcon size={'1x'} icon={fas['faArrowDown']} />
           </Box>
         </Stack>
       </Box>

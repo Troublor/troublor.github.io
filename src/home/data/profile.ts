@@ -7,6 +7,7 @@ export default <Profile>{
     last: 'Cheung',
     formal: 'Wuqi Zhang',
     previous: ['Wuqi Aaron Zhang', '张无奇'],
+    initials: 'W.A.C.',
   },
   emails: {
     work: 'wuqi.zhang@connect.ust.hk',
@@ -125,7 +126,7 @@ export default <Profile>{
       group: "Prof. Huaiyu Dai's Group",
       institute: 'North Carolina State University',
       role: 'Undergraduate Summer Research Student',
-      focus: ['Complex Network'],
+      focus: ['Complex Network Analysis'],
     },
   ],
   publications: [

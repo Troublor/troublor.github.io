@@ -18,9 +18,17 @@ export const defaultTheme = createTheme({
       primary: '#454360',
       secondary: '#fff',
     },
+    background: {
+      default: '#f1f7ff',
+      paper: '#fff',
+    },
   },
   typography: {
     fontFamily: ['Rubik', 'sans-serif'].join(','),
+    h2: {
+      fontSize: '2rem',
+      fontWeight: 700,
+    },
     h4: {
       fontSize: '24px',
       fontWeight: 700,

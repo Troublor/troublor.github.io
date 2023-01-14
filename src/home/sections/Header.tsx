@@ -3,7 +3,6 @@ import details from '../data/details.json';
 import {
   AppBar,
   Container,
-  styled,
   Toolbar,
   Avatar,
   Typography,
@@ -12,10 +11,12 @@ import {
   Menu,
   MenuItem,
   Button,
+  Link,
 } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import avatar from '../img/avatar.jpg';
 import { ThemedProps } from '../../theme';
+import { Scroller } from '../../components';
 
 export class Header extends React.Component<
   ThemedProps,
@@ -63,6 +64,7 @@ export class Header extends React.Component<
       <Box
         component="div"
         sx={{
+          zIndex: 100,
           position: 'fixed',
           width: '100%',
           padding: 1,
@@ -111,26 +113,45 @@ export class Header extends React.Component<
                       key={sec.toLowerCase()}
                       onClick={this.handleCloseNavMenu}
                     >
-                      <Typography textAlign="center">{sec}</Typography>
+                      <Scroller
+                        key={sec}
+                        href={`#${sec.toLowerCase()}`}
+                        offset={100}
+                      >
+                        <Typography
+                          color={this.props.theme.palette.text.primary}
+                          textAlign="center"
+                        >
+                          {sec}
+                        </Typography>
+                      </Scroller>
                     </MenuItem>
                   ))}
                 </Menu>
               </Box>
 
-              <Avatar src={avatar} />
+              <Link href="https://troublor.xyz" underline="none">
+                <Avatar src={avatar} />
+              </Link>
               <Box sx={{ marginLeft: '10px' }}>
-                <Typography variant="h4" noWrap component="h4">
-                  {details.firstName}
-                  <Typography
-                    variant="h4"
-                    component="span"
-                    noWrap
-                    sx={{ color: this.props.theme.palette.warning.main }}
-                  >
-                    {details.middleName}
+                <Link
+                  href="https://troublor.xyz"
+                  color={this.props.theme.palette.primary.contrastText}
+                  underline="none"
+                >
+                  <Typography variant="h4" noWrap component="h4">
+                    {details.firstName}
+                    <Typography
+                      variant="h4"
+                      component="span"
+                      noWrap
+                      sx={{ color: this.props.theme.palette.warning.main }}
+                    >
+                      {details.middleName}
+                    </Typography>
+                    {details.lastName}
                   </Typography>
-                  {details.lastName}
-                </Typography>
+                </Link>
               </Box>
 
               <Box
@@ -141,21 +162,26 @@ export class Header extends React.Component<
                 }}
               >
                 {this.sections.map((sec) => (
-                  <Button
+                  <Scroller
                     key={sec}
-                    onClick={this.handleCloseNavMenu}
-                    disableFocusRipple={false}
-                    component="div"
-                    sx={{
-                      color: this.props.theme.palette.primary.contrastText,
-                      display: 'block',
-                      textTransform: 'none',
-                    }}
+                    href={`#${sec.toLowerCase()}`}
+                    offset={100}
                   >
-                    <Typography variant="h6" component="h6" noWrap>
-                      {sec}
-                    </Typography>
-                  </Button>
+                    <Button
+                      onClick={this.handleCloseNavMenu}
+                      disableFocusRipple={false}
+                      component="div"
+                      sx={{
+                        color: this.props.theme.palette.primary.contrastText,
+                        display: 'block',
+                        textTransform: 'none',
+                      }}
+                    >
+                      <Typography variant="h6" component="h6" noWrap>
+                        {sec}
+                      </Typography>
+                    </Button>
+                  </Scroller>
                 ))}
               </Box>
             </Toolbar>

@@ -1,52 +1,54 @@
 import React from 'react';
-// import {
-//   Header,
-//   Home,
-//   Footer,
-//   About,
-//   Education,
-//   WorkExperience,
-//   Contact,
-// } from './components';
-import { Header, Home } from './sections/index';
-import ScrollTopArrow from '../components/ScrollTopArrow';
+import {
+  About,
+  Contact,
+  Education,
+  Footer,
+  Header,
+  Home,
+  Publications,
+  ResearchExperience,
+  WorkExperience,
+} from './sections/index';
 
 import './index.css';
-import '../components/Icons';
-// import 'bootstrap/dist/css/bootstrap.min.css';
-// import './scss/main.scss';
-import ResearchExperience from './components/ResearchExperience';
 import { defaultTheme } from '../theme';
-import { Container, Grid, ThemeProvider } from '@mui/material';
-import Publications from './components/Publications';
+import { Box, Container, Grid, Stack, ThemeProvider } from '@mui/material';
+import { ScrollTopArrow } from '../components';
 
 function Index(): React.ReactElement {
+  document.body.style.backgroundColor = defaultTheme.palette.background.default;
   return (
     <>
       <ThemeProvider theme={defaultTheme}>
         <Header theme={defaultTheme} />
-        {/*<main>*/}
         <Home theme={defaultTheme} />
-        {/*  <Container>*/}
-        {/*    <About />*/}
-        {/*    <Education />*/}
-        {/*    <Publications />*/}
-        {/*    <Grid container>*/}
-        {/*      <Grid item md={6}>*/}
-        {/*        <ResearchExperience />*/}
-        {/*      </Grid>*/}
-        {/*      <Grid md={6}>*/}
-        {/*        <WorkExperience />*/}
-        {/*      </Grid>*/}
-        {/*    </Grid>*/}
-        {/*  </Container>*/}
-        {/*  /!*<Services />*!/*/}
-        {/*  /!*<Review />*!/*/}
-        {/*  /!*<Tools />*!/*/}
-        {/*  <Contact />*/}
-        {/*</main>*/}
-        {/*<Footer />*/}
-        <ScrollTopArrow />
+        <Container>
+          <Stack
+            direction="column"
+            spacing={6}
+            sx={{ my: 3 }}
+            py={3}
+            color={defaultTheme.palette.text.primary}
+          >
+            <About theme={defaultTheme} />
+            <Education theme={defaultTheme} />
+            <Publications theme={defaultTheme} />
+            <Box component="section">
+              <Grid container columnSpacing={2}>
+                <Grid item md={6}>
+                  <ResearchExperience theme={defaultTheme} />
+                </Grid>
+                <Grid item md={6}>
+                  <WorkExperience theme={defaultTheme} />
+                </Grid>
+              </Grid>
+            </Box>
+            <Contact theme={defaultTheme} />
+          </Stack>
+        </Container>
+        <Footer theme={defaultTheme} />
+        <ScrollTopArrow theme={defaultTheme} />
       </ThemeProvider>
     </>
   );
