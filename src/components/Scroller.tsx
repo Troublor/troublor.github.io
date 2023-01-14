@@ -40,6 +40,7 @@ export class Scroller extends React.Component<
 
   render(): React.ReactElement {
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    // eslint-disable-next-line unused-imports/no-unused-vars
     const { offset, ...rest } = this.props;
     return (
       <a
@@ -52,5 +53,3 @@ export class Scroller extends React.Component<
     );
   }
 }
-
-export default Scroller;

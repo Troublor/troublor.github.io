@@ -1,21 +1,37 @@
 import React from 'react';
-import { Container } from '@mui/material';
+import { Box, Typography } from '@mui/material';
+import { ThemedProps } from '../theme';
+import dotsSvg from '../img/dots-bg.svg';
 
 interface Props {
   id: string;
   title: string;
+  children: React.ReactNode;
 }
 
-export class Section extends React.Component<Props> {
+export class Section extends React.Component<Partial<ThemedProps> & Props> {
   render() {
     return (
-      <section id={this.props.id}>
-        <Container>
-          <h2 className="section-title mb-5">{this.props.title}</h2>
-
-          {this.props.children}
-        </Container>
-      </section>
+      <Box component="section" id={this.props.id}>
+        <Box position={'relative'} mb={4}>
+          <Box
+            component={'img'}
+            src={dotsSvg}
+            zIndex={-1}
+            position={'absolute'}
+            left="-1em"
+            top="-1em"
+          />
+          <Typography
+            variant="h2"
+            component="h2"
+            color={this.props.theme?.palette.text.primary}
+          >
+            {this.props.title}
+          </Typography>
+        </Box>
+        {this.props.children}
+      </Box>
     );
   }
 }

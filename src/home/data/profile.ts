@@ -7,6 +7,7 @@ export default <Profile>{
     last: 'Cheung',
     formal: 'Wuqi Zhang',
     previous: ['Wuqi Aaron Zhang', '张无奇'],
+    initials: 'W.A.C.',
   },
   emails: {
     work: 'wuqi.zhang@connect.ust.hk',
@@ -34,6 +35,18 @@ export default <Profile>{
     {
       link: 'https://github.com/Troublor',
       iconName: 'faGithub',
+    },
+    {
+      link: 'https://www.instagram.com/troublor/',
+      iconName: 'faInstagram',
+    },
+    {
+      link: 'https://twitter.com/troublor',
+      iconName: 'faTwitter',
+    },
+    {
+      link: 'https://www.facebook.com/wuqi.aaron.zhang',
+      iconName: 'faFacebook',
     },
   ],
   statistics: [
@@ -113,7 +126,7 @@ export default <Profile>{
       group: "Prof. Huaiyu Dai's Group",
       institute: 'North Carolina State University',
       role: 'Undergraduate Summer Research Student',
-      focus: ['Complex Network'],
+      focus: ['Complex Network Analysis'],
     },
   ],
   publications: [
