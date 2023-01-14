@@ -4,6 +4,7 @@ import { Container } from '@mui/material';
 interface Props {
   id: string;
   title: string;
+  children: React.ReactNode;
 }
 
 export class Section extends React.Component<Props> {

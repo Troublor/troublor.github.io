@@ -10,27 +10,30 @@ export const defaultTheme = createTheme({
       main: '#d15730',
       contrastText: '#fff',
     },
+    warning: {
+      main: '#ff4c60',
+      contrastText: '#fff',
+    },
     text: {
       primary: '#454360',
       secondary: '#fff',
     },
   },
   typography: {
-    fontFamily: [
-      '-apple-system',
-      'BlinkMacSystemFont',
-      '"Segoe UI"',
-      'Roboto',
-      '"Helvetica Neue"',
-      'Arial',
-      'sans-serif',
-      '"Apple Color Emoji"',
-      '"Segoe UI Emoji"',
-      '"Segoe UI Symbol"',
-    ].join(','),
-    h6: {
+    fontFamily: ['Rubik', 'sans-serif'].join(','),
+    h4: {
+      fontSize: '24px',
+      fontWeight: 700,
+    },
+    h5: {
       fontSize: '20px',
       fontWeight: 700,
     },
+    h6: {
+      fontSize: '16px',
+      fontWeight: 500,
+    },
   },
 });
+
+export type ThemedProps = { theme: typeof defaultTheme };

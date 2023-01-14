@@ -5,6 +5,7 @@ interface Props {
   title: string;
   backgroundColor: string;
   image: string;
+  children: React.ReactNode;
 }
 
 export class ServiceBox extends React.Component<Props> {
