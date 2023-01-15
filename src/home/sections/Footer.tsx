@@ -77,7 +77,7 @@ export class Footer extends React.Component<ThemedProps> {
                   sx={{ my: 1 }}
                 />
                 <Typography variant={'body2'}>
-                  This website is built with
+                  This website is built <i>by hand with love</i> using:
                 </Typography>
                 {miscData.technologies.map((tech) => (
                   <Link

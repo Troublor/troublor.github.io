@@ -1,6 +1,7 @@
 import React from 'react';
 import {
   About,
+  Awards,
   Contact,
   Education,
   Footer,
@@ -9,6 +10,8 @@ import {
   Publications,
   ResearchExperience,
   WorkExperience,
+  Teaching,
+  Service,
 } from './sections/index';
 
 import './index.css';
@@ -32,6 +35,7 @@ function Index(): React.ReactElement {
             <About theme={defaultTheme} />
             <Education theme={defaultTheme} />
             <Publications theme={defaultTheme} />
+            <Awards theme={defaultTheme} />
             <Box component="section">
               <Grid container columnSpacing={2}>
                 <Grid item md={6} width={'100%'}>
@@ -39,6 +43,16 @@ function Index(): React.ReactElement {
                 </Grid>
                 <Grid item md={6} width={'100%'}>
                   <WorkExperience theme={defaultTheme} />
+                </Grid>
+              </Grid>
+            </Box>
+            <Box component="section">
+              <Grid container columnSpacing={2}>
+                <Grid item md={6} width={'100%'}>
+                  <Teaching theme={defaultTheme} />
+                </Grid>
+                <Grid item md={6} width={'100%'}>
+                  <Service theme={defaultTheme} />
                 </Grid>
               </Grid>
             </Box>

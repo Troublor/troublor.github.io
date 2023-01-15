@@ -7,3 +7,6 @@ export { ResearchExperience } from './ResearchExperience';
 export { WorkExperience } from './WorkExperience';
 export { Contact } from './Contact';
 export { Footer } from './Footer';
+export { Awards } from './Awards';
+export { Teaching } from './Teaching';
+export { Service } from './Service';

@@ -1,9 +1,13 @@
 import React from 'react';
-import { Box, Button, Stack, Typography } from '@mui/material';
+import { Box, Button, Link, Stack, Typography } from '@mui/material';
 import { Section } from '../../components';
 import profile from '../data/profile';
 import { ThemedProps } from '../../theme';
 import { Publication } from '../data/types';
+import miscData from '../data/misc-data';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { fas } from '@fortawesome/free-solid-svg-icons';
+import { fab } from '@fortawesome/free-brands-svg-icons';
 
 export interface PublicationItemProps {
   publication: Publication;
@@ -25,6 +29,15 @@ export class PublicationItem extends React.Component<
           display={{ xs: 'none', sm: 'flex' }}
         >
           {/* Venue Abbr Column */}
+          {p.type === 'journal' ? (
+            <FontAwesomeIcon icon={fas['faBook']} size={'2x'} />
+          ) : p.type === 'conference' ? (
+            <FontAwesomeIcon icon={fab['faConfluence']} size={'2x'} />
+          ) : p.type === 'preprint' ? (
+            <FontAwesomeIcon icon={fas['faFileAlt']} size={'2x'} />
+          ) : (
+            <div />
+          )}
           <Typography variant={'h5'} component={'h5'}>
             {p.year}
           </Typography>
@@ -44,7 +57,25 @@ export class PublicationItem extends React.Component<
                 variant={'body1'}
                 component={'span'}
               >
-                {a === profile.name.formal ? <u>{a}</u> : a}
+                {a === profile.name.formal ? (
+                  <Typography
+                    variant={'body1'}
+                    component={'span'}
+                    color={this.props.theme.palette.primary.main}
+                  >
+                    {a}
+                  </Typography>
+                ) : miscData.homepages[a] ? (
+                  <Link
+                    href={miscData.homepages[a]}
+                    target={'_blank'}
+                    color={this.props.theme.palette.text.primary}
+                  >
+                    {a}
+                  </Link>
+                ) : (
+                  a
+                )}
                 {i < p.authors.length - 1 ? ', ' : ''}
               </Typography>
             ))}

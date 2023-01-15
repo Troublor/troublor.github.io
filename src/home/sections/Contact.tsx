@@ -5,6 +5,7 @@ import profile from '../data/profile';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { ThemedProps } from '../../theme';
 import { fas } from '@fortawesome/free-solid-svg-icons';
+import { fab } from '@fortawesome/free-brands-svg-icons';
 
 export class Contact extends React.Component<ThemedProps> {
   render() {
@@ -18,7 +19,7 @@ export class Contact extends React.Component<ThemedProps> {
         >
           <Container>
             <Grid container spacing={8}>
-              <Grid item xs={12} sm={6}>
+              <Grid item xs={12} sm={6} md={4}>
                 <Stack direction={'row'}>
                   <FontAwesomeIcon icon={fas['faEnvelope']} />
                   <Typography ml={1} variant="h5" gutterBottom>
@@ -48,7 +49,7 @@ export class Contact extends React.Component<ThemedProps> {
                   </Link>
                 </Stack>
               </Grid>
-              <Grid item xs={12} sm={6}>
+              <Grid item xs={12} sm={6} md={4}>
                 <Stack direction={'row'}>
                   <FontAwesomeIcon icon={fas['faMapMarkedAlt']} />
                   <Typography ml={1} variant="h5" gutterBottom>
@@ -60,6 +61,37 @@ export class Contact extends React.Component<ThemedProps> {
                     <Typography key={line} variant={'body1'}>
                       {line}
                     </Typography>
+                  ))}
+                </Stack>
+              </Grid>
+              <Grid item xs={12} sm={6} md={4}>
+                <Stack direction={'row'}>
+                  <FontAwesomeIcon icon={fas['faShareAlt']} />
+                  <Typography ml={1} variant="h5" gutterBottom>
+                    Social Media
+                  </Typography>
+                </Stack>
+                <Stack
+                  direction={'row'}
+                  spacing={2}
+                  fontFamily={this.props.theme.typography.fontFamily}
+                  color={this.props.theme.palette.primary.main}
+                >
+                  {profile.socialNetworks.map((network) => (
+                    <Link
+                      key={network.iconName}
+                      href={network.link}
+                      underline="none"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      color={'inherit'}
+                      sx={{ mx: 0 }}
+                    >
+                      <FontAwesomeIcon
+                        size={'2x'}
+                        icon={fab[network.iconName]}
+                      />
+                    </Link>
                   ))}
                 </Stack>
               </Grid>

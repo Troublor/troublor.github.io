@@ -16,8 +16,13 @@ export class TimelineItem extends React.Component<
 > {
   render() {
     return (
-      <Container>
-        <Stack direction={'row'} spacing={1} alignItems={'stretch'}>
+      <Container sx={{ height: '100%' }}>
+        <Stack
+          direction={'row'}
+          spacing={1}
+          alignItems={'stretch'}
+          height={'100%'}
+        >
           <Stack
             direction={'column'}
             justifyContent={'center'}

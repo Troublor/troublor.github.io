@@ -1,3 +1,4 @@
+/* eslint-disable quotes */
 import { Profile } from './types';
 
 export default <Profile>{
@@ -81,6 +82,58 @@ export default <Profile>{
       description: 'Outstanding Graduates. Academic Ranking 1/250.',
     },
   ],
+  awards: [
+    {
+      name: 'Overseas Research Award',
+      time: '2023',
+      organization: 'The Hong Kong University of Science and Technology',
+    },
+    {
+      name: 'Research Travel Grant',
+      time: '2022',
+      organization: 'The Hong Kong University of Science and Technology',
+    },
+    {
+      name: 'HKUST RedBird Academic Excellence Award',
+      time: '2022',
+      organization: 'The Hong Kong University of Science and Technology',
+    },
+    {
+      name: 'Postgraduatge Studentship',
+      time: '2019',
+      organization: 'The Hong Kong University of Science and Technology',
+    },
+    {
+      name: 'Outstanding Graduate of Liaoning Province',
+      time: '2019',
+      organization: 'Department of Education of Liaoning, China',
+    },
+    {
+      name: 'Second-Class University Scholarship',
+      time: '2018',
+      organization: 'Northeastern University, China',
+    },
+    {
+      name: 'Excellent Student Award',
+      time: '2018',
+      organization: 'Northeastern University, China',
+    },
+    {
+      name: 'National Scholarship',
+      time: '2017, 2016',
+      organization: 'Ministry of Education of China',
+    },
+    {
+      name: 'First-Class University Scholarship',
+      time: '2017, 2016',
+      organization: 'Northeastern University, China',
+    },
+    {
+      name: 'Pacemaker to Excellent Student Award',
+      time: '2017, 2016',
+      organization: 'Northeastern University, China',
+    },
+  ],
   workExperiences: [
     {
       period: '2020 - 2021',
@@ -129,8 +182,85 @@ export default <Profile>{
       focus: ['Complex Network Analysis'],
     },
   ],
+  teaching: [
+    {
+      courseCode: 'COMP3021',
+      courseName: 'Java Programming',
+      link: 'https://www.cse.ust.hk/comp3021/',
+      time: '2022 Fall, 2021 Fall, 2020 Fall',
+      university: 'The Hong Kong University of Science and Technology',
+      role: 'Teaching Assistant',
+    },
+    {
+      courseCode: 'CSIT5100',
+      courseName: 'Engineering Reliable Object-Oriented Software Systems',
+      link: 'http://www.cse.ust.hk/~scc/Password_Only/csit5100/',
+      time: '2022 Fall',
+      university: 'The Hong Kong University of Science and Technology',
+      role: 'Teaching Assistant',
+    },
+    {
+      courseCode: 'COMP5111',
+      courseName: 'Fundamentals of Software Testing and Analysis',
+      link: 'https://course.cse.ust.hk/comp5111_new/',
+      time: '2021 Spring',
+      university: 'The Hong Kong University of Science and Technology',
+      role: 'Teaching Assistant',
+    },
+  ],
+  service: [
+    {
+      time: "ASE'22",
+      organization:
+        'The 37th IEEE/ACM International Conference on Automated Software Engineering',
+      role: 'Co-reviewer',
+      link: 'https://conf.researchr.org/home/ase-2022',
+    },
+    {
+      time: "ESEC/FSE'22",
+      organization:
+        'The 30th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering',
+      role: 'Co-reviewer',
+      link: 'https://2022.esec-fse.org/',
+    },
+    {
+      time: "ISSTA'22",
+      organization:
+        'The 31st ACM SIGSOFT International Symposium on Software Testing and Analysis',
+      role: 'Co-reviewer',
+      link: 'https://conf.researchr.org/home/issta-2022',
+    },
+    {
+      time: "ISSTA'21",
+      organization:
+        'The 30th ACM SIGSOFT International Symposium on Software Testing and Analysis',
+      role: 'Co-reviewer',
+      link: 'https://conf.researchr.org/home/issta-2021',
+    },
+    {
+      time: "ASE'21",
+      organization:
+        'The 36th IEEE/ACM International Conference on Automated Software Engineering',
+      role: 'Co-reviewer',
+      link: 'https://conf.researchr.org/home/ase-2021',
+    },
+    {
+      time: "ICSE'21",
+      organization: 'The 43rd International Conference on Software Engineering',
+      role: 'Co-reviewer',
+      link: 'https://conf.researchr.org/home/icse-2021',
+    },
+    {
+      time: "AST'21",
+      organization:
+        'The 2nd ACM/IEEE International Conference on Automation of Software Test',
+      role: 'Co-reviewer',
+      link: 'https://conf.researchr.org/home/ast-2021',
+    },
+  ],
   publications: [
     {
+      type: 'preprint',
       title:
         'Front-Running Attack Benchmark Construction and Vulnerability Detection Technique Evaluation',
       year: '2022',
@@ -155,6 +285,7 @@ export default <Profile>{
       bibtex: '',
     },
     {
+      type: 'conference',
       title:
         'Surakav: Generating Realistic Traces for a Strong Website Fingerprinting Defense',
       year: '2022',
@@ -173,6 +304,7 @@ In this paper, we propose Surakav, a tunable and practical defense that is effec
     `,
     },
     {
+      type: 'preprint',
       title:
         'Fast Test Input Generation for Finding Deviated Behaviors in Compressed Deep Neural Network',
       year: '2021',
@@ -220,6 +352,7 @@ We evaluated TriggerFinder on 18 compressed models with two datasets. The experi
     `,
     },
     {
+      type: 'preprint',
       title:
         'WFDefProxy: Modularly Implementing and Empirically Evaluating Website Fingerprinting Defenses',
       year: '2021',
@@ -255,6 +388,7 @@ We also found a minor difference in overhead between simulation and implementati
     `,
     },
     {
+      type: 'conference',
       title:
         'ÐArcher: Detecting On-Chain-Off-Chain Synchronization Bugs in Decentralized Applications',
       year: '2021',
@@ -319,6 +453,7 @@ We also found a minor difference in overhead between simulation and implementati
     `,
     },
     {
+      type: 'conference',
       title:
         'Characterizing Transaction-Reverting Statements in Ethereum Smart Contracts',
       year: '2021',
