@@ -28,3 +28,4 @@ yarn-error.log*
 .yarn/cache
 .yarn/unplugged
 .yarn/install-state.gz
+.yarn/versions
