@@ -15,7 +15,7 @@ declare module '@mui/material/styles' {
 }
 
 export const defaultTheme = createTheme({
-  minWidth: 400,
+  minWidth: 370,
   palette: {
     primary: {
       main: '#983212',

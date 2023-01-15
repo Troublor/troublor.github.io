@@ -17,6 +17,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import avatar from '../img/avatar.jpg';
 import { ThemedProps } from '../../theme';
 import { Scroller } from '../../components';
+import profile from '../data/profile';
 
 export class Header extends React.Component<
   ThemedProps,
@@ -38,10 +39,10 @@ export class Header extends React.Component<
   }
 
   private sections = [
-    'Home',
     'About',
     'Education',
     'Publications',
+    'Awards',
     'Experience',
     'Contact',
   ];
@@ -146,7 +147,24 @@ export class Header extends React.Component<
                   color={this.props.theme.palette.primary.contrastText}
                   underline="none"
                 >
-                  <Typography variant="h4" noWrap component="h4">
+                  <Typography
+                    variant="h4"
+                    noWrap
+                    component="h4"
+                    sx={{
+                      display: { xs: 'block', sm: 'none' },
+                    }}
+                  >
+                    {profile.name.initials}
+                  </Typography>
+                  <Typography
+                    variant="h4"
+                    noWrap
+                    component="h4"
+                    sx={{
+                      display: { xs: 'none', sm: 'block' },
+                    }}
+                  >
                     {details.firstName}
                     <Typography
                       variant="h4"
@@ -163,7 +181,7 @@ export class Header extends React.Component<
 
               <Box
                 sx={{
-                  ml: 5,
+                  ml: 2,
                   flexGrow: 1,
                   display: { xs: 'none', sm: 'none', md: 'flex', lg: 'flex' },
                 }}
