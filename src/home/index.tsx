@@ -26,8 +26,6 @@ function Index(): React.ReactElement {
         <Container>
           <Stack
             direction="column"
-            spacing={6}
-            sx={{ my: 3 }}
             py={3}
             color={defaultTheme.palette.text.primary}
           >
@@ -36,10 +34,10 @@ function Index(): React.ReactElement {
             <Publications theme={defaultTheme} />
             <Box component="section">
               <Grid container columnSpacing={2}>
-                <Grid item md={6}>
+                <Grid item md={6} width={'100%'}>
                   <ResearchExperience theme={defaultTheme} />
                 </Grid>
-                <Grid item md={6}>
+                <Grid item md={6} width={'100%'}>
                   <WorkExperience theme={defaultTheme} />
                 </Grid>
               </Grid>
