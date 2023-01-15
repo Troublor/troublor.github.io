@@ -1,6 +1,21 @@
-import { createTheme } from '@mui/material/styles';
+import { createTheme, Theme } from '@mui/material/styles';
+
+declare module '@mui/material/styles' {
+  interface Theme {
+    /**
+     * Minimal width in pixels.
+     */
+    minWidth: number;
+  }
+
+  // allow configuration using `createTheme`
+  interface ThemeOptions {
+    minWidth?: number;
+  }
+}
 
 export const defaultTheme = createTheme({
+  minWidth: 400,
   palette: {
     primary: {
       main: '#983212',
@@ -44,4 +59,4 @@ export const defaultTheme = createTheme({
   },
 });
 
-export type ThemedProps = { theme: typeof defaultTheme };
+export type ThemedProps = { theme: Theme };
