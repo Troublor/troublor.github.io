@@ -133,7 +133,14 @@ export class Header extends React.Component<
               <Link href="https://troublor.xyz" underline="none">
                 <Avatar src={avatar} />
               </Link>
-              <Box sx={{ marginLeft: '10px' }}>
+              <Box
+                sx={{
+                  marginLeft: '10px',
+                  [this.props.theme.breakpoints.down(
+                    this.props.theme.minWidth,
+                  )]: { display: 'none' },
+                }}
+              >
                 <Link
                   href="https://troublor.xyz"
                   color={this.props.theme.palette.primary.contrastText}

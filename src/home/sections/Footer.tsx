@@ -24,7 +24,7 @@ export class Footer extends React.Component<ThemedProps> {
       <Box component={'footer'} bgcolor={this.props.theme.palette.primary.main}>
         <Container>
           <Grid container spacing={2}>
-            <Grid item xs={4}>
+            <Grid item sm={4} width={'100%'}>
               <Stack
                 direction={'column'}
                 mt={2}
@@ -62,7 +62,7 @@ export class Footer extends React.Component<ThemedProps> {
                 </Link>
               </Stack>
             </Grid>
-            <Grid item xs={4}>
+            <Grid item sm={4} width={'100%'}>
               <Stack
                 direction={'column'}
                 mt={2}
@@ -77,7 +77,7 @@ export class Footer extends React.Component<ThemedProps> {
                   sx={{ my: 1 }}
                 />
                 <Typography variant={'body2'}>
-                  This website is built with
+                  This website is built <i>by hand with love</i> using:
                 </Typography>
                 {miscData.technologies.map((tech) => (
                   <Link
@@ -97,7 +97,7 @@ export class Footer extends React.Component<ThemedProps> {
                 ))}
               </Stack>
             </Grid>
-            <Grid item xs={4}>
+            <Grid item sm={4} width={'100%'}>
               <Stack
                 direction={'column'}
                 mt={2}

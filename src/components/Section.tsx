@@ -12,7 +12,7 @@ interface Props {
 export class Section extends React.Component<Partial<ThemedProps> & Props> {
   render() {
     return (
-      <Box component="section" id={this.props.id}>
+      <Box component="section" id={this.props.id} my={3}>
         <Box position={'relative'} mb={4}>
           <Box
             component={'img'}
