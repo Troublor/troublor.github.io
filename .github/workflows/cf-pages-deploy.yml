@@ -1,6 +1,5 @@
 on:
   push:
-    branches: [main]
     tags:
       - v**
 
@@ -16,6 +15,14 @@ jobs:
         uses: actions/checkout@v3
 
       # Run a build step here if your project requires
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v2.5.1
+        with:
+          node-version: 16.x
+      - name: build
+        run: |
+          yarn
+          yarn build
 
       - name: Publish to Cloudflare Pages
         uses: cloudflare/pages-action@v1
