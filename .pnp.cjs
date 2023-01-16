@@ -10723,7 +10723,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["detective", "npm:5.2.0"],\
             ["acorn-node", "npm:1.8.2"],\
             ["defined", "npm:1.0.0"],\
-            ["minimist", "npm:1.2.5"]\
+            ["minimist", "npm:1.2.7"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -15069,7 +15069,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/json5-npm-1.0.2-9607f93e30-866458a8c5.zip/node_modules/json5/",\
           "packageDependencies": [\
             ["json5", "npm:1.0.2"],\
-            ["minimist", "npm:1.2.5"]\
+            ["minimist", "npm:1.2.7"]\
           ],\
           "linkType": "HARD"\
         }],\
@@ -15646,10 +15646,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["minimist", [\
-        ["npm:1.2.5", {\
-          "packageLocation": "./.yarn/cache/minimist-npm-1.2.5-ced0e1f617-86706ce5b3.zip/node_modules/minimist/",\
+        ["npm:1.2.7", {\
+          "packageLocation": "./.yarn/cache/minimist-npm-1.2.7-51d33b1371-7346574a10.zip/node_modules/minimist/",\
           "packageDependencies": [\
-            ["minimist", "npm:1.2.5"]\
+            ["minimist", "npm:1.2.7"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -15733,7 +15733,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/mkdirp-npm-0.5.5-6bc76534fc-3bce20ea52.zip/node_modules/mkdirp/",\
           "packageDependencies": [\
             ["mkdirp", "npm:0.5.5"],\
-            ["minimist", "npm:1.2.5"]\
+            ["minimist", "npm:1.2.7"]\
           ],\
           "linkType": "HARD"\
         }],\
@@ -20594,7 +20594,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["tsconfig-paths", "npm:3.12.0"],\
             ["@types/json5", "npm:0.0.29"],\
             ["json5", "npm:1.0.2"],\
-            ["minimist", "npm:1.2.5"],\
+            ["minimist", "npm:1.2.7"],\
             ["strip-bom", "npm:3.0.0"]\
           ],\
           "linkType": "HARD"\
