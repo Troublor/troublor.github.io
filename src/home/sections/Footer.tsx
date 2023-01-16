@@ -46,6 +46,13 @@ export class Footer extends React.Component<ThemedProps> {
                 <Typography variant={'body2'}>
                   {`v${packageJson.version} - ${process.env.REACT_APP_GIT_SHA}`}
                 </Typography>
+                {process.env.REACT_APP_BUILD_TIME ? (
+                  <Typography variant={'body2'}>
+                    Built at {process.env.REACT_APP_BUILD_TIME}
+                  </Typography>
+                ) : (
+                  <div />
+                )}
                 <Link
                   href={packageJson.repository}
                   underline={'none'}
