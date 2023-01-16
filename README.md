@@ -26,9 +26,12 @@ yarn start
 
 The deployment is automated using [GitHub Action](.github/workflows/deploy.yml).
 
-Upon a push/merge to `release` branch, the deployment will be triggered.
-The automation script will build the react app using `yarn build` and upload artifacts to tgs server.
-The react app will be served by [tgs-backend](http://github.com/Troublor/tgs).
+```
+yarn version [patch|minor|major]
+```
+
+Upon a push/merge to `main` branch, the deployment will be triggered.
+The automation script will build the react app using `yarn build` and upload artifacts to Cloudflare Pages.
 
 ## License
 
