@@ -26,11 +26,13 @@ jobs:
       - run: yarn
       - run: yarn lint
       - run: yarn format
-      - name: Commit any changes due to
+      - name: Commit any changes due to lint and format
         # You may pin to the exact commit or the version.
         # uses: EndBug/add-and-commit@2bdc0a61a03738a1d1bda24d566ad0dbe3083d87
         uses: EndBug/add-and-commit@v7.2.1
         with:
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+          ref: ${{ github.event.pull_request.head.ref }}
           add: .
           author_name: GitHub Action
           message: changes by format script
