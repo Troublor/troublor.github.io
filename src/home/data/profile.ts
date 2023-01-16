@@ -486,8 +486,7 @@ Our findings can shed light on further research in the broad area of smart contr
       projectUrl:
         'https://github.com/transaction-reverting-statements/Characterizing-require-statement-in-Ethereum-Smart-Contract',
       arxivUrl: 'https://arxiv.org/abs/2108.10799',
-      paperUrl:
-        'https://dl.acm.org/doi/abs/10.1109/ASE51524.2021.9678597',
+      paperUrl: 'https://dl.acm.org/doi/abs/10.1109/ASE51524.2021.9678597',
       slidesUrl: '',
       bibtex: `
         `,
