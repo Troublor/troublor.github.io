@@ -1,6 +1,6 @@
 {
   "name": "wac-homepage",
-  "version": "1.1.3",
+  "version": "1.1.4-0",
   "homepage": "https://troublor.github.io/",
   "repository": "https://github.com/Troublor/troublor.github.io",
   "private": true,
@@ -78,5 +78,6 @@
       "last 1 safari version"
     ]
   },
-  "packageManager": "yarn@3.3.1"
+  "packageManager": "yarn@3.3.1",
+  "stableVersion": "1.1.3"
 }
