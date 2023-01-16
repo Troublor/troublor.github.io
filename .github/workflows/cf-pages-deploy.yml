@@ -33,5 +33,6 @@ jobs:
           accountId: 535c9adaae9f1f866fbf86b609b76f30
           projectName: homepage
           directory: build
+          branch: main
           # Optional: Enable this if you want to have GitHub Deployments triggered
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
