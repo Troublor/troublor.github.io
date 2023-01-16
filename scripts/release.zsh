@@ -25,7 +25,7 @@ echo "Bumped version to $v"
 
 # git commit
 git add "$ROOT"/package.json
-git commit -m "chore: release $v"
+git commit -m "chore: release v$v"
 git tag "v$v"
 echo "Committed and tagged release v$v"
 
