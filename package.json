@@ -57,7 +57,8 @@
     "deploy": "gh-pages -d build",
     "lint": "eslint --ext .js,.ts,.tsx ./src",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "release": "zsh ./scripts/release.zsh"
   },
   "prettier": {
     "trailingComma": "all",
