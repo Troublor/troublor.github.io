@@ -1,3 +1,5 @@
+name: 'Deploy to Cloudflare Pages'
+
 on:
   push:
     tags:
