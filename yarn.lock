@@ -4548,54 +4548,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"W.A.C. HomePage@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "W.A.C. HomePage@workspace:."
-  dependencies:
-    "@babel/plugin-proposal-private-property-in-object": ^7.16.5
-    "@emotion/react": ^11.10.5
-    "@emotion/styled": ^11.10.5
-    "@fortawesome/fontawesome-svg-core": ^1.2.36
-    "@fortawesome/free-brands-svg-icons": ^5.15.4
-    "@fortawesome/free-regular-svg-icons": ^5.15.4
-    "@fortawesome/free-solid-svg-icons": ^5.15.4
-    "@fortawesome/react-fontawesome": ^0.2.0
-    "@mui/icons-material": ^5.11.0
-    "@mui/material": ^5.8.2
-    "@testing-library/jest-dom": ^5.16.1
-    "@testing-library/react": ^12.1.2
-    "@testing-library/user-event": ^13.5.0
-    "@types/eslint": ^8.4.10
-    "@types/jest": ^29.2.5
-    "@types/node": ^18.11.18
-    "@types/prettier": ^2.7.2
-    "@types/react": ^18.0.26
-    "@types/react-dom": ^18.0.10
-    "@types/react-fontawesome": ^1.6.5
-    "@types/react-scroll": ^1.8.6
-    "@types/smoothscroll-polyfill": ^0.3.1
-    "@typescript-eslint/eslint-plugin": ^5.27.0
-    "@typescript-eslint/parser": ^5.27.0
-    browserslist: ^4.21.4
-    eslint: ^8.31.0
-    eslint-plugin-react: ^7.32.0
-    eslint-plugin-unused-imports: ^2.0.0
-    gh-pages: ^4.0.0
-    jest: ^29.3.1
-    prettier: ^2.8.2
-    react: ^18.2.0
-    react-dom: ^18.2.0
-    react-reveal: ^1.2.2
-    react-scripts: ^5.0.1
-    react-scroll: ^1.8.9
-    react-text-loop: ^2.3.0
-    smoothscroll: ^0.4.0
-    smoothscroll-polyfill: ^0.4.4
-    typescript: ^4.9.4
-    web-vitals: ^3.1.1
-  languageName: unknown
-  linkType: soft
-
 "abab@npm:^2.0.3, abab@npm:^2.0.5":
   version: 2.0.5
   resolution: "abab@npm:2.0.5"
@@ -15006,6 +14958,54 @@ __metadata:
   checksum: ae25c51cf71f1fb2516df1ab33a481f83461a117565b95e3d0927432522323f93b1b2846cbb60196d337970c421adb604fc2d0d180c6a47a839da01db5b9973b
   languageName: node
   linkType: hard
+
+"wac-homepage@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "wac-homepage@workspace:."
+  dependencies:
+    "@babel/plugin-proposal-private-property-in-object": ^7.16.5
+    "@emotion/react": ^11.10.5
+    "@emotion/styled": ^11.10.5
+    "@fortawesome/fontawesome-svg-core": ^1.2.36
+    "@fortawesome/free-brands-svg-icons": ^5.15.4
+    "@fortawesome/free-regular-svg-icons": ^5.15.4
+    "@fortawesome/free-solid-svg-icons": ^5.15.4
+    "@fortawesome/react-fontawesome": ^0.2.0
+    "@mui/icons-material": ^5.11.0
+    "@mui/material": ^5.8.2
+    "@testing-library/jest-dom": ^5.16.1
+    "@testing-library/react": ^12.1.2
+    "@testing-library/user-event": ^13.5.0
+    "@types/eslint": ^8.4.10
+    "@types/jest": ^29.2.5
+    "@types/node": ^18.11.18
+    "@types/prettier": ^2.7.2
+    "@types/react": ^18.0.26
+    "@types/react-dom": ^18.0.10
+    "@types/react-fontawesome": ^1.6.5
+    "@types/react-scroll": ^1.8.6
+    "@types/smoothscroll-polyfill": ^0.3.1
+    "@typescript-eslint/eslint-plugin": ^5.27.0
+    "@typescript-eslint/parser": ^5.27.0
+    browserslist: ^4.21.4
+    eslint: ^8.31.0
+    eslint-plugin-react: ^7.32.0
+    eslint-plugin-unused-imports: ^2.0.0
+    gh-pages: ^4.0.0
+    jest: ^29.3.1
+    prettier: ^2.8.2
+    react: ^18.2.0
+    react-dom: ^18.2.0
+    react-reveal: ^1.2.2
+    react-scripts: ^5.0.1
+    react-scroll: ^1.8.9
+    react-text-loop: ^2.3.0
+    smoothscroll: ^0.4.0
+    smoothscroll-polyfill: ^0.4.4
+    typescript: ^4.9.4
+    web-vitals: ^3.1.1
+  languageName: unknown
+  linkType: soft
 
 "walker@npm:^1.0.7, walker@npm:^1.0.8":
   version: 1.0.8

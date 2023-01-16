@@ -408,7 +408,7 @@ We also found a minor difference in overhead between simulation and implementati
     `,
       projectUrl: 'https://github.com/Troublor/darcher',
       arxivUrl: 'https://arxiv.org/pdf/2106.09440.pdf',
-      paperUrl: '{ASSETS}/DArcher-FSE21.pdf',
+      paperUrl: 'https://dl.acm.org/doi/10.1145/3468264.3468546',
       /* eslint-disable no-useless-escape */
       bibtex: `
     @inproceedings{10.1145/3468264.3468546,
@@ -487,7 +487,7 @@ Our findings can shed light on further research in the broad area of smart contr
         'https://github.com/transaction-reverting-statements/Characterizing-require-statement-in-Ethereum-Smart-Contract',
       arxivUrl: 'https://arxiv.org/abs/2108.10799',
       paperUrl:
-        '{ASSETS}/Characterizing_Transaction_Reverting_Statements-ASE21.pdf',
+        'https://dl.acm.org/doi/abs/10.1109/ASE51524.2021.9678597',
       slidesUrl: '',
       bibtex: `
         `,
