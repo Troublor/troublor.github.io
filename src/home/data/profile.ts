@@ -260,6 +260,28 @@ export default <Profile>{
   ],
   publications: [
     {
+      type: 'journal',
+      title:
+        'Finding Deviated Behaviors of Compressed DNN Models',
+      year: '2023',
+      authors: [
+        'Yongqiang Tian',
+        'Wuqi Zhang',
+        'Ming Wen',
+        'Shing-Chi Cheung',
+        'Chengnian Sun',
+        'Shiqing Ma',
+        'Yu Jiang',
+      ],
+      venue: 'ACM Transactions on Software Engineering and Methodology (TOSEM)',
+      venueShort: 'TOSEM',
+      abstract: '',
+      projectUrl: '',
+      arxivUrl: '',
+      paperUrl: '',
+      bibtex: '',
+    },
+    {
       type: 'preprint',
       title:
         'Front-Running Attack Benchmark Construction and Vulnerability Detection Technique Evaluation',
