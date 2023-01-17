@@ -965,7 +965,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-proposal-private-property-in-object@npm:^7.16.0":
+"@babel/plugin-proposal-private-property-in-object@npm:^7.16.0, @babel/plugin-proposal-private-property-in-object@npm:^7.20.5":
   version: 7.20.5
   resolution: "@babel/plugin-proposal-private-property-in-object@npm:7.20.5"
   dependencies:
@@ -979,7 +979,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-proposal-private-property-in-object@npm:^7.16.5, @babel/plugin-proposal-private-property-in-object@npm:^7.16.7":
+"@babel/plugin-proposal-private-property-in-object@npm:^7.16.7":
   version: 7.16.7
   resolution: "@babel/plugin-proposal-private-property-in-object@npm:7.16.7"
   dependencies:
@@ -15290,7 +15290,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "wac-homepage@workspace:."
   dependencies:
-    "@babel/plugin-proposal-private-property-in-object": ^7.16.5
+    "@babel/plugin-proposal-private-property-in-object": ^7.20.5
     "@emotion/react": ^11.10.5
     "@emotion/styled": ^11.10.5
     "@fortawesome/fontawesome-svg-core": ^1.2.36
