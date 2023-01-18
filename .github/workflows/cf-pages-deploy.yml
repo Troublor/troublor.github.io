@@ -5,10 +5,6 @@ on:
     tags:
       - v**
 
-concurrency:
-  group: 'cf-pages'
-  cancel-in-progress: true
-  
 jobs:
   publish:
     runs-on: ubuntu-latest
@@ -16,9 +12,6 @@ jobs:
       contents: read
       deployments: write
     name: Publish to Cloudflare Pages
-    environment: 
-      name: Production
-      url: ${{ steps.publish.outputs.url }}"
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -35,7 +28,6 @@ jobs:
 
       - name: Publish to Cloudflare Pages
         uses: cloudflare/pages-action@v1
-        id: publish
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: 535c9adaae9f1f866fbf86b609b76f30
