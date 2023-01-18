@@ -41,9 +41,13 @@ The automation script will build the react app using `yarn build` and upload art
 
 Any commit to `main` branch will trigger a GitHub Action to deploy a GitHub Pages, which serves as a pre-release.
 
+[Pre-release Page](https://troublor.github.io/)
+
 ### Release
 
 Any pushed tag `vx.x.x` will trigger a GitHub Action to deploy the tagged commit to Cloudflare Pages, which is the production site.
+
+[Production Page](https://troublor.xyz/)
 
 ## License
 
