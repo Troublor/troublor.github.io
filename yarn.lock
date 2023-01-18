@@ -13188,6 +13188,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-string-replace@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "react-string-replace@npm:1.1.0"
+  checksum: 5df67fbdb49cacdc9f4488d4bc3dedef1f85d6156b3626d9b4b6c317ec8cc534494def078ab0b2df7aea8fa3cbcecd8d3f76a161f04bf8b29869daccf33785ec
+  languageName: node
+  linkType: hard
+
 "react-text-loop@npm:^2.3.0":
   version: 2.3.0
   resolution: "react-text-loop@npm:2.3.0"
@@ -15298,6 +15305,7 @@ __metadata:
     react-reveal: ^1.2.2
     react-scripts: ^5.0.1
     react-scroll: ^1.8.9
+    react-string-replace: ^1.1.0
     react-text-loop: ^2.3.0
     serve: ^14.1.2
     smoothscroll: ^0.4.0

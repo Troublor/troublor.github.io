@@ -25,8 +25,17 @@ export default <Profile>{
   github: 'https://github.com/Troublor',
   resume:
     'https://github.com/Troublor/curriculum-vitae/blob/main/release/cv-latest.pdf',
-  description: `I am currently a Ph.D. candidate supervised by professor Shing-Chi Cheung at The Hong Kong University of Science and Technology (HKUST) with a research focus: software engineering, especially in software testing and analysis.
-    As a member of the CASTLE Research Group at HKUST, it is very nice to work with a professional and very kind professor, as well as a group of innovative researchers.`,
+  description: `I'm William Aaron Cheung.
+  My formal name is Wuqi Zhang, but I prefer to use the English name in most informal cases.
+  Wuqi Aaron Zhang is also used in some cases.
+  I am currently a Ph.D. candidate supervised by professor Shing-Chi Cheung at The Hong Kong University of Science and Technology (HKUST).
+  As a member of the CASTLE Research Group at HKUST, it is very nice to work with a professional and very kind professor, as well as a group of innovative researchers.`,
+  researchInterests: [
+    'Software testing and program analysis with and applciation to blockchain applications',
+    'Deap learning system and application testing',
+    'Software testing for Internet of Things (IoT) applications',
+    'Website fingerprinting attack and defense',
+  ],
   titles: [
     'Full Stack Software Developer',
     'Software Engineering Researcher',
