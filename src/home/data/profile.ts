@@ -261,7 +261,7 @@ export default <Profile>{
   publications: [
     {
       type: 'journal',
-      title: 'Finding Deviated Behaviors of Compressed DNN Models',
+      title: 'Finding Deviated Behaviors of the Compressed DNN Models for Image Classifications',
       year: '2023',
       authors: [
         'Yongqiang Tian',
