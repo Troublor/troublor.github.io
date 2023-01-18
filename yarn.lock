@@ -13088,6 +13088,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-ribbons@npm:^1.0.6":
+  version: 1.0.6
+  resolution: "react-ribbons@npm:1.0.6"
+  peerDependencies:
+    prop-types: ^15.7.2
+    react: ^16.10.2
+    react-dom: ^16.10.2
+  checksum: 70e3ae06a5b9e52bcd537a74d36cf1195f13f6df03639d7db9562ef7cdcb1be2b007bd9d3043fa0bd03bb6a24d41d981a23a0948ce1bb57032828515cc6a2436
+  languageName: node
+  linkType: hard
+
 "react-scripts@npm:^5.0.1":
   version: 5.0.1
   resolution: "react-scripts@npm:5.0.1"
@@ -15266,6 +15277,7 @@ __metadata:
     react: ^18.2.0
     react-dom: ^18.2.0
     react-reveal: ^1.2.2
+    react-ribbons: ^1.0.6
     react-scripts: ^5.0.1
     react-scroll: ^1.8.9
     react-text-loop: ^2.3.0

@@ -67,6 +67,27 @@ export class Footer extends React.Component<ThemedProps> {
                     <FontAwesomeIcon icon={fas['faExternalLinkAlt']} />
                   </Typography>
                 </Link>
+                <Link
+                  href={
+                    process.env.REACT_APP_PRERELEASE
+                      ? packageJson.releasePage
+                      : packageJson.prereleasePage
+                  }
+                  underline={'none'}
+                  target={'_self'}
+                >
+                  <Typography
+                    variant={'body2'}
+                    component={'span'}
+                    color={this.props.theme.palette.text.secondary}
+                  >
+                    {process.env.REACT_APP_PRERELEASE
+                      ? 'Production Page'
+                      : 'Pre-release Page'}{' '}
+                    &nbsp;
+                    <FontAwesomeIcon icon={fas['faLink']} />
+                  </Typography>
+                </Link>
               </Stack>
             </Grid>
             <Grid item sm={4} width={'100%'}>
