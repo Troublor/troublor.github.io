@@ -12,12 +12,20 @@ import {
   MenuItem,
   Button,
   Link,
+  styled,
 } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import avatar from '../img/avatar.jpg';
 import { ThemedProps } from '../../theme';
 import { Scroller } from '../../components';
 import profile from '../data/profile';
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-ignore
+import { RibbonContainer, RightCornerRibbon } from 'react-ribbons';
+
+const CustomizedRibbonContainer = styled(RibbonContainer)({
+  minHeight: '0',
+});
 
 export class Header extends React.Component<
   ThemedProps,
@@ -73,144 +81,157 @@ export class Header extends React.Component<
         }}
       >
         <AppBar position="relative">
-          <Container maxWidth="xl">
-            <Toolbar disableGutters>
-              <Box
-                sx={{
-                  flexGrow: 0,
-                  display: { xs: 'flex', sm: 'flex', md: 'none', lg: 'none' },
-                }}
+          <CustomizedRibbonContainer style={{ minHeight: 0 }}>
+            {process.env.REACT_APP_PRERELEASE ? (
+              <RightCornerRibbon
+                backgroundColor={this.props.theme.palette.secondary.main}
+                color={this.props.theme.palette.secondary.contrastText}
+                fontFamily="Arial"
               >
-                <IconButton
-                  size="large"
-                  aria-label="account of current user"
-                  aria-controls="menu-appbar"
-                  aria-haspopup="true"
-                  onClick={this.handleOpenNavMenu}
-                  color="inherit"
-                >
-                  <MenuIcon />
-                </IconButton>
-                <Menu
-                  id="menu-appbar"
-                  anchorEl={this.state.anchorElNav}
-                  anchorOrigin={{
-                    vertical: 'bottom',
-                    horizontal: 'left',
-                  }}
-                  keepMounted
-                  transformOrigin={{
-                    vertical: 'top',
-                    horizontal: 'left',
-                  }}
-                  open={Boolean(this.state.anchorElNav)}
-                  onClose={this.handleCloseNavMenu}
+                Pre-release
+              </RightCornerRibbon>
+            ) : (
+              <div />
+            )}
+            <Container maxWidth="xl">
+              <Toolbar disableGutters>
+                <Box
                   sx={{
-                    display: { xs: 'block', md: 'none' },
+                    flexGrow: 0,
+                    display: { xs: 'flex', sm: 'flex', md: 'none', lg: 'none' },
+                  }}
+                >
+                  <IconButton
+                    size="large"
+                    aria-label="account of current user"
+                    aria-controls="menu-appbar"
+                    aria-haspopup="true"
+                    onClick={this.handleOpenNavMenu}
+                    color="inherit"
+                  >
+                    <MenuIcon />
+                  </IconButton>
+                  <Menu
+                    id="menu-appbar"
+                    anchorEl={this.state.anchorElNav}
+                    anchorOrigin={{
+                      vertical: 'bottom',
+                      horizontal: 'left',
+                    }}
+                    keepMounted
+                    transformOrigin={{
+                      vertical: 'top',
+                      horizontal: 'left',
+                    }}
+                    open={Boolean(this.state.anchorElNav)}
+                    onClose={this.handleCloseNavMenu}
+                    sx={{
+                      display: { xs: 'block', md: 'none' },
+                    }}
+                  >
+                    {this.sections.map((sec) => (
+                      <MenuItem
+                        key={sec.toLowerCase()}
+                        onClick={this.handleCloseNavMenu}
+                      >
+                        <Scroller
+                          key={sec}
+                          href={`#${sec.toLowerCase()}`}
+                          offset={100}
+                        >
+                          <Typography
+                            color={this.props.theme.palette.text.primary}
+                            textAlign="center"
+                          >
+                            {sec}
+                          </Typography>
+                        </Scroller>
+                      </MenuItem>
+                    ))}
+                  </Menu>
+                </Box>
+
+                <Link href="https://troublor.xyz" underline="none">
+                  <Avatar src={avatar} />
+                </Link>
+                <Box
+                  sx={{
+                    marginLeft: '10px',
+                    [this.props.theme.breakpoints.down(
+                      this.props.theme.minWidth,
+                    )]: { display: 'none' },
+                  }}
+                >
+                  <Link
+                    href="https://troublor.xyz"
+                    color={this.props.theme.palette.primary.contrastText}
+                    underline="none"
+                  >
+                    <Typography
+                      variant="h4"
+                      noWrap
+                      component="h4"
+                      sx={{
+                        display: { xs: 'block', sm: 'none' },
+                      }}
+                    >
+                      {profile.name.initials}
+                    </Typography>
+                    <Typography
+                      variant="h4"
+                      noWrap
+                      component="h4"
+                      sx={{
+                        display: { xs: 'none', sm: 'block' },
+                      }}
+                    >
+                      {details.firstName}
+                      <Typography
+                        variant="h4"
+                        component="span"
+                        noWrap
+                        sx={{ color: this.props.theme.palette.warning.main }}
+                      >
+                        {details.middleName}
+                      </Typography>
+                      {details.lastName}
+                    </Typography>
+                  </Link>
+                </Box>
+
+                <Box
+                  sx={{
+                    ml: 2,
+                    flexGrow: 1,
+                    display: { xs: 'none', sm: 'none', md: 'flex', lg: 'flex' },
                   }}
                 >
                   {this.sections.map((sec) => (
-                    <MenuItem
-                      key={sec.toLowerCase()}
-                      onClick={this.handleCloseNavMenu}
+                    <Scroller
+                      key={sec}
+                      href={`#${sec.toLowerCase()}`}
+                      offset={100}
                     >
-                      <Scroller
-                        key={sec}
-                        href={`#${sec.toLowerCase()}`}
-                        offset={100}
+                      <Button
+                        onClick={this.handleCloseNavMenu}
+                        disableFocusRipple={false}
+                        component="div"
+                        sx={{
+                          color: this.props.theme.palette.primary.contrastText,
+                          display: 'block',
+                          textTransform: 'none',
+                        }}
                       >
-                        <Typography
-                          color={this.props.theme.palette.text.primary}
-                          textAlign="center"
-                        >
+                        <Typography variant="h6" component="h6" noWrap>
                           {sec}
                         </Typography>
-                      </Scroller>
-                    </MenuItem>
+                      </Button>
+                    </Scroller>
                   ))}
-                </Menu>
-              </Box>
-
-              <Link href="https://troublor.xyz" underline="none">
-                <Avatar src={avatar} />
-              </Link>
-              <Box
-                sx={{
-                  marginLeft: '10px',
-                  [this.props.theme.breakpoints.down(
-                    this.props.theme.minWidth,
-                  )]: { display: 'none' },
-                }}
-              >
-                <Link
-                  href="https://troublor.xyz"
-                  color={this.props.theme.palette.primary.contrastText}
-                  underline="none"
-                >
-                  <Typography
-                    variant="h4"
-                    noWrap
-                    component="h4"
-                    sx={{
-                      display: { xs: 'block', sm: 'none' },
-                    }}
-                  >
-                    {profile.name.initials}
-                  </Typography>
-                  <Typography
-                    variant="h4"
-                    noWrap
-                    component="h4"
-                    sx={{
-                      display: { xs: 'none', sm: 'block' },
-                    }}
-                  >
-                    {details.firstName}
-                    <Typography
-                      variant="h4"
-                      component="span"
-                      noWrap
-                      sx={{ color: this.props.theme.palette.warning.main }}
-                    >
-                      {details.middleName}
-                    </Typography>
-                    {details.lastName}
-                  </Typography>
-                </Link>
-              </Box>
-
-              <Box
-                sx={{
-                  ml: 2,
-                  flexGrow: 1,
-                  display: { xs: 'none', sm: 'none', md: 'flex', lg: 'flex' },
-                }}
-              >
-                {this.sections.map((sec) => (
-                  <Scroller
-                    key={sec}
-                    href={`#${sec.toLowerCase()}`}
-                    offset={100}
-                  >
-                    <Button
-                      onClick={this.handleCloseNavMenu}
-                      disableFocusRipple={false}
-                      component="div"
-                      sx={{
-                        color: this.props.theme.palette.primary.contrastText,
-                        display: 'block',
-                        textTransform: 'none',
-                      }}
-                    >
-                      <Typography variant="h6" component="h6" noWrap>
-                        {sec}
-                      </Typography>
-                    </Button>
-                  </Scroller>
-                ))}
-              </Box>
-            </Toolbar>
-          </Container>
+                </Box>
+              </Toolbar>
+            </Container>
+          </CustomizedRibbonContainer>
         </AppBar>
       </Box>
     );
