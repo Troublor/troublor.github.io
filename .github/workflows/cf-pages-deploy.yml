@@ -12,6 +12,7 @@ jobs:
       contents: read
       deployments: write
     name: Publish to Cloudflare Pages
+    environment: Production
     steps:
       - name: Checkout
         uses: actions/checkout@v3
