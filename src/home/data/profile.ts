@@ -320,7 +320,7 @@ In this paper, we propose Surakav, a tunable and practical defense that is effec
     `,
       projectUrl: 'https://github.com/websitefingerprinting/surakav-imp',
       arxivUrl: '',
-      paperUrl: '',
+      paperUrl: 'https://ieeexplore.ieee.org/document/9833722',
       /* eslint-disable no-useless-escape */
       bibtex: `
     `,
