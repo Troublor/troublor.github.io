@@ -7,7 +7,7 @@
   "type": "module",
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.20.5",
-    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^14.4.3",
     "@types/eslint": "^8.4.10",
