@@ -52,6 +52,8 @@ export default <MiscData>{
     },
   ],
   homepages: {
+    CASTLE: 'http://castle.cse.ust.hk',
+    HKUST: 'https://hkust.edu.hk',
     'Lili Wei': 'https://liliweise.github.io/',
     'Yepang Liu': 'https://yepangliu.github.io/',
     'Shing-Chi Cheung': 'https://www.cse.ust.hk/~scc/',

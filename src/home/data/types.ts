@@ -17,6 +17,8 @@ export interface Profile {
   github: string;
   resume: string;
   description: string;
+
+  researchInterests: string[];
   titles: string[];
   socialNetworks: SocialNetwork[];
   statistics: Statistics[];
