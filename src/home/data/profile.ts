@@ -24,7 +24,7 @@ export default <Profile>{
   domain: 'troublor.xyz',
   github: 'https://github.com/Troublor',
   resume:
-    'https://github.com/Troublor/curriculum-vitae/blob/main/release/cv-latest.pdf',
+    'https://troublor.github.io/curriculum-vitae/cv.pdf',
   description: `I'm William Aaron Cheung.
   My formal name is Wuqi Zhang, but I prefer to use the English name in most informal cases.
   Wuqi Aaron Zhang is also used in some cases.
