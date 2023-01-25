@@ -67,7 +67,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-scroll", "virtual:ee531bcb02deb6dbd9d7fcc391da5bab012e4ba80ac4bd4c16942563ef06b0fefb8b709798262b990781fcafda3eb8dec115eebefccb9266ce2da1232f2b70e6#npm:1.8.9"],\
             ["react-string-replace", "npm:1.1.0"],\
             ["react-text-loop", "virtual:ee531bcb02deb6dbd9d7fcc391da5bab012e4ba80ac4bd4c16942563ef06b0fefb8b709798262b990781fcafda3eb8dec115eebefccb9266ce2da1232f2b70e6#npm:2.3.0"],\
-            ["serve", "npm:14.1.2"],\
+            ["serve", "npm:14.2.0"],\
             ["smoothscroll", "npm:0.4.0"],\
             ["smoothscroll-polyfill", "npm:0.4.4"],\
             ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"],\
@@ -8030,10 +8030,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@zeit/schemas", [\
-        ["npm:2.21.0", {\
-          "packageLocation": "./.yarn/cache/@zeit-schemas-npm-2.21.0-85d854dbdd-59d4f0851d.zip/node_modules/@zeit/schemas/",\
+        ["npm:2.29.0", {\
+          "packageLocation": "./.yarn/cache/@zeit-schemas-npm-2.29.0-2ac7596f03-3cea06bb67.zip/node_modules/@zeit/schemas/",\
           "packageDependencies": [\
-            ["@zeit/schemas", "npm:2.21.0"]\
+            ["@zeit/schemas", "npm:2.29.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -19794,11 +19794,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["serve", [\
-        ["npm:14.1.2", {\
-          "packageLocation": "./.yarn/cache/serve-npm-14.1.2-f8d2e79995-814e429f23.zip/node_modules/serve/",\
+        ["npm:14.2.0", {\
+          "packageLocation": "./.yarn/cache/serve-npm-14.2.0-52c615436d-a1c26e6c3d.zip/node_modules/serve/",\
           "packageDependencies": [\
-            ["serve", "npm:14.1.2"],\
-            ["@zeit/schemas", "npm:2.21.0"],\
+            ["serve", "npm:14.2.0"],\
+            ["@zeit/schemas", "npm:2.29.0"],\
             ["ajv", "npm:8.11.0"],\
             ["arg", "npm:5.0.2"],\
             ["boxen", "npm:7.0.0"],\
@@ -21405,7 +21405,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-scroll", "virtual:ee531bcb02deb6dbd9d7fcc391da5bab012e4ba80ac4bd4c16942563ef06b0fefb8b709798262b990781fcafda3eb8dec115eebefccb9266ce2da1232f2b70e6#npm:1.8.9"],\
             ["react-string-replace", "npm:1.1.0"],\
             ["react-text-loop", "virtual:ee531bcb02deb6dbd9d7fcc391da5bab012e4ba80ac4bd4c16942563ef06b0fefb8b709798262b990781fcafda3eb8dec115eebefccb9266ce2da1232f2b70e6#npm:2.3.0"],\
-            ["serve", "npm:14.1.2"],\
+            ["serve", "npm:14.2.0"],\
             ["smoothscroll", "npm:0.4.0"],\
             ["smoothscroll-polyfill", "npm:0.4.4"],\
             ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"],\
