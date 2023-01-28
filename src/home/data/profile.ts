@@ -11,8 +11,8 @@ export default <Profile>{
     initials: 'W.A.C.',
   },
   emails: {
-    work: 'wuqi.zhang@connect.ust.hk',
-    personal: 'troublor@live.com',
+    work: 'reachout@troublor.xyz',
+    personal: 'me@troublor.xyz',
   },
   address: [
     'Room 3663 (via 3661)',
