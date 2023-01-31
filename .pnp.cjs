@@ -52,7 +52,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/smoothscroll-polyfill", "npm:0.3.1"],\
             ["@typescript-eslint/eslint-plugin", "virtual:ee531bcb02deb6dbd9d7fcc391da5bab012e4ba80ac4bd4c16942563ef06b0fefb8b709798262b990781fcafda3eb8dec115eebefccb9266ce2da1232f2b70e6#npm:5.49.0"],\
             ["@typescript-eslint/parser", "virtual:ee531bcb02deb6dbd9d7fcc391da5bab012e4ba80ac4bd4c16942563ef06b0fefb8b709798262b990781fcafda3eb8dec115eebefccb9266ce2da1232f2b70e6#npm:5.49.0"],\
-            ["browserslist", "npm:4.21.4"],\
+            ["browserslist", "npm:4.21.5"],\
             ["eslint", "npm:8.33.0"],\
             ["eslint-plugin-react", "virtual:ee531bcb02deb6dbd9d7fcc391da5bab012e4ba80ac4bd4c16942563ef06b0fefb8b709798262b990781fcafda3eb8dec115eebefccb9266ce2da1232f2b70e6#npm:7.32.2"],\
             ["eslint-plugin-unused-imports", "virtual:ee531bcb02deb6dbd9d7fcc391da5bab012e4ba80ac4bd4c16942563ef06b0fefb8b709798262b990781fcafda3eb8dec115eebefccb9266ce2da1232f2b70e6#npm:2.0.0"],\
@@ -9422,6 +9422,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["update-browserslist-db", "virtual:7d64a96afc8cf9b31b95951ccc2f47931d0cf97faa526fd0d20448bf2c73ddf9f5ef9e5cd28839ae8b5791451df45079a407b3f4978367b4210748169f5848f6#npm:1.0.10"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:4.21.5", {\
+          "packageLocation": "./.yarn/cache/browserslist-npm-4.21.5-e3b9e9d029-9755986b22.zip/node_modules/browserslist/",\
+          "packageDependencies": [\
+            ["browserslist", "npm:4.21.5"],\
+            ["caniuse-lite", "npm:1.0.30001449"],\
+            ["electron-to-chromium", "npm:1.4.284"],\
+            ["node-releases", "npm:2.0.9"],\
+            ["update-browserslist-db", "virtual:e3b9e9d029ed690d72cbb29196ba0a23f15b398eeb926347678187be937db870a04cbf984eecc8e0ec9c290158a9cd8607d12f0188665abe039fa4a9051a22ac#npm:1.0.10"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["bser", [\
@@ -9585,6 +9596,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/caniuse-lite-npm-1.0.30001444-90ae1528dc-3d6436e2ee.zip/node_modules/caniuse-lite/",\
           "packageDependencies": [\
             ["caniuse-lite", "npm:1.0.30001444"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:1.0.30001449", {\
+          "packageLocation": "./.yarn/cache/caniuse-lite-npm-1.0.30001449-e0e124442f-f1b395f0a5.zip/node_modules/caniuse-lite/",\
+          "packageDependencies": [\
+            ["caniuse-lite", "npm:1.0.30001449"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -16191,6 +16209,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["node-releases", "npm:2.0.8"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:2.0.9", {\
+          "packageLocation": "./.yarn/cache/node-releases-npm-2.0.9-a918367ca1-3ae6b1b300.zip/node_modules/node-releases/",\
+          "packageDependencies": [\
+            ["node-releases", "npm:2.0.9"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["nopt", [\
@@ -21363,6 +21388,21 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             "browserslist"\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["virtual:e3b9e9d029ed690d72cbb29196ba0a23f15b398eeb926347678187be937db870a04cbf984eecc8e0ec9c290158a9cd8607d12f0188665abe039fa4a9051a22ac#npm:1.0.10", {\
+          "packageLocation": "./.yarn/__virtual__/update-browserslist-db-virtual-c78ceb3755/0/cache/update-browserslist-db-npm-1.0.10-676baf0b9f-12db73b4f6.zip/node_modules/update-browserslist-db/",\
+          "packageDependencies": [\
+            ["update-browserslist-db", "virtual:e3b9e9d029ed690d72cbb29196ba0a23f15b398eeb926347678187be937db870a04cbf984eecc8e0ec9c290158a9cd8607d12f0188665abe039fa4a9051a22ac#npm:1.0.10"],\
+            ["@types/browserslist", null],\
+            ["browserslist", "npm:4.21.5"],\
+            ["escalade", "npm:3.1.1"],\
+            ["picocolors", "npm:1.0.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/browserslist",\
+            "browserslist"\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["update-check", [\
@@ -21515,7 +21555,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/smoothscroll-polyfill", "npm:0.3.1"],\
             ["@typescript-eslint/eslint-plugin", "virtual:ee531bcb02deb6dbd9d7fcc391da5bab012e4ba80ac4bd4c16942563ef06b0fefb8b709798262b990781fcafda3eb8dec115eebefccb9266ce2da1232f2b70e6#npm:5.49.0"],\
             ["@typescript-eslint/parser", "virtual:ee531bcb02deb6dbd9d7fcc391da5bab012e4ba80ac4bd4c16942563ef06b0fefb8b709798262b990781fcafda3eb8dec115eebefccb9266ce2da1232f2b70e6#npm:5.49.0"],\
-            ["browserslist", "npm:4.21.4"],\
+            ["browserslist", "npm:4.21.5"],\
             ["eslint", "npm:8.33.0"],\
             ["eslint-plugin-react", "virtual:ee531bcb02deb6dbd9d7fcc391da5bab012e4ba80ac4bd4c16942563ef06b0fefb8b709798262b990781fcafda3eb8dec115eebefccb9266ce2da1232f2b70e6#npm:7.32.2"],\
             ["eslint-plugin-unused-imports", "virtual:ee531bcb02deb6dbd9d7fcc391da5bab012e4ba80ac4bd4c16942563ef06b0fefb8b709798262b990781fcafda3eb8dec115eebefccb9266ce2da1232f2b70e6#npm:2.0.0"],\
