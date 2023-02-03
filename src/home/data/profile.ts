@@ -168,6 +168,13 @@ export default <Profile>{
   ],
   researchExperience: [
     {
+      period: '2023',
+      institute: 'Purdue University',
+      group: 'Prof. Xiangyu Zhang',
+      role: 'Visiting Scholar',
+      focus: ['Program Analysis'],
+    },
+    {
       period: '2019 - Present',
       institute: 'The Hong Kong University of Science and Technology (HKUST)',
       group: 'CASTLE Research Group',
@@ -184,7 +191,7 @@ export default <Profile>{
     {
       period: '2018',
       /* eslint-disable-next-line */
-      group: "Prof. Huaiyu Dai's Group",
+      group: 'Prof. Huaiyu Dai',
       institute: 'North Carolina State University',
       role: 'Undergraduate Summer Research Student',
       focus: ['Complex Network Analysis'],
