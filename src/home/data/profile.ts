@@ -30,7 +30,7 @@ export default <Profile>{
   I am currently a Ph.D. candidate supervised by professor Shing-Chi Cheung at The Hong Kong University of Science and Technology (HKUST).
   As a member of the CASTLE Research Group at HKUST, it is very nice to work with a professional and very kind professor, as well as a group of innovative researchers.`,
   researchInterests: [
-    'Software testing and program analysis with and applciation to blockchain applications',
+    'Software testing and program analysis with an application to blockchain',
     'Deap learning system and application testing',
     'Software testing for Internet of Things (IoT) applications',
     'Website fingerprinting attack and defense',
