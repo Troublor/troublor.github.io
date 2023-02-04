@@ -11,8 +11,8 @@ export default <Profile>{
     initials: 'W.A.C.',
   },
   emails: {
-    work: 'reachout@troublor.xyz',
-    personal: 'me@troublor.xyz',
+    work: 'academic@troublor.xyz',
+    personal: 'reachout@troublor.xyz',
   },
   address: [
     'Room 3663 (via 3661)',
