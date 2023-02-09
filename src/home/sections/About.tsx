@@ -1,7 +1,7 @@
 import React from 'react';
 import { Section } from '../../components';
 import profile from '../data/profile';
-import portrait from '../img/portrait.jpg';
+import portrait from '../img/portrait.png';
 import avatar from '../img/avatar.jpg';
 import {
   Box,
