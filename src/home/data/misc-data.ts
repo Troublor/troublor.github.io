@@ -50,6 +50,14 @@ export default <MiscData>{
       sentence: 'May we meet again.',
       origin: 'The 100',
     },
+    {
+      sentence: "Life is simple. You make choices, and you don't look back.",
+      origin: 'Han - The Fast and the Furious: Tokyo Drift',
+    },
+    {
+      sentence: "Newton's third law. You gotta leave something behind.",
+      origin: 'Cooper - Interstellar',
+    },
   ],
   homepages: {
     CASTLE: 'http://castle.cse.ust.hk',
