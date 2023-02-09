@@ -52,11 +52,11 @@ export default <MiscData>{
     },
     {
       sentence: "Life is simple. You make choices, and you don't look back.",
-      origin: 'Han - The Fast and the Furious: Tokyo Drift',
+      origin: 'Han (The Fast and the Furious: Tokyo Drift)',
     },
     {
       sentence: "Newton's third law. You gotta leave something behind.",
-      origin: 'Cooper - Interstellar',
+      origin: 'Cooper (Interstellar)',
     },
   ],
   homepages: {
