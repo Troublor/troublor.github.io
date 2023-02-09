@@ -293,7 +293,7 @@ export default <Profile>{
       abstract: '',
       projectUrl: '',
       arxivUrl: '',
-      paperUrl: '',
+      paperUrl: 'https://dl.acm.org/doi/10.1145/3583564',
       bibtex: '',
     },
     {

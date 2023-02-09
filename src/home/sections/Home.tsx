@@ -4,7 +4,7 @@ import TextLoop from 'react-text-loop';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { fas } from '@fortawesome/free-solid-svg-icons';
 import profile from '../data/profile';
-import avatar from '../img/avatar.jpg';
+import portrait2 from '../img/portrait2.png';
 import { Stack, Avatar, Box, Link, Typography, Button } from '@mui/material';
 import details from '../data/details.json';
 import { ThemedProps } from '../../theme';
@@ -43,7 +43,7 @@ export class Home extends React.Component<ThemedProps> {
           }}
         >
           <Box sx={this.centerBoxSX}>
-            <Avatar src={avatar} sx={{ width: 150, height: 150 }} />
+            <Avatar src={portrait2} sx={{ width: 150, height: 150 }} />
           </Box>
           <Box sx={this.centerBoxSX}>
             <Typography variant="h4" noWrap component="h4">
