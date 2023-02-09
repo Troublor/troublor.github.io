@@ -43,7 +43,7 @@ export default <MiscData>{
       origin: 'Clarke Griffin (The 100)',
     },
     {
-      sentence: 'Life Should Be About More Than Just Surviving.',
+      sentence: 'Life should be about more than just surviving.',
       origin: 'Clarke Griffin (The 100)',
     },
     {
@@ -52,11 +52,11 @@ export default <MiscData>{
     },
     {
       sentence: "Life is simple. You make choices, and you don't look back.",
-      origin: 'Han - The Fast and the Furious: Tokyo Drift',
+      origin: 'Han (The Fast and the Furious: Tokyo Drift)',
     },
     {
       sentence: "Newton's third law. You gotta leave something behind.",
-      origin: 'Cooper - Interstellar',
+      origin: 'Cooper (Interstellar)',
     },
   ],
   homepages: {
