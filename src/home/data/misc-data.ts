@@ -43,7 +43,7 @@ export default <MiscData>{
       origin: 'Clarke Griffin (The 100)',
     },
     {
-      sentence: 'Life Should Be About More Than Just Surviving.',
+      sentence: 'Life should be about more than just surviving.',
       origin: 'Clarke Griffin (The 100)',
     },
     {
