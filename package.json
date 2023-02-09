@@ -61,7 +61,7 @@
     "build:pre-release": "REACT_APP_GIT_SHA=$(git rev-parse --short HEAD) REACT_APP_BUILD_TIME=$(date +'%Y-%m-%d %H:%M:%S UTC%z') REACT_APP_PRERELEASE=true react-scripts build",
     "format": "prettier --write .",
     "deploy": "gh-pages -d build",
-    "lint": "eslint --ext .js,.ts,.tsx ./src",
+    "lint": "eslint --fix --ext .js,.ts,.tsx ./src",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "release": "zsh ./scripts/release.zsh"
