@@ -3,6 +3,9 @@
 pkgs.mkShell {
   buildInputs = [
     pkgs.nodejs-16_x
+    pkgs.git
+    pkgs.yq-go
+    pkgs.jq
   ];
 
   shellHook = ''
