@@ -53,7 +53,6 @@ jobs:
         run: yarn
 
       - name: Bump up version
-        id: bump_version
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
@@ -62,22 +61,22 @@ jobs:
           export new_version=$(jq -r .version package.json)
           git commit -m "chore: release v$new_version"
           git tag "v$new_version"
-          echo "::set-output name=new_version::$new_version"
-          echo "::set-output name=rc_branch::rc-v$new_version
+          echo "new_version=$new_version" >> $GITHUB_ENV
+          echo "rc_branch=rc-v$new_version" >> $GITHUB_ENV
 
       - name: Push tags and commits to release-candidate branch
         uses: ad-m/github-push-action@master
         with:
-          branch: ${{ steps.bump_version.outputs.rc_branch }}
+          branch: ${{ env.rc_branch }}
           tags: true
 
       - name: Create Pull Request to release branch
         uses: peter-evans/create-pull-request@v4
         with:
-          branch: ${{ steps.bump_version.outputs.rc_branch }}
-          title: 'Release v${{ steps.bump_version.outputs.new_version }}'
+          branch: ${{ env.rc_branch }}
+          title: 'Release v${{ env.new_version }}'
           body: |
-            Release v${{ steps.bump_version.outputs.new_version }}
+            Release v${{ env.new_version }}
 
       - name: Prepare next development cycle
         run: |
@@ -88,6 +87,6 @@ jobs:
       - name: Create Pull Request to main branch
         uses: peter-evans/create-pull-request@v4
         with:
-          title: 'Release v${{ steps.bump_version.outputs.new_version }}'
+          title: 'Start v${{ env.new_version }} development cycle'
           body: |
-            Release v${{ steps.bump_version.outputs.new_version }}
+            Start v${{ env.new_version }} development cycle'
