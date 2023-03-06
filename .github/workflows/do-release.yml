@@ -63,17 +63,18 @@ jobs:
           git commit -m "chore: release v$new_version"
           git tag "v$new_version"
           echo "::set-output name=new_version::$new_version"
+          echo "::set-output name=rc_branch::rc-v$new_version
 
       - name: Push tags and commits to release-candidate branch
         uses: ad-m/github-push-action@master
         with:
-          branch: 'release-candidate'
+          branch: ${{ steps.bump_version.outputs.rc_branch }}
           tags: true
 
       - name: Create Pull Request to release branch
         uses: peter-evans/create-pull-request@v4
         with:
-          branch: 'release-candidate'
+          branch: ${{ steps.bump_version.outputs.rc_branch }}
           title: 'Release v${{ steps.bump_version.outputs.new_version }}'
           body: |
             Release v${{ steps.bump_version.outputs.new_version }}
