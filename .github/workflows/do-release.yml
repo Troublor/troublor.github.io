@@ -71,7 +71,7 @@ jobs:
         with:
           github_token: ${{ secrets.BOT_TOKEN }}
           branch: ${{ env.rc_branch }}
-          tags: false
+          tags: true
 
       - name: Create Pull Request to release branch
         uses: repo-sync/pull-request@v2
