@@ -79,7 +79,7 @@ jobs:
           github_token: ${{ secrets.BOT_TOKEN }}
           source_branch: ${{ env.rc_branch }}
           destination_branch: release
-          title: 'Release v${{ env.new_version }}'
+          pr_title: 'Release v${{ env.new_version }}'
 
       - name: Prepare next development cycle
         run: |
@@ -103,4 +103,4 @@ jobs:
           github_token: ${{ secrets.BOT_TOKEN }}
           source_branch: next-dev-cycle-${{ env.next_version }}
           destination_branch: main
-          title: 'Start v${{ env.next_version }} development cycle'
+          pr_title: 'Start v${{ env.next_version }} development cycle'
