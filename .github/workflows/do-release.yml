@@ -1,0 +1,106 @@
+# This is a manually triggered workflow to release a version.
+# When triggered, it will:
+# 1. Bump up version according to the input choice (minor, major, patch)
+# 2. Fork a temporary branch and create a PR to merge it into the release branch
+# 3. Bump up version to next patch pre-release version
+# 4. Fork a temporary branch and create a PR to merge it into the main branch
+
+name: 'Release a version'
+
+on:
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+    inputs:
+      release_type:
+        description: 'Release type'
+        required: true
+        default: 'patch'
+        type: choice
+        options:
+          - patch
+          - minor
+          - major
+
+concurrency:
+  group: release
+  cancel-in-progress: true
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [16.x]
+        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          ref: main
+
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v2
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: yarn
+
+      - name: Setup jq
+        uses: dcarbone/install-jq-action@v1.0.1
+
+      - name: Install dependencies
+        run: yarn
+
+      - name: Bump up version
+        run: |
+          git config --local user.email "github.bot@troublor.xyz"
+          git config --local user.name "Troublor Bot"
+          yarn version ${{ inputs.release_type }}
+          git add package.json
+          export new_version=$(jq -r .version package.json)
+          git commit -m "chore: release v$new_version"
+          git tag "v$new_version"
+          echo "new_version=$new_version" >> $GITHUB_ENV
+          echo "rc_branch=rc-v$new_version" >> $GITHUB_ENV
+          echo "rc_branch=rc-v$new_version" >> $GITHUB_OUTPUT
+
+      - name: Push the release tag and commits to the release candidate branch
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.BOT_TOKEN }}
+          branch: ${{ env.rc_branch }}
+          tags: true
+
+      - name: Create Pull Request to release branch
+        uses: repo-sync/pull-request@v2
+        with:
+          github_token: ${{ secrets.BOT_TOKEN }}
+          source_branch: ${{ env.rc_branch }}
+          destination_branch: release
+          pr_title: 'Release v${{ env.new_version }}'
+
+      - name: Prepare next development cycle
+        run: |
+          git config --local user.email "github.bot@troublor.xyz"
+          git config --local user.name "Troublor Bot"
+          yarn version prerelease
+          git add package.json
+          export next_version=$(jq -r .version package.json)
+          git commit -m "chore: prepare next development cycle v$next_version"
+          echo "next_version=$next_version" >> $GITHUB_ENV
+
+      - name: Push commits to a temp branch
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.BOT_TOKEN }}
+          branch: next-dev-cycle-${{ env.next_version }}
+
+      - name: Create Pull Request to main branch
+        uses: repo-sync/pull-request@v2
+        with:
+          github_token: ${{ secrets.BOT_TOKEN }}
+          source_branch: next-dev-cycle-${{ env.next_version }}
+          destination_branch: main
+          pr_title: 'Start v${{ env.next_version }} development cycle'

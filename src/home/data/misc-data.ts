@@ -58,6 +58,10 @@ export default <MiscData>{
       sentence: "Newton's third law. You gotta leave something behind.",
       origin: 'Cooper (Interstellar)',
     },
+    {
+      sentence: 'Ride or die, remember?',
+      origin: 'Dominic Toretto (Fast & Furious 6)',
+    },
   ],
   homepages: {
     CASTLE: 'http://castle.cse.ust.hk',
