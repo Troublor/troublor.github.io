@@ -89,6 +89,8 @@ jobs:
       - name: Create Pull Request to main branch
         uses: peter-evans/create-pull-request@v4
         with:
+          base: main
+          branch: 'next-dev-cycle'
           title: 'Start v${{ env.next_version }} development cycle'
           body: |
             Start v${{ env.next_version }} development cycle'
