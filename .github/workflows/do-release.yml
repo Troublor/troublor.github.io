@@ -36,7 +36,7 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0
           ref: main
@@ -71,7 +71,7 @@ jobs:
         with:
           github_token: ${{ secrets.BOT_TOKEN }}
           branch: ${{ env.rc_branch }}
-          tags: true
+          tags: false
 
       - name: Create Pull Request to release branch
         uses: repo-sync/pull-request@v2
@@ -92,7 +92,7 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0
           ref: ${{ needs.release.outputs.rc_branch }}
