@@ -64,12 +64,6 @@ jobs:
           echo "new_version=$new_version" >> $GITHUB_ENV
           echo "rc_branch=rc-v$new_version" >> $GITHUB_ENV
 
-      - name: Push tags and commits to release-candidate branch
-        uses: ad-m/github-push-action@master
-        with:
-          branch: ${{ env.rc_branch }}
-          tags: true
-
       - name: Create Pull Request to release branch
         uses: peter-evans/create-pull-request@v4
         with:
@@ -78,6 +72,12 @@ jobs:
           title: 'Release v${{ env.new_version }}'
           body: |
             Release v${{ env.new_version }}
+
+      - name: Push the release tag
+        uses: ad-m/github-push-action@master
+        with:
+          branch: ${{ env.rc_branch }}
+          tags: true
 
       - name: Prepare next development cycle
         run: |
