@@ -112,6 +112,9 @@ jobs:
           git config --local user.name "Troublor Bot"
           yarn version prerelease
           git add package.json
+          git status
+          git branch -v
+          git log -1
           git commit -m "chore: prepare next development cycle"
           echo "next_version=$(jq -r .version package.json)" >> $GITHUB_ENV
 
