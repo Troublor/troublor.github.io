@@ -31,7 +31,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [16.x]
+        node-version: [ 16.x ]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
@@ -73,6 +73,7 @@ jobs:
       - name: Create Pull Request to release branch
         uses: peter-evans/create-pull-request@v4
         with:
+          base: release
           branch: ${{ env.rc_branch }}
           title: 'Release v${{ env.new_version }}'
           body: |
@@ -83,10 +84,11 @@ jobs:
           yarn version prerelease
           git add package.json
           git commit -m "chore: prepare next development cycle"
+          echo "next_version=$(jq -r .version package.json)" >> $GITHUB_ENV
 
       - name: Create Pull Request to main branch
         uses: peter-evans/create-pull-request@v4
         with:
-          title: 'Start v${{ env.new_version }} development cycle'
+          title: 'Start v${{ env.next_version }} development cycle'
           body: |
-            Start v${{ env.new_version }} development cycle'
+            Start v${{ env.next_version }} development cycle'
