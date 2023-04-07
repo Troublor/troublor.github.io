@@ -71,7 +71,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["smoothscroll", "npm:0.4.0"],\
             ["smoothscroll-polyfill", "npm:0.4.4"],\
             ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=ad5954"],\
-            ["web-vitals", "npm:3.3.0"]\
+            ["web-vitals", "npm:3.3.1"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -21657,7 +21657,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["smoothscroll", "npm:0.4.0"],\
             ["smoothscroll-polyfill", "npm:0.4.4"],\
             ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=ad5954"],\
-            ["web-vitals", "npm:3.3.0"]\
+            ["web-vitals", "npm:3.3.1"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -21694,10 +21694,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["web-vitals", [\
-        ["npm:3.3.0", {\
-          "packageLocation": "./.yarn/cache/web-vitals-npm-3.3.0-3997313a41-925a912ec3.zip/node_modules/web-vitals/",\
+        ["npm:3.3.1", {\
+          "packageLocation": "./.yarn/cache/web-vitals-npm-3.3.1-0dd3ec7cb1-ff417dec2d.zip/node_modules/web-vitals/",\
           "packageDependencies": [\
-            ["web-vitals", "npm:3.3.0"]\
+            ["web-vitals", "npm:3.3.1"]\
           ],\
           "linkType": "HARD"\
         }]\
