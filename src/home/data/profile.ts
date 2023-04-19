@@ -289,7 +289,8 @@ export default <Profile>{
   publications: [
     {
       type: 'journal',
-      title: 'Combatting Front-Running in Smart Contracts: Attack Mining, Benchmark Construction and Vulnerability Detector Evaluation',
+      title:
+        'Combatting Front-Running in Smart Contracts: Attack Mining, Benchmark Construction and Vulnerability Detector Evaluation',
       year: '2023',
       authors: [
         'Wuqi Zhang',
