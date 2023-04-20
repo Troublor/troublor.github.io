@@ -64,7 +64,7 @@ export default <MiscData>{
     },
     {
       sentence: 'Stories always have good ends, but reality does not.',
-      origin: 'Alice (Detroit: Become Human),
+      origin: 'Alice (Detroit: Become Human)',
     },
     {
       sentence: 'Forgetting who you are, to become what someone needs you to be. Maybe that's what it means to be alive.',
