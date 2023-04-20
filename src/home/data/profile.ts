@@ -225,6 +225,19 @@ export default <Profile>{
   ],
   service: [
     {
+      time: "ICSE'23",
+      organization: 'The 43rd International Conference on Software Engineering',
+      role: 'Reviewer - Artifact Evaluation Track',
+      link: 'https://conf.researchr.org/home/icse-2023',
+    },
+    {
+      time: "ISSTA'23",
+      organization:
+        'The 32th ACM SIGSOFT International Symposium on Software Testing and Analysis',
+      role: 'Reviewer - Artifact Evaluation Track',
+      link: 'https://conf.researchr.org/home/issta-2023',
+    },
+    {
       time: "ASE'22",
       organization:
         'The 37th IEEE/ACM International Conference on Automated Software Engineering',
@@ -274,6 +287,31 @@ export default <Profile>{
     },
   ],
   publications: [
+    {
+      type: 'journal',
+      title:
+        'Combatting Front-Running in Smart Contracts: Attack Mining, Benchmark Construction and Vulnerability Detector Evaluation',
+      year: '2023',
+      authors: [
+        'Wuqi Zhang',
+        'Lili Wei',
+        'Shing-Chi Cheung',
+        'Yepang Liu',
+        'Shuqing Li',
+        'Lu Liu',
+        'Michael R. Lyu',
+      ],
+      venue: 'Transactions on Software Engineering',
+      venueShort: 'TSE',
+      abstract: `
+      Front-running attacks have been a major concern on the blockchain. Attackers launch front-running attacks by inserting additional transactions before upcoming victim transactions to manipulate victim transaction executions and make profits. Recent studies have shown that front-running attacks are prevalent on the Ethereum blockchain and have caused millions of US dollars loss. Vulnerable smart contracts, blockchain programs invoked by transactions, are held responsible for front-running attacks. Although techniques to detect front-running vulnerabilities have been proposed, their performance on real-world vulnerable contracts is unclear. There is no large-scale benchmark based on real attacks to evaluate their capabilities. This motivates us to build a benchmark consisting of 513 real-world attacks with vulnerable code labeled in 235 distinct smart contracts. We propose automated techniques to effectively collect real-world attacks and localize the corresponding vulnerable code at scale. Our experiments show that our approaches are effective, achieving higher recall in finding real attacks and higher precision in pinpointing vulnerabilities compared to the existing techniques. The evaluation of seven state-of-the-art vulnerability detection techniques on the benchmark reveals their inadequacy in detecting front-running vulnerabilities, with a low recall of at most 6.04%. Our further analysis identifies four common limitations in existing techniques: lack of support for inter-contract analysis, inefficient constraint solving for cryptographic operations, improper vulnerability patterns, and lack of token support.
+    `,
+      projectUrl: 'https://github.com/Troublor/erebus-redgiant',
+      arxivUrl: '',
+      paperUrl: '',
+      /* eslint-disable no-useless-escape */
+      bibtex: '',
+    },
     {
       type: 'journal',
       title:
