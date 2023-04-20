@@ -67,7 +67,8 @@ export default <MiscData>{
       origin: 'Alice (Detroit: Become Human)',
     },
     {
-      sentence: 'Forgetting who you are, to become what someone needs you to be. Maybe that\'s what it means to be alive.',
+      sentence:
+        "Forgetting who you are, to become what someone needs you to be. Maybe that's what it means to be alive.",
       origin: 'Luther (Detroit: Become Human)',
     },
   ],
