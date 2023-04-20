@@ -226,7 +226,7 @@ export default <Profile>{
   service: [
     {
       time: "ICSE'23",
-      organization: 'The 43rd International Conference on Software Engineering',
+      organization: 'The 45rd International Conference on Software Engineering',
       role: 'Reviewer - Artifact Evaluation Track',
       link: 'https://conf.researchr.org/home/icse-2023',
     },
@@ -236,54 +236,6 @@ export default <Profile>{
         'The 32th ACM SIGSOFT International Symposium on Software Testing and Analysis',
       role: 'Reviewer - Artifact Evaluation Track',
       link: 'https://conf.researchr.org/home/issta-2023',
-    },
-    {
-      time: "ASE'22",
-      organization:
-        'The 37th IEEE/ACM International Conference on Automated Software Engineering',
-      role: 'Co-reviewer',
-      link: 'https://conf.researchr.org/home/ase-2022',
-    },
-    {
-      time: "ESEC/FSE'22",
-      organization:
-        'The 30th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering',
-      role: 'Co-reviewer',
-      link: 'https://2022.esec-fse.org/',
-    },
-    {
-      time: "ISSTA'22",
-      organization:
-        'The 31st ACM SIGSOFT International Symposium on Software Testing and Analysis',
-      role: 'Co-reviewer',
-      link: 'https://conf.researchr.org/home/issta-2022',
-    },
-    {
-      time: "ISSTA'21",
-      organization:
-        'The 30th ACM SIGSOFT International Symposium on Software Testing and Analysis',
-      role: 'Co-reviewer',
-      link: 'https://conf.researchr.org/home/issta-2021',
-    },
-    {
-      time: "ASE'21",
-      organization:
-        'The 36th IEEE/ACM International Conference on Automated Software Engineering',
-      role: 'Co-reviewer',
-      link: 'https://conf.researchr.org/home/ase-2021',
-    },
-    {
-      time: "ICSE'21",
-      organization: 'The 43rd International Conference on Software Engineering',
-      role: 'Co-reviewer',
-      link: 'https://conf.researchr.org/home/icse-2021',
-    },
-    {
-      time: "AST'21",
-      organization:
-        'The 2nd ACM/IEEE International Conference on Automation of Software Test',
-      role: 'Co-reviewer',
-      link: 'https://conf.researchr.org/home/ast-2021',
     },
   ],
   publications: [
