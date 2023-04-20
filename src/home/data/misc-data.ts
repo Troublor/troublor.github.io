@@ -63,11 +63,11 @@ export default <MiscData>{
       origin: 'Dominic Toretto (Fast & Furious 6)',
     },
     {
-      sentence: 'Stories always have good ends, but reality does not.'
+      sentence: 'Stories always have good ends, but reality does not.',
       origin: 'Alice (Detroit: Become Human),
     },
     {
-      sentence: 'Forgetting who you are, to become what someone needs you to be. Maybe that's what it means to be alive.'
+      sentence: 'Forgetting who you are, to become what someone needs you to be. Maybe that's what it means to be alive.',
       origin: 'Luther (Detroit: Become Human)',
     },
   ],
