@@ -42,7 +42,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@testing-library/react", "virtual:ee531bcb02deb6dbd9d7fcc391da5bab012e4ba80ac4bd4c16942563ef06b0fefb8b709798262b990781fcafda3eb8dec115eebefccb9266ce2da1232f2b70e6#npm:14.0.0"],\
             ["@testing-library/user-event", "virtual:ee531bcb02deb6dbd9d7fcc391da5bab012e4ba80ac4bd4c16942563ef06b0fefb8b709798262b990781fcafda3eb8dec115eebefccb9266ce2da1232f2b70e6#npm:14.4.3"],\
             ["@types/eslint", "npm:8.37.0"],\
-            ["@types/jest", "npm:29.5.0"],\
+            ["@types/jest", "npm:29.5.1"],\
             ["@types/node", "npm:18.15.13"],\
             ["@types/prettier", "npm:2.7.2"],\
             ["@types/react", "npm:18.0.37"],\
@@ -7200,10 +7200,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:29.5.0", {\
-          "packageLocation": "./.yarn/cache/@types-jest-npm-29.5.0-18eef6c3cc-cd877e5c56.zip/node_modules/@types/jest/",\
+        ["npm:29.5.1", {\
+          "packageLocation": "./.yarn/cache/@types-jest-npm-29.5.1-0eddfd7e9a-0a22491dec.zip/node_modules/@types/jest/",\
           "packageDependencies": [\
-            ["@types/jest", "npm:29.5.0"],\
+            ["@types/jest", "npm:29.5.1"],\
             ["expect", "npm:29.3.1"],\
             ["pretty-format", "npm:29.3.1"]\
           ],\
@@ -21640,7 +21640,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@testing-library/react", "virtual:ee531bcb02deb6dbd9d7fcc391da5bab012e4ba80ac4bd4c16942563ef06b0fefb8b709798262b990781fcafda3eb8dec115eebefccb9266ce2da1232f2b70e6#npm:14.0.0"],\
             ["@testing-library/user-event", "virtual:ee531bcb02deb6dbd9d7fcc391da5bab012e4ba80ac4bd4c16942563ef06b0fefb8b709798262b990781fcafda3eb8dec115eebefccb9266ce2da1232f2b70e6#npm:14.4.3"],\
             ["@types/eslint", "npm:8.37.0"],\
-            ["@types/jest", "npm:29.5.0"],\
+            ["@types/jest", "npm:29.5.1"],\
             ["@types/node", "npm:18.15.13"],\
             ["@types/prettier", "npm:2.7.2"],\
             ["@types/react", "npm:18.0.37"],\
