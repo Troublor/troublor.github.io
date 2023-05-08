@@ -48,7 +48,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-reveal": "^1.2.2",
-    "react-ribbons": "^1.0.6",
+    "react-ribbons": "^1.1.3",
     "react-scroll": "^1.8.9",
     "react-string-replace": "^1.1.0",
     "react-text-loop": "^2.3.0",
