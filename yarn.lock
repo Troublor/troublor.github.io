@@ -13422,14 +13422,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-ribbons@npm:^1.0.6":
-  version: 1.0.6
-  resolution: "react-ribbons@npm:1.0.6"
+"react-ribbons@npm:^1.1.7":
+  version: 1.1.7
+  resolution: "react-ribbons@npm:1.1.7"
   peerDependencies:
     prop-types: ^15.7.2
-    react: ^16.10.2
-    react-dom: ^16.10.2
-  checksum: 70e3ae06a5b9e52bcd537a74d36cf1195f13f6df03639d7db9562ef7cdcb1be2b007bd9d3043fa0bd03bb6a24d41d981a23a0948ce1bb57032828515cc6a2436
+    react: "*"
+    react-dom: ">= 16 <= 18"
+  checksum: 7b01cc0ef69c2e2529ad61200e62901c7fa032157650c00c24a2afdba4dd5ca1982586e52c8ab8a5cb8bed70ddb8c8100ec33521e6e2929747e985d2a94ba5dd
   languageName: node
   linkType: hard
 
@@ -15632,7 +15632,7 @@ __metadata:
     react: ^18.2.0
     react-dom: ^18.2.0
     react-reveal: ^1.2.2
-    react-ribbons: ^1.0.6
+    react-ribbons: ^1.1.7
     react-scripts: ^5.0.1
     react-scroll: ^1.8.9
     react-string-replace: ^1.1.0
