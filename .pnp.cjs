@@ -46,7 +46,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/node", "npm:18.16.0"],\
             ["@types/prettier", "npm:2.7.2"],\
             ["@types/react", "npm:18.2.5"],\
-            ["@types/react-dom", "npm:18.0.11"],\
+            ["@types/react-dom", "npm:18.2.7"],\
             ["@types/react-fontawesome", "npm:1.6.5"],\
             ["@types/react-scroll", "npm:1.8.6"],\
             ["@types/smoothscroll-polyfill", "npm:0.3.1"],\
@@ -6183,7 +6183,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@mui/utils", "virtual:f80e2cb8b86b60add197aa0a169082ea9bfde5da691cc1ab4bb237dd6279ba46bdd437a7850fd5236c2cbeafb85b945c604c10ea833f3899644fb326d95ff8e8#npm:5.12.3"],\
             ["@popperjs/core", "npm:2.11.7"],\
             ["@types/react", "npm:18.2.5"],\
-            ["@types/react-dom", "npm:18.0.11"],\
+            ["@types/react-dom", "npm:18.2.7"],\
             ["clsx", "npm:1.2.1"],\
             ["prop-types", "npm:15.8.1"],\
             ["react", "npm:18.2.0"],\
@@ -6258,7 +6258,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/emotion__react", null],\
             ["@types/emotion__styled", null],\
             ["@types/react", "npm:18.2.5"],\
-            ["@types/react-dom", "npm:18.0.11"],\
+            ["@types/react-dom", "npm:18.2.7"],\
             ["@types/react-transition-group", "npm:4.4.5"],\
             ["clsx", "npm:1.2.1"],\
             ["csstype", "npm:3.1.2"],\
@@ -6924,7 +6924,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/runtime", "npm:7.16.7"],\
             ["@testing-library/dom", "npm:9.0.0"],\
             ["@types/react", "npm:18.2.5"],\
-            ["@types/react-dom", "npm:18.0.11"],\
+            ["@types/react-dom", "npm:18.2.7"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:ee531bcb02deb6dbd9d7fcc391da5bab012e4ba80ac4bd4c16942563ef06b0fefb8b709798262b990781fcafda3eb8dec115eebefccb9266ce2da1232f2b70e6#npm:18.2.0"]\
           ],\
@@ -7379,10 +7379,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@types/react-dom", [\
-        ["npm:18.0.11", {\
-          "packageLocation": "./.yarn/cache/@types-react-dom-npm-18.0.11-27f8db2995-579691e4d5.zip/node_modules/@types/react-dom/",\
+        ["npm:18.2.7", {\
+          "packageLocation": "./.yarn/cache/@types-react-dom-npm-18.2.7-a20ba684a5-e02ea90828.zip/node_modules/@types/react-dom/",\
           "packageDependencies": [\
-            ["@types/react-dom", "npm:18.0.11"],\
+            ["@types/react-dom", "npm:18.2.7"],\
             ["@types/react", "npm:17.0.38"]\
           ],\
           "linkType": "HARD"\
@@ -19187,7 +19187,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-ribbons", "virtual:ee531bcb02deb6dbd9d7fcc391da5bab012e4ba80ac4bd4c16942563ef06b0fefb8b709798262b990781fcafda3eb8dec115eebefccb9266ce2da1232f2b70e6#npm:1.0.6"],\
             ["@types/prop-types", null],\
             ["@types/react", "npm:18.2.5"],\
-            ["@types/react-dom", "npm:18.0.11"],\
+            ["@types/react-dom", "npm:18.2.7"],\
             ["prop-types", null],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:ee531bcb02deb6dbd9d7fcc391da5bab012e4ba80ac4bd4c16942563ef06b0fefb8b709798262b990781fcafda3eb8dec115eebefccb9266ce2da1232f2b70e6#npm:18.2.0"]\
@@ -19293,7 +19293,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["react-scroll", "virtual:ee531bcb02deb6dbd9d7fcc391da5bab012e4ba80ac4bd4c16942563ef06b0fefb8b709798262b990781fcafda3eb8dec115eebefccb9266ce2da1232f2b70e6#npm:1.8.9"],\
             ["@types/react", "npm:18.2.5"],\
-            ["@types/react-dom", "npm:18.0.11"],\
+            ["@types/react-dom", "npm:18.2.7"],\
             ["lodash.throttle", "npm:4.1.1"],\
             ["prop-types", "npm:15.8.1"],\
             ["react", "npm:18.2.0"],\
@@ -19330,7 +19330,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["react-text-loop", "virtual:ee531bcb02deb6dbd9d7fcc391da5bab012e4ba80ac4bd4c16942563ef06b0fefb8b709798262b990781fcafda3eb8dec115eebefccb9266ce2da1232f2b70e6#npm:2.3.0"],\
             ["@types/react", "npm:18.2.5"],\
-            ["@types/react-dom", "npm:18.0.11"],\
+            ["@types/react-dom", "npm:18.2.7"],\
             ["cxs", "npm:6.2.0"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:ee531bcb02deb6dbd9d7fcc391da5bab012e4ba80ac4bd4c16942563ef06b0fefb8b709798262b990781fcafda3eb8dec115eebefccb9266ce2da1232f2b70e6#npm:18.2.0"],\
@@ -19360,7 +19360,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-transition-group", "virtual:f80e2cb8b86b60add197aa0a169082ea9bfde5da691cc1ab4bb237dd6279ba46bdd437a7850fd5236c2cbeafb85b945c604c10ea833f3899644fb326d95ff8e8#npm:4.4.5"],\
             ["@babel/runtime", "npm:7.16.7"],\
             ["@types/react", "npm:18.2.5"],\
-            ["@types/react-dom", "npm:18.0.11"],\
+            ["@types/react-dom", "npm:18.2.7"],\
             ["dom-helpers", "npm:5.2.1"],\
             ["loose-envify", "npm:1.4.0"],\
             ["prop-types", "npm:15.8.1"],\
@@ -21679,7 +21679,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/node", "npm:18.16.0"],\
             ["@types/prettier", "npm:2.7.2"],\
             ["@types/react", "npm:18.2.5"],\
-            ["@types/react-dom", "npm:18.0.11"],\
+            ["@types/react-dom", "npm:18.2.7"],\
             ["@types/react-fontawesome", "npm:1.6.5"],\
             ["@types/react-scroll", "npm:1.8.6"],\
             ["@types/smoothscroll-polyfill", "npm:0.3.1"],\
