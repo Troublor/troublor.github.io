@@ -303,7 +303,7 @@ export default <Profile>{
     `,
       projectUrl: 'https://github.com/Troublor/erebus-redgiant',
       arxivUrl: '',
-      paperUrl: '',
+      paperUrl: 'https://ieeexplore.ieee.org/document/10108045',
       /* eslint-disable no-useless-escape */
       bibtex: '',
     },
