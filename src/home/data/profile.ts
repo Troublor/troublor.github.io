@@ -180,7 +180,12 @@ export default <Profile>{
       institute: 'The Hong Kong University of Science and Technology (HKUST)',
       group: 'CASTLE Research Group',
       role: 'Postgraduate Research Student',
-      focus: ['Software Engineering', 'Software Testing', 'Program Analysis', 'Blockchain Security'],
+      focus: [
+        'Software Engineering',
+        'Software Testing',
+        'Program Analysis',
+        'Blockchain Security',
+      ],
     },
     {
       period: '2019',
@@ -242,7 +247,8 @@ export default <Profile>{
   publications: [
     {
       type: 'conference',
-      title: 'Nyx: Detecting Exploitable Front-Running Vulnerabilities in Smart Contracts',
+      title:
+        'Nyx: Detecting Exploitable Front-Running Vulnerabilities in Smart Contracts',
       year: '2023',
       authors: [
         'Wuqi Zhang',
@@ -264,14 +270,10 @@ export default <Profile>{
     },
     {
       type: 'journal',
-      title: 'WFDefProxy: Real World Implementation and Evaluation of Website Fingerprinting Defenses',
+      title:
+        'WFDefProxy: Real World Implementation and Evaluation of Website Fingerprinting Defenses',
       year: '2023',
-      authors: [
-        'Jiajun Gong',
-        'Wuqi Zhang',
-        'Charles Zhang', 
-        'Tao Wang',
-      ],
+      authors: ['Jiajun Gong', 'Wuqi Zhang', 'Charles Zhang', 'Tao Wang'],
       venue: 'IEEE Transactions on Information Forensics and Security',
       venueShort: 'TIFS',
       abstract: `Tor, an onion-routing anonymity network, can be attacked by Website Fingerprinting (WF), which de-anonymizes encrypted web browsing traffic by analyzing its unique sequence characteristics. Although many defenses have been proposed, few have been implemented and tested in the real world; most state-of-the-art defenses were only simulated. Simulations fail to capture the real performance of these defenses as they make simplifying assumptions about the protocol stack and network conditions. To allow WF defenses to be analyzed as real implementations, we create WFDefProxy, the first general platform for WF defense implementation on Tor as pluggable transports. We implement three state-of-the-art WF defenses: FRONT, Tamaraw, and RegulaTor. We evaluate each defense extensively by directly collecting defended datasets under WFDefProxy. Our results show that simulation can be inaccurate in many cases. Specifically, Tamaraw’s time overhead was underestimated by 22% in one setting and overestimated by 24% in another. RegulaTor’s time overhead was underestimated by 30–40%. We find that a major source of simulation inaccuracy is that they cannot incorporate how packets depend on each other. We also find that adverse network conditions (which are ignored in simulation), especially congestion, can affect the evaluated overhead of defenses. These results show that it is important to evaluate defenses as implementations instead of only simulations to avoid errors in evaluation.`,
