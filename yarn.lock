@@ -4113,12 +4113,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:^18.0.11":
-  version: 18.0.11
-  resolution: "@types/react-dom@npm:18.0.11"
+"@types/react-dom@npm:^18.2.17":
+  version: 18.2.17
+  resolution: "@types/react-dom@npm:18.2.17"
   dependencies:
     "@types/react": "*"
-  checksum: 579691e4d5ec09688087568037c35edf8cfb1ab3e07f6c60029280733ee7b5c06d66df6fcc90786702c93ac8cb13bc7ff16c79ddfc75d082938fbaa36e1cdbf4
+  checksum: 7a4e704ed4be6e0c3ccd8a22ff69386fe548304bf4db090513f42e059ff4c65f7a427790320051524d6578a2e4c9667bb7a80a4c989b72361c019fbe851d9385
   languageName: node
   linkType: hard
 
@@ -15616,7 +15616,7 @@ __metadata:
     "@types/node": ^18.16.0
     "@types/prettier": ^2.7.2
     "@types/react": ^18.2.5
-    "@types/react-dom": ^18.0.11
+    "@types/react-dom": ^18.2.17
     "@types/react-fontawesome": ^1.6.5
     "@types/react-scroll": ^1.8.6
     "@types/smoothscroll-polyfill": ^0.3.1
