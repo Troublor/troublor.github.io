@@ -40,6 +40,8 @@ export default <Profile>{
     'Software Engineering Researcher',
     'Research Scholar',
     'Ph.D. Candidate',
+    'Web3 CTFer',
+    'Bug Hunter',
   ],
   socialNetworks: [
     {
@@ -230,6 +232,18 @@ export default <Profile>{
     },
   ],
   service: [
+    {
+      time: "PLDI'24",
+      organization: 'The 45rd ACM SIGPLAN International Conference on Programming Language Design and Implementation',
+      role: 'Reviewer - Artifact Evaluation Track',
+      link: 'https://pldi24.sigplan.org/track/pldi-2024-pldi-research-artifacts',
+    },
+    {
+      time: "ICSE'24",
+      organization: 'The 46rd International Conference on Software Engineering',
+      role: 'Reviewer - Artifact Evaluation Track',
+      link: 'https://conf.researchr.org/home/icse-2024',
+    },
     {
       time: "ICSE'23",
       organization: 'The 45rd International Conference on Software Engineering',
