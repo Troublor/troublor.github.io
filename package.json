@@ -1,6 +1,6 @@
 {
   "name": "wac-homepage",
-  "version": "1.7.0",
+  "version": "1.7.1",
   "homepage": "https://troublor.github.io/",
   "releasePage": "https://troublor.xyz",
   "prereleasePage": "https://troublor.github.io",
@@ -44,7 +44,7 @@
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@mui/icons-material": "^5.11.16",
-    "@mui/material": "^5.12.3",
+    "@mui/material": "^5.15.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-reveal": "^1.2.2",
