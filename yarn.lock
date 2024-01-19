@@ -4209,14 +4209,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:^18.2.5":
-  version: 18.2.5
-  resolution: "@types/react@npm:18.2.5"
+"@types/react@npm:^18.2.48":
+  version: 18.2.48
+  resolution: "@types/react@npm:18.2.48"
   dependencies:
     "@types/prop-types": "*"
     "@types/scheduler": "*"
     csstype: ^3.0.2
-  checksum: 97c4534e849edf991be0820b0911d036e794b8e2599a1544f500c769acbcb4f443ccde1a3f22298f22ce368ee7757f746e4a529e889567fc142a627698e2de39
+  checksum: c9ca43ed2995389b7e09492c24e6f911a8439bb8276dd17cc66a2fbebbf0b42daf7b2ad177043256533607c2ca644d7d928fdfce37a67af1f8646d2bac988900
   languageName: node
   linkType: hard
 
@@ -15662,7 +15662,7 @@ __metadata:
     "@types/jest": ^29.5.1
     "@types/node": ^18.16.0
     "@types/prettier": ^2.7.2
-    "@types/react": ^18.2.5
+    "@types/react": ^18.2.48
     "@types/react-dom": ^18.0.11
     "@types/react-fontawesome": ^1.6.5
     "@types/react-scroll": ^1.8.6
