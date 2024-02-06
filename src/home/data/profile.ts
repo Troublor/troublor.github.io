@@ -4,7 +4,7 @@ import { Profile } from './types';
 export default <Profile>{
   name: {
     first: 'William',
-    middle: '',
+    middle: ' ',
     last: 'Cheung',
     formal: 'Wuqi Zhang',
     previous: ['Wuqi Aaron Zhang', '张无奇'],
