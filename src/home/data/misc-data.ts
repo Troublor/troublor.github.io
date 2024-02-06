@@ -88,5 +88,8 @@ export default <MiscData>{
     'Shuqing Li': 'https://shuqing-li.github.io/',
     'Shiqing Ma': 'https://people.cs.rutgers.edu/~sm2283/',
     'Yu Jiang': 'https://sites.google.com/site/jiangyu198964?pli=1',
+    'Zhuo Zhang': 'https://zzhang.xyz/',
+    'Qingkai Shi': 'https://qingkaishi.github.io/',
+    'Xiangyu Zhang': 'https://www.cs.purdue.edu/homes/xyzhang/',
   },
 };
