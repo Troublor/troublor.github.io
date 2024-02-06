@@ -6,9 +6,9 @@ __metadata:
   cacheKey: 8
 
 "@adobe/css-tools@npm:^4.0.1":
-  version: 4.0.2
-  resolution: "@adobe/css-tools@npm:4.0.2"
-  checksum: f9ffd602fcf2456888fd8ca7b121e1c6169f512c56a6b98ab7ec64013ab90dd062f458bac16292150a7c6a08c1cd58ef80b5cad018c3684cf0a4192b57b5ea32
+  version: 4.3.2
+  resolution: "@adobe/css-tools@npm:4.3.2"
+  checksum: 9667d61d55dc3b0a315c530ae84e016ce5267c4dd8ac00abb40108dc98e07b98e3090ce8b87acd51a41a68d9e84dcccb08cdf21c902572a9cf9dcaf830da4ae3
   languageName: node
   linkType: hard
 
@@ -4090,10 +4090,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^18.16.0":
-  version: 18.16.0
-  resolution: "@types/node@npm:18.16.0"
-  checksum: 63e0042136663b9e85ce503a4c65406cc6621fdba63ea66c74b4b1364a9aa9bdb57cadcb76696abab177f38a819b0fa6ace9e7f1647dcb990aedb1b4bd01012f
+"@types/node@npm:^20.4.7":
+  version: 20.4.7
+  resolution: "@types/node@npm:20.4.7"
+  checksum: a40d7003f66b56220a2028179e49f950b46fa6dbf860a4a6ecbd6ba7976f05b2f0b31ced39689ec88a7d9e32d07e088c6a06d270b99d5bc13a28291ac2f30ca7
   languageName: node
   linkType: hard
 
@@ -4209,14 +4209,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:^18.2.5":
-  version: 18.2.5
-  resolution: "@types/react@npm:18.2.5"
+"@types/react@npm:^18.2.54":
+  version: 18.2.54
+  resolution: "@types/react@npm:18.2.54"
   dependencies:
     "@types/prop-types": "*"
     "@types/scheduler": "*"
     csstype: ^3.0.2
-  checksum: 97c4534e849edf991be0820b0911d036e794b8e2599a1544f500c769acbcb4f443ccde1a3f22298f22ce368ee7757f746e4a529e889567fc142a627698e2de39
+  checksum: 261bf1f5d8320708f059b9b2e691eb60dff94a2b7d2e821f55289b611b8a215b4b23d69358d621ef9b5969d88198a32024ef43d5dd979c9df60aeae98cd27b0e
   languageName: node
   linkType: hard
 
@@ -8320,12 +8320,12 @@ __metadata:
   linkType: hard
 
 "follow-redirects@npm:^1.0.0":
-  version: 1.15.2
-  resolution: "follow-redirects@npm:1.15.2"
+  version: 1.15.4
+  resolution: "follow-redirects@npm:1.15.4"
   peerDependenciesMeta:
     debug:
       optional: true
-  checksum: faa66059b66358ba65c234c2f2a37fcec029dc22775f35d9ad6abac56003268baf41e55f9ee645957b32c7d9f62baf1f0b906e68267276f54ec4b4c597c2b190
+  checksum: e178d1deff8b23d5d24ec3f7a94cde6e47d74d0dc649c35fc9857041267c12ec5d44650a0c5597ef83056ada9ea6ca0c30e7c4f97dbf07d035086be9e6a5b7b6
   languageName: node
   linkType: hard
 
@@ -15660,9 +15660,9 @@ __metadata:
     "@testing-library/user-event": ^14.4.3
     "@types/eslint": ^8.37.0
     "@types/jest": ^29.5.1
-    "@types/node": ^18.16.0
+    "@types/node": ^20.4.7
     "@types/prettier": ^2.7.2
-    "@types/react": ^18.2.5
+    "@types/react": ^18.2.54
     "@types/react-dom": ^18.0.11
     "@types/react-fontawesome": ^1.6.5
     "@types/react-scroll": ^1.8.6
@@ -16015,9 +16015,9 @@ __metadata:
   linkType: hard
 
 "word-wrap@npm:^1.2.3, word-wrap@npm:~1.2.3":
-  version: 1.2.3
-  resolution: "word-wrap@npm:1.2.3"
-  checksum: 30b48f91fcf12106ed3186ae4fa86a6a1842416df425be7b60485de14bec665a54a68e4b5156647dec3a70f25e84d270ca8bc8cd23182ed095f5c7206a938c1f
+  version: 1.2.4
+  resolution: "word-wrap@npm:1.2.4"
+  checksum: 8f1f2e0a397c0e074ca225ba9f67baa23f99293bc064e31355d426ae91b8b3f6b5f6c1fc9ae5e9141178bb362d563f55e62fd8d5c31f2a77e3ade56cb3e35bd1
   languageName: node
   linkType: hard
 

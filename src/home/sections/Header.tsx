@@ -1,5 +1,4 @@
 import React from 'react';
-import details from '../data/details.json';
 import {
   AppBar,
   Container,
@@ -185,16 +184,16 @@ export class Header extends React.Component<
                         display: { xs: 'none', sm: 'block' },
                       }}
                     >
-                      {details.firstName}
+                      {profile.name.first}
                       <Typography
                         variant="h4"
                         component="span"
                         noWrap
                         sx={{ color: this.props.theme.palette.warning.main }}
                       >
-                        {details.middleName}
+                        {profile.name.middle}
                       </Typography>
-                      {details.lastName}
+                      {profile.name.last}
                     </Typography>
                   </Link>
                 </Box>

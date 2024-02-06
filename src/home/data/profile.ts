@@ -4,7 +4,7 @@ import { Profile } from './types';
 export default <Profile>{
   name: {
     first: 'William',
-    middle: 'Aaron',
+    middle: ' ',
     last: 'Cheung',
     formal: 'Wuqi Zhang',
     previous: ['Wuqi Aaron Zhang', '张无奇'],
@@ -24,7 +24,7 @@ export default <Profile>{
   domain: 'troublor.xyz',
   github: 'https://github.com/Troublor',
   resume: 'https://troublor.github.io/curriculum-vitae/cv.pdf',
-  description: `I'm William Aaron Cheung.
+  description: `I'm William Cheung.
   My formal name is Wuqi Zhang, but I prefer to use the English name in most informal cases.
   Wuqi Aaron Zhang is also used in some cases.
   I am a Ph.D. candidate supervised by Prof. Shing-Chi Cheung at The Hong Kong University of Science and Technology (HKUST) working in software engineering and security.
@@ -77,7 +77,7 @@ export default <Profile>{
   ],
   educations: [
     {
-      period: '2019 - Present',
+      period: '2019 - Expected 2025',
       school: 'The Hong Kong University of Science and Technology',
       degreeAbbr: 'Ph.D.',
       degree: 'Doctor of Philosophy',
@@ -234,7 +234,8 @@ export default <Profile>{
   service: [
     {
       time: "PLDI'24",
-      organization: 'The 45rd ACM SIGPLAN International Conference on Programming Language Design and Implementation',
+      organization:
+        'The 45rd ACM SIGPLAN International Conference on Programming Language Design and Implementation',
       role: 'Reviewer - Artifact Evaluation Track',
       link: 'https://pldi24.sigplan.org/track/pldi-2024-pldi-research-artifacts',
     },
@@ -279,7 +280,7 @@ export default <Profile>{
       abstract: `Smart contracts are susceptible to front-running attacks, in which malicious users leverage prior knowledge of upcoming transactions to execute attack transactions in advance and benefit their own portfolios. Existing contract analysis techniques raise a number of false positives and false negatives in that they simplistically treat data races in a contract as front-running vulnerabilities and can only analyze contracts in isolation. In this work, we formalize the definition of exploitable front-running vulnerabilities based on previous empirical studies on historical attacks, and present Nyx, a novel static analyzer to detect them. Nyx features a Datalog-based preprocessing procedure that efficiently and soundly prunes a large part of the search space, followed by a symbolic validation engine that precisely locates vulnerabilities with an SMT solver. We evaluate Nyx using a large dataset that comprises 513 real-world front-running attacks in smart contracts. Compared to six state-of-the-art techniques, Nyx surpasses them by 32.64%-90.19% in terms of recall and 2.89%-70.89% in terms of precision. Nyx has also identified four zero-days in real-world smart contracts.`,
       projectUrl: '',
       arxivUrl: '',
-      paperUrl: '',
+      paperUrl: 'https://qingkaishi.github.io/public_pdfs/SP2024.pdf',
       bibtex: '',
     },
     {
