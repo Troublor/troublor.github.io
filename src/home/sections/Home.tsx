@@ -6,7 +6,6 @@ import { fas } from '@fortawesome/free-solid-svg-icons';
 import profile from '../data/profile';
 import portrait2 from '../img/portrait2.png';
 import { Stack, Avatar, Box, Link, Typography, Button } from '@mui/material';
-import details from '../data/details.json';
 import { ThemedProps } from '../../theme';
 import { Scroller } from '../../components';
 
@@ -47,16 +46,16 @@ export class Home extends React.Component<ThemedProps> {
           </Box>
           <Box sx={this.centerBoxSX}>
             <Typography variant="h4" noWrap component="h4">
-              {details.firstName}
+              {profile.name.first}
               <Typography
                 variant="h4"
                 component="span"
                 noWrap
                 sx={{ color: this.props.theme.palette.warning.main }}
               >
-                {details.middleName}
+                {profile.name.middle}
               </Typography>
-              {details.lastName}
+              {profile.name.last}
             </Typography>
           </Box>
           <Box sx={this.centerBoxSX}>
