@@ -47,7 +47,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/prettier", "npm:2.7.2"],\
             ["@types/react", "npm:18.2.54"],\
             ["@types/react-dom", "npm:18.2.19"],\
-            ["@types/react-fontawesome", "npm:1.6.5"],\
+            ["@types/react-fontawesome", "npm:1.6.8"],\
             ["@types/react-scroll", "npm:1.8.6"],\
             ["@types/smoothscroll-polyfill", "npm:0.3.1"],\
             ["@typescript-eslint/eslint-plugin", "virtual:ee531bcb02deb6dbd9d7fcc391da5bab012e4ba80ac4bd4c16942563ef06b0fefb8b709798262b990781fcafda3eb8dec115eebefccb9266ce2da1232f2b70e6#npm:5.59.2"],\
@@ -7452,10 +7452,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@types/react-fontawesome", [\
-        ["npm:1.6.5", {\
-          "packageLocation": "./.yarn/cache/@types-react-fontawesome-npm-1.6.5-f89e6a919f-655d5eaa01.zip/node_modules/@types/react-fontawesome/",\
+        ["npm:1.6.8", {\
+          "packageLocation": "./.yarn/cache/@types-react-fontawesome-npm-1.6.8-c7f97373e0-f7321efe1f.zip/node_modules/@types/react-fontawesome/",\
           "packageDependencies": [\
-            ["@types/react-fontawesome", "npm:1.6.5"],\
+            ["@types/react-fontawesome", "npm:1.6.8"],\
             ["@types/react", "npm:17.0.38"]\
           ],\
           "linkType": "HARD"\
@@ -21740,7 +21740,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/prettier", "npm:2.7.2"],\
             ["@types/react", "npm:18.2.54"],\
             ["@types/react-dom", "npm:18.2.19"],\
-            ["@types/react-fontawesome", "npm:1.6.5"],\
+            ["@types/react-fontawesome", "npm:1.6.8"],\
             ["@types/react-scroll", "npm:1.8.6"],\
             ["@types/smoothscroll-polyfill", "npm:0.3.1"],\
             ["@typescript-eslint/eslint-plugin", "virtual:ee531bcb02deb6dbd9d7fcc391da5bab012e4ba80ac4bd4c16942563ef06b0fefb8b709798262b990781fcafda3eb8dec115eebefccb9266ce2da1232f2b70e6#npm:5.59.2"],\

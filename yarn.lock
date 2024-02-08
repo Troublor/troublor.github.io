@@ -4171,12 +4171,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-fontawesome@npm:^1.6.5":
-  version: 1.6.5
-  resolution: "@types/react-fontawesome@npm:1.6.5"
+"@types/react-fontawesome@npm:^1.6.8":
+  version: 1.6.8
+  resolution: "@types/react-fontawesome@npm:1.6.8"
   dependencies:
     "@types/react": "*"
-  checksum: 655d5eaa0131a98fc598eff8dca063aa13f9d9a12743e0e13db690c4a781736edf1bc14445bcac0c593c236b1ec3b27e0b61d33951ec6eeb4ded83dceebfe87c
+  checksum: f7321efe1fd5bc467a6820b9162401b0ddb01089793933cf6fc6363ed9d3a391b341efedf2d2b613bd20d96a89553578250f184fc68bb3d053439ff1dc364de4
   languageName: node
   linkType: hard
 
@@ -15664,7 +15664,7 @@ __metadata:
     "@types/prettier": ^2.7.2
     "@types/react": ^18.2.54
     "@types/react-dom": ^18.2.19
-    "@types/react-fontawesome": ^1.6.5
+    "@types/react-fontawesome": ^1.6.8
     "@types/react-scroll": ^1.8.6
     "@types/smoothscroll-polyfill": ^0.3.1
     "@typescript-eslint/eslint-plugin": ^5.59.2
