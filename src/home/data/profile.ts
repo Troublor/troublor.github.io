@@ -264,7 +264,7 @@ export default <Profile>{
       type: 'conference',
       title:
         'Nyx: Detecting Exploitable Front-Running Vulnerabilities in Smart Contracts',
-      year: '2023',
+      year: '2024',
       authors: [
         'Wuqi Zhang',
         'Zhuo Zhang',
