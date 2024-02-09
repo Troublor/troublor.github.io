@@ -49,7 +49,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react-dom", "npm:18.2.19"],\
             ["@types/react-fontawesome", "npm:1.6.5"],\
             ["@types/react-scroll", "npm:1.8.6"],\
-            ["@types/smoothscroll-polyfill", "npm:0.3.1"],\
+            ["@types/smoothscroll-polyfill", "npm:0.3.4"],\
             ["@typescript-eslint/eslint-plugin", "virtual:ee531bcb02deb6dbd9d7fcc391da5bab012e4ba80ac4bd4c16942563ef06b0fefb8b709798262b990781fcafda3eb8dec115eebefccb9266ce2da1232f2b70e6#npm:5.59.2"],\
             ["@typescript-eslint/parser", "virtual:ee531bcb02deb6dbd9d7fcc391da5bab012e4ba80ac4bd4c16942563ef06b0fefb8b709798262b990781fcafda3eb8dec115eebefccb9266ce2da1232f2b70e6#npm:5.59.2"],\
             ["browserslist", "npm:4.21.5"],\
@@ -7540,10 +7540,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@types/smoothscroll-polyfill", [\
-        ["npm:0.3.1", {\
-          "packageLocation": "./.yarn/cache/@types-smoothscroll-polyfill-npm-0.3.1-4930c615ad-871a5b556c.zip/node_modules/@types/smoothscroll-polyfill/",\
+        ["npm:0.3.4", {\
+          "packageLocation": "./.yarn/cache/@types-smoothscroll-polyfill-npm-0.3.4-f13d0d2eb2-08d2d0c2ca.zip/node_modules/@types/smoothscroll-polyfill/",\
           "packageDependencies": [\
-            ["@types/smoothscroll-polyfill", "npm:0.3.1"]\
+            ["@types/smoothscroll-polyfill", "npm:0.3.4"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -21742,7 +21742,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react-dom", "npm:18.2.19"],\
             ["@types/react-fontawesome", "npm:1.6.5"],\
             ["@types/react-scroll", "npm:1.8.6"],\
-            ["@types/smoothscroll-polyfill", "npm:0.3.1"],\
+            ["@types/smoothscroll-polyfill", "npm:0.3.4"],\
             ["@typescript-eslint/eslint-plugin", "virtual:ee531bcb02deb6dbd9d7fcc391da5bab012e4ba80ac4bd4c16942563ef06b0fefb8b709798262b990781fcafda3eb8dec115eebefccb9266ce2da1232f2b70e6#npm:5.59.2"],\
             ["@typescript-eslint/parser", "virtual:ee531bcb02deb6dbd9d7fcc391da5bab012e4ba80ac4bd4c16942563ef06b0fefb8b709798262b990781fcafda3eb8dec115eebefccb9266ce2da1232f2b70e6#npm:5.59.2"],\
             ["browserslist", "npm:4.21.5"],\
