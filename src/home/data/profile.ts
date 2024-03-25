@@ -233,6 +233,12 @@ export default <Profile>{
   ],
   service: [
     {
+      time: 'TDSC',
+      organization: 'IEEE Transactions on Dependable and Secure Computing',
+      role: 'Reviewer',
+      link: 'https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8858',
+    },
+    {
       time: "PLDI'24",
       organization:
         'The 45rd ACM SIGPLAN International Conference on Programming Language Design and Implementation',
@@ -260,6 +266,25 @@ export default <Profile>{
     },
   ],
   publications: [
+    {
+      type: 'preprint',
+      title: 'When Dataflow Analysis Meets Large Language Models',
+      year: '2024',
+      authors: [
+        'Chengpeng Wang',
+        'Wuqi Zhang',
+        'Zian Su',
+        'Xiangzhe Xu',
+        'Xiaoheng Xie',
+        'Xiangyu Zhang',
+      ],
+      venue: 'arXiv',
+      venueShort: '',
+      projectUrl: '',
+      arxivUrl: 'https://arxiv.org/abs/2402.10754',
+      paperUrl: '',
+      bibtex: '',
+    },
     {
       type: 'conference',
       title:
