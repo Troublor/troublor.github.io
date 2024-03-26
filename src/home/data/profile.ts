@@ -268,6 +268,20 @@ export default <Profile>{
   publications: [
     {
       type: 'preprint',
+      title: 'Concerned with Data Contamination? Assessing Countermeasures in Code Language Model',
+      year: '2024',
+      authors: [
+        'Jialun Cao', 'Wuqi Zhang', 'Shing-Chi Cheung',
+      ],
+      venue: 'arXiv:2403.16898',
+      venueShort: 'arXiv',
+      projectUrl: '',
+      arxivUrl: 'https://arxiv.org/abs/2403.16898',
+      paperUrl: '',
+      bibtex: '',
+    },
+    {
+      type: 'preprint',
       title: 'When Dataflow Analysis Meets Large Language Models',
       year: '2024',
       authors: [
