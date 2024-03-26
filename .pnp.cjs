@@ -44,7 +44,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/eslint", "npm:8.37.0"],\
             ["@types/jest", "npm:29.5.1"],\
             ["@types/node", "npm:20.4.7"],\
-            ["@types/prettier", "npm:2.7.2"],\
+            ["@types/prettier", "npm:3.0.0"],\
             ["@types/react", "npm:18.2.55"],\
             ["@types/react-dom", "npm:18.2.19"],\
             ["@types/react-fontawesome", "npm:1.6.8"],\
@@ -58,7 +58,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-unused-imports", "virtual:ee531bcb02deb6dbd9d7fcc391da5bab012e4ba80ac4bd4c16942563ef06b0fefb8b709798262b990781fcafda3eb8dec115eebefccb9266ce2da1232f2b70e6#npm:2.0.0"],\
             ["gh-pages", "npm:5.0.0"],\
             ["jest", "virtual:ee531bcb02deb6dbd9d7fcc391da5bab012e4ba80ac4bd4c16942563ef06b0fefb8b709798262b990781fcafda3eb8dec115eebefccb9266ce2da1232f2b70e6#npm:29.5.0"],\
-            ["prettier", "npm:2.8.8"],\
+            ["prettier", "npm:3.2.5"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:ee531bcb02deb6dbd9d7fcc391da5bab012e4ba80ac4bd4c16942563ef06b0fefb8b709798262b990781fcafda3eb8dec115eebefccb9266ce2da1232f2b70e6#npm:18.2.0"],\
             ["react-reveal", "virtual:ee531bcb02deb6dbd9d7fcc391da5bab012e4ba80ac4bd4c16942563ef06b0fefb8b709798262b990781fcafda3eb8dec115eebefccb9266ce2da1232f2b70e6#npm:1.2.2"],\
@@ -7406,10 +7406,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:2.7.2", {\
-          "packageLocation": "./.yarn/cache/@types-prettier-npm-2.7.2-6b2e2f518f-b47d76a525.zip/node_modules/@types/prettier/",\
+        ["npm:3.0.0", {\
+          "packageLocation": "./.yarn/cache/@types-prettier-npm-3.0.0-6c770110eb-a2a512d304.zip/node_modules/@types/prettier/",\
           "packageDependencies": [\
-            ["@types/prettier", "npm:2.7.2"]\
+            ["@types/prettier", "npm:3.0.0"],\
+            ["prettier", "npm:3.2.5"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -18778,10 +18779,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["prettier", [\
-        ["npm:2.8.8", {\
-          "packageLocation": "./.yarn/cache/prettier-npm-2.8.8-430828a36c-b49e409431.zip/node_modules/prettier/",\
+        ["npm:3.2.5", {\
+          "packageLocation": "./.yarn/unplugged/prettier-npm-3.2.5-6859110d6a/node_modules/prettier/",\
           "packageDependencies": [\
-            ["prettier", "npm:2.8.8"]\
+            ["prettier", "npm:3.2.5"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -21775,7 +21776,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/eslint", "npm:8.37.0"],\
             ["@types/jest", "npm:29.5.1"],\
             ["@types/node", "npm:20.4.7"],\
-            ["@types/prettier", "npm:2.7.2"],\
+            ["@types/prettier", "npm:3.0.0"],\
             ["@types/react", "npm:18.2.55"],\
             ["@types/react-dom", "npm:18.2.19"],\
             ["@types/react-fontawesome", "npm:1.6.8"],\
@@ -21789,7 +21790,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-unused-imports", "virtual:ee531bcb02deb6dbd9d7fcc391da5bab012e4ba80ac4bd4c16942563ef06b0fefb8b709798262b990781fcafda3eb8dec115eebefccb9266ce2da1232f2b70e6#npm:2.0.0"],\
             ["gh-pages", "npm:5.0.0"],\
             ["jest", "virtual:ee531bcb02deb6dbd9d7fcc391da5bab012e4ba80ac4bd4c16942563ef06b0fefb8b709798262b990781fcafda3eb8dec115eebefccb9266ce2da1232f2b70e6#npm:29.5.0"],\
-            ["prettier", "npm:2.8.8"],\
+            ["prettier", "npm:3.2.5"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:ee531bcb02deb6dbd9d7fcc391da5bab012e4ba80ac4bd4c16942563ef06b0fefb8b709798262b990781fcafda3eb8dec115eebefccb9266ce2da1232f2b70e6#npm:18.2.0"],\
             ["react-reveal", "virtual:ee531bcb02deb6dbd9d7fcc391da5bab012e4ba80ac4bd4c16942563ef06b0fefb8b709798262b990781fcafda3eb8dec115eebefccb9266ce2da1232f2b70e6#npm:1.2.2"],\
