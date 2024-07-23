@@ -186,7 +186,7 @@ export default <Profile>{
         'Software Engineering',
         'Software Testing',
         'Program Analysis',
-//        'Blockchain Security',
+        //        'Blockchain Security',
       ],
     },
     {
@@ -234,7 +234,8 @@ export default <Profile>{
   service: [
     {
       time: "ISSRE'24",
-      organization: 'The 35th IEEE International Symposium on Software Reliability Engineering',
+      organization:
+        'The 35th IEEE International Symposium on Software Reliability Engineering',
       role: 'PC Member',
       link: 'https://issre.github.io/2024/',
     },
