@@ -31,17 +31,17 @@ export default <Profile>{
   I also work as a research scholar at Purdue University in the group led by Prof. Xiangyu Zhang. `,
   researchInterests: [
     'Software testing and program analysis with an application to blockchain',
-    'Deep learning system and application testing',
+    // 'Deep learning system and application testing',
     'Software testing for Internet of Things (IoT) applications',
-    'Website fingerprinting attack and defense',
+    // 'Website fingerprinting attack and defense',
   ],
   titles: [
     'Full Stack Software Developer',
     'Software Engineering Researcher',
     'Research Scholar',
     'Ph.D. Candidate',
-    'Web3 CTFer',
-    'Bug Hunter',
+    // 'Web3 CTFer',
+    // 'Bug Hunter',
   ],
   socialNetworks: [
     {
@@ -334,20 +334,20 @@ export default <Profile>{
     //   paperUrl: 'https://qingkaishi.github.io/public_pdfs/SP2024.pdf',
     //   bibtex: '',
     // },
-    {
-      type: 'journal',
-      title:
-        'WFDefProxy: Real World Implementation and Evaluation of Website Fingerprinting Defenses',
-      year: '2023',
-      authors: ['Jiajun Gong', 'Wuqi Zhang', 'Charles Zhang', 'Tao Wang'],
-      venue: 'IEEE Transactions on Information Forensics and Security',
-      venueShort: 'TIFS',
-      abstract: `Tor, an onion-routing anonymity network, can be attacked by Website Fingerprinting (WF), which de-anonymizes encrypted web browsing traffic by analyzing its unique sequence characteristics. Although many defenses have been proposed, few have been implemented and tested in the real world; most state-of-the-art defenses were only simulated. Simulations fail to capture the real performance of these defenses as they make simplifying assumptions about the protocol stack and network conditions. To allow WF defenses to be analyzed as real implementations, we create WFDefProxy, the first general platform for WF defense implementation on Tor as pluggable transports. We implement three state-of-the-art WF defenses: FRONT, Tamaraw, and RegulaTor. We evaluate each defense extensively by directly collecting defended datasets under WFDefProxy. Our results show that simulation can be inaccurate in many cases. Specifically, Tamaraw’s time overhead was underestimated by 22% in one setting and overestimated by 24% in another. RegulaTor’s time overhead was underestimated by 30–40%. We find that a major source of simulation inaccuracy is that they cannot incorporate how packets depend on each other. We also find that adverse network conditions (which are ignored in simulation), especially congestion, can affect the evaluated overhead of defenses. These results show that it is important to evaluate defenses as implementations instead of only simulations to avoid errors in evaluation.`,
-      projectUrl: 'https://github.com/websitefingerprinting/wfdef',
-      arxivUrl: '',
-      paperUrl: 'https://ieeexplore.ieee.org/document/10295524/',
-      bibtex: '',
-    },
+    // {
+    //   type: 'journal',
+    //   title:
+    //     'WFDefProxy: Real World Implementation and Evaluation of Website Fingerprinting Defenses',
+    //   year: '2023',
+    //   authors: ['Jiajun Gong', 'Wuqi Zhang', 'Charles Zhang', 'Tao Wang'],
+    //   venue: 'IEEE Transactions on Information Forensics and Security',
+    //   venueShort: 'TIFS',
+    //   abstract: `Tor, an onion-routing anonymity network, can be attacked by Website Fingerprinting (WF), which de-anonymizes encrypted web browsing traffic by analyzing its unique sequence characteristics. Although many defenses have been proposed, few have been implemented and tested in the real world; most state-of-the-art defenses were only simulated. Simulations fail to capture the real performance of these defenses as they make simplifying assumptions about the protocol stack and network conditions. To allow WF defenses to be analyzed as real implementations, we create WFDefProxy, the first general platform for WF defense implementation on Tor as pluggable transports. We implement three state-of-the-art WF defenses: FRONT, Tamaraw, and RegulaTor. We evaluate each defense extensively by directly collecting defended datasets under WFDefProxy. Our results show that simulation can be inaccurate in many cases. Specifically, Tamaraw’s time overhead was underestimated by 22% in one setting and overestimated by 24% in another. RegulaTor’s time overhead was underestimated by 30–40%. We find that a major source of simulation inaccuracy is that they cannot incorporate how packets depend on each other. We also find that adverse network conditions (which are ignored in simulation), especially congestion, can affect the evaluated overhead of defenses. These results show that it is important to evaluate defenses as implementations instead of only simulations to avoid errors in evaluation.`,
+    //   projectUrl: 'https://github.com/websitefingerprinting/wfdef',
+    //   arxivUrl: '',
+    //   paperUrl: 'https://ieeexplore.ieee.org/document/10295524/',
+    //   bibtex: '',
+    // },
     // {
     //   type: 'journal',
     //   title:
@@ -395,25 +395,25 @@ export default <Profile>{
     //   paperUrl: 'https://dl.acm.org/doi/10.1145/3583564',
     //   bibtex: '',
     // },
-    {
-      type: 'conference',
-      title:
-        'Surakav: Generating Realistic Traces for a Strong Website Fingerprinting Defense',
-      year: '2022',
-      authors: ['Jiajun Gong', 'Wuqi Zhang', 'Charles Zhang', 'Tao Wang'],
-      venue: 'The 43rd IEEE Symposium on Security and Privacy ',
-      venueShort: 'S&P',
-      abstract: `
-      Website Fingerprinting (WF) attacks utilize size and timing information of encrypted network traffic to infer the user's browsing activity, posing a great threat to privacy-enhancing technologies like Tor; nevertheless, Tor has not adopted any defense because existing defenses are not convincing enough to show their effectiveness. Some defenses have been overcome by newer attacks; other defenses are never implemented and tested in the real open-world scenario.
-In this paper, we propose Surakav, a tunable and practical defense that is effective against WF attacks with reasonable overhead. Surakav makes use of a Generative Adversarial Network (GAN) to generate realistic sending patterns and regulates buffered data according to the sampled patterns. We implement Surakav and evaluate it on the live Tor network. Experiments show that Surakav is able to reduce the attacker's true positive rate by 57% with 55% data overhead and 16% time overhead, saving 42% data overhead compared to FRONT. In the heavyweight setting, Surakav outperforms the strongest known defense, Tamaraw, requiring 50% less overhead in data and time to lower the attacker's true positive rate to only 8%. We also show that two existing defenses, Walkie-Talkie and TrafficSliver, can be fortified with our GAN-based trace generator.
-    `,
-      projectUrl: 'https://github.com/websitefingerprinting/surakav-imp',
-      arxivUrl: '',
-      paperUrl: 'https://ieeexplore.ieee.org/document/9833722',
-      /* eslint-disable no-useless-escape */
-      bibtex: `
-    `,
-    },
+//     {
+//       type: 'conference',
+//       title:
+//         'Surakav: Generating Realistic Traces for a Strong Website Fingerprinting Defense',
+//       year: '2022',
+//       authors: ['Jiajun Gong', 'Wuqi Zhang', 'Charles Zhang', 'Tao Wang'],
+//       venue: 'The 43rd IEEE Symposium on Security and Privacy ',
+//       venueShort: 'S&P',
+//       abstract: `
+//       Website Fingerprinting (WF) attacks utilize size and timing information of encrypted network traffic to infer the user's browsing activity, posing a great threat to privacy-enhancing technologies like Tor; nevertheless, Tor has not adopted any defense because existing defenses are not convincing enough to show their effectiveness. Some defenses have been overcome by newer attacks; other defenses are never implemented and tested in the real open-world scenario.
+// In this paper, we propose Surakav, a tunable and practical defense that is effective against WF attacks with reasonable overhead. Surakav makes use of a Generative Adversarial Network (GAN) to generate realistic sending patterns and regulates buffered data according to the sampled patterns. We implement Surakav and evaluate it on the live Tor network. Experiments show that Surakav is able to reduce the attacker's true positive rate by 57% with 55% data overhead and 16% time overhead, saving 42% data overhead compared to FRONT. In the heavyweight setting, Surakav outperforms the strongest known defense, Tamaraw, requiring 50% less overhead in data and time to lower the attacker's true positive rate to only 8%. We also show that two existing defenses, Walkie-Talkie and TrafficSliver, can be fortified with our GAN-based trace generator.
+//     `,
+//       projectUrl: 'https://github.com/websitefingerprinting/surakav-imp',
+//       arxivUrl: '',
+//       paperUrl: 'https://ieeexplore.ieee.org/document/9833722',
+//       /* eslint-disable no-useless-escape */
+//       bibtex: `
+//     `,
+//     },
     {
       type: 'conference',
       title:
