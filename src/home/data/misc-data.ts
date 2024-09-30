@@ -91,7 +91,7 @@ export default <MiscData>{
     'Zhuo Zhang': 'https://zzhang.xyz/',
     'Qingkai Shi': 'https://qingkaishi.github.io/',
     'Xiangyu Zhang': 'https://www.cs.purdue.edu/homes/xyzhang/',
-    'MegaETH': 'https://megaeth.systems/',
+    MegaETH: 'https://megaeth.systems/',
     'Chengpeng Wang': 'https://chengpeng-wang.github.io',
     'Guannan Wei': 'https://continuation.passing.style/',
     'Danning Xie': 'https://dnxie.github.io/',
