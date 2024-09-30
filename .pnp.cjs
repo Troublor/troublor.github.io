@@ -65,7 +65,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-ribbons", "virtual:ee531bcb02deb6dbd9d7fcc391da5bab012e4ba80ac4bd4c16942563ef06b0fefb8b709798262b990781fcafda3eb8dec115eebefccb9266ce2da1232f2b70e6#npm:1.0.6"],\
             ["react-scripts", "virtual:ee531bcb02deb6dbd9d7fcc391da5bab012e4ba80ac4bd4c16942563ef06b0fefb8b709798262b990781fcafda3eb8dec115eebefccb9266ce2da1232f2b70e6#npm:5.0.1"],\
             ["react-scroll", "virtual:ee531bcb02deb6dbd9d7fcc391da5bab012e4ba80ac4bd4c16942563ef06b0fefb8b709798262b990781fcafda3eb8dec115eebefccb9266ce2da1232f2b70e6#npm:1.8.9"],\
-            ["react-string-replace", "npm:1.1.0"],\
+            ["react-string-replace", "npm:1.1.1"],\
             ["react-text-loop", "virtual:ee531bcb02deb6dbd9d7fcc391da5bab012e4ba80ac4bd4c16942563ef06b0fefb8b709798262b990781fcafda3eb8dec115eebefccb9266ce2da1232f2b70e6#npm:2.3.0"],\
             ["serve", "npm:14.2.0"],\
             ["smoothscroll", "npm:0.4.0"],\
@@ -19532,10 +19532,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["react-string-replace", [\
-        ["npm:1.1.0", {\
-          "packageLocation": "./.yarn/cache/react-string-replace-npm-1.1.0-9af2371852-5df67fbdb4.zip/node_modules/react-string-replace/",\
+        ["npm:1.1.1", {\
+          "packageLocation": "./.yarn/cache/react-string-replace-npm-1.1.1-614c815872-fd5058bbb3.zip/node_modules/react-string-replace/",\
           "packageDependencies": [\
-            ["react-string-replace", "npm:1.1.0"]\
+            ["react-string-replace", "npm:1.1.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -21928,7 +21928,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-ribbons", "virtual:ee531bcb02deb6dbd9d7fcc391da5bab012e4ba80ac4bd4c16942563ef06b0fefb8b709798262b990781fcafda3eb8dec115eebefccb9266ce2da1232f2b70e6#npm:1.0.6"],\
             ["react-scripts", "virtual:ee531bcb02deb6dbd9d7fcc391da5bab012e4ba80ac4bd4c16942563ef06b0fefb8b709798262b990781fcafda3eb8dec115eebefccb9266ce2da1232f2b70e6#npm:5.0.1"],\
             ["react-scroll", "virtual:ee531bcb02deb6dbd9d7fcc391da5bab012e4ba80ac4bd4c16942563ef06b0fefb8b709798262b990781fcafda3eb8dec115eebefccb9266ce2da1232f2b70e6#npm:1.8.9"],\
-            ["react-string-replace", "npm:1.1.0"],\
+            ["react-string-replace", "npm:1.1.1"],\
             ["react-text-loop", "virtual:ee531bcb02deb6dbd9d7fcc391da5bab012e4ba80ac4bd4c16942563ef06b0fefb8b709798262b990781fcafda3eb8dec115eebefccb9266ce2da1232f2b70e6#npm:2.3.0"],\
             ["serve", "npm:14.2.0"],\
             ["smoothscroll", "npm:0.4.0"],\
