@@ -7,7 +7,7 @@ export default <Profile>{
     middle: ' ',
     last: 'Cheung',
     formal: 'Wuqi Zhang',
-    previous: ['Wuqi Aaron Zhang', '张无奇'],
+    previous: ['Wuqi Zhang', '张无奇'],
     initials: 'W.A.C.',
   },
   emails: {
@@ -24,24 +24,21 @@ export default <Profile>{
   domain: 'troublor.xyz',
   github: 'https://github.com/Troublor',
   resume: 'https://troublor.github.io/curriculum-vitae/cv.pdf',
-  description: `I'm William Cheung.
-  My formal name is Wuqi Zhang, but I prefer to use the English name in most informal cases.
-  Wuqi Aaron Zhang is also used in some cases.
-  I am a Ph.D. candidate supervised by Prof. Shing-Chi Cheung at The Hong Kong University of Science and Technology (HKUST) working in software engineering and security.
-  I also work as a research scholar at Purdue University in the group led by Prof. Xiangyu Zhang. `,
+  description: `I am currently a research scientist at MegaETH (MegaRollup Inc.), a leading blockchain company focused on enhancing the performance of next-generation blockchain technologies. I also currently a research scholar at Purdue University in Prof. Xiangyu Zhang's research group. I obtained my Ph.D. in 2024 from The Hong Kong University of Science and Technology, where I was supervised by Professor Shing-Chi Cheung. My research interests include programming, software architecture design, program analysis, and bug detection. As both a software engineering researcher and a full-stack engineer, I am passionate about developing innovative solutions to improve software systems and tackle challenges in blockchain technology.`,
   researchInterests: [
-    'Software testing and program analysis with an application to blockchain',
-    // 'Deep learning system and application testing',
+    'Software testing and program analysis on blockchain and its applications',
+    'Large language model for software engineering',
+    'Deep learning system and application testing',
     'Software testing for Internet of Things (IoT) applications',
-    // 'Website fingerprinting attack and defense',
+    'Website fingerprinting attack and defense',
   ],
   titles: [
     'Full Stack Software Developer',
     'Software Engineering Researcher',
     'Research Scholar',
-    'Ph.D. Candidate',
-    // 'Web3 CTFer',
-    // 'Bug Hunter',
+    'Ph.D. in Computer Science and Engineering',
+    'Web3 CTFer',
+    'Bug Hunter',
   ],
   socialNetworks: [
     {
@@ -77,7 +74,7 @@ export default <Profile>{
   ],
   educations: [
     {
-      period: '2019 - Expected 2025',
+      period: '2019 - 2024',
       school: 'The Hong Kong University of Science and Technology',
       degreeAbbr: 'Ph.D.',
       degree: 'Doctor of Philosophy',
@@ -95,18 +92,18 @@ export default <Profile>{
   ],
   awards: [
     {
+      name: 'HKUST RedBird Academic Excellence Award',
+      time: '2022,2023,2024',
+      organization: 'The Hong Kong University of Science and Technology',
+    },
+    {
       name: 'Overseas Research Award',
       time: '2023',
       organization: 'The Hong Kong University of Science and Technology',
     },
     {
       name: 'Research Travel Grant',
-      time: '2022',
-      organization: 'The Hong Kong University of Science and Technology',
-    },
-    {
-      name: 'HKUST RedBird Academic Excellence Award',
-      time: '2022',
+      time: '2022,2023,2024',
       organization: 'The Hong Kong University of Science and Technology',
     },
     {
@@ -147,6 +144,13 @@ export default <Profile>{
   ],
   workExperiences: [
     {
+      period: '2024 - Present',
+      location: 'Hong Kong, China',
+      organization: 'MegaETH (MegaRollup Inc.)',
+      position: 'Research Scientist',
+      description: '',
+    },
+    {
       period: '2020 - 2021',
       location: 'Hong Kong, China',
       organization:
@@ -186,7 +190,7 @@ export default <Profile>{
         'Software Engineering',
         'Software Testing',
         'Program Analysis',
-        //        'Blockchain Security',
+        'Blockchain Security',
       ],
     },
     {
@@ -265,6 +269,13 @@ export default <Profile>{
       link: 'https://conf.researchr.org/home/icse-2024',
     },
     {
+      time: "ISSTA'24",
+      organization:
+        'The 33th ACM SIGSOFT International Symposium on Software Testing and Analysis',
+      role: 'Reviewer - Artifact Evaluation Track',
+      link: 'https://conf.researchr.org/home/issta-2024',
+    },
+    {
       time: "ICSE'23",
       organization: 'The 45rd International Conference on Software Engineering',
       role: 'Reviewer - Artifact Evaluation Track',
@@ -292,128 +303,187 @@ export default <Profile>{
       paperUrl: '',
       bibtex: '',
     },
-    // {
-    //   type: 'preprint',
-    //   title: 'When Dataflow Analysis Meets Large Language Models',
-    //   year: '2024',
-    //   authors: [
-    //     'Chengpeng Wang',
-    //     'Wuqi Zhang',
-    //     'Zian Su',
-    //     'Xiangzhe Xu',
-    //     'Xiaoheng Xie',
-    //     'Xiangyu Zhang',
-    //   ],
-    //   venue: 'arXiv:2402.10754',
-    //   venueShort: 'arXiv',
-    //   projectUrl: '',
-    //   arxivUrl: 'https://arxiv.org/abs/2402.10754',
-    //   paperUrl: '',
-    //   bibtex: '',
-    // },
-    // {
-    //   type: 'conference',
-    //   title:
-    //     'Nyx: Detecting Exploitable Front-Running Vulnerabilities in Smart Contracts',
-    //   year: '2024',
-    //   authors: [
-    //     'Wuqi Zhang',
-    //     'Zhuo Zhang',
-    //     'Qingkai Shi',
-    //     'Lu Liu',
-    //     'Lili Wei',
-    //     'Yepang Liu',
-    //     'Xiangyu Zhang',
-    //     'Shing-Chi Cheung',
-    //   ],
-    //   venue: 'The 45th IEEE Symposium on Security and Privacy',
-    //   venueShort: 'S&P',
-    //   abstract: `Smart contracts are susceptible to front-running attacks, in which malicious users leverage prior knowledge of upcoming transactions to execute attack transactions in advance and benefit their own portfolios. Existing contract analysis techniques raise a number of false positives and false negatives in that they simplistically treat data races in a contract as front-running vulnerabilities and can only analyze contracts in isolation. In this work, we formalize the definition of exploitable front-running vulnerabilities based on previous empirical studies on historical attacks, and present Nyx, a novel static analyzer to detect them. Nyx features a Datalog-based preprocessing procedure that efficiently and soundly prunes a large part of the search space, followed by a symbolic validation engine that precisely locates vulnerabilities with an SMT solver. We evaluate Nyx using a large dataset that comprises 513 real-world front-running attacks in smart contracts. Compared to six state-of-the-art techniques, Nyx surpasses them by 32.64%-90.19% in terms of recall and 2.89%-70.89% in terms of precision. Nyx has also identified four zero-days in real-world smart contracts.`,
-    //   projectUrl: '',
-    //   arxivUrl: '',
-    //   paperUrl: 'https://qingkaishi.github.io/public_pdfs/SP2024.pdf',
-    //   bibtex: '',
-    // },
-    // {
-    //   type: 'journal',
-    //   title:
-    //     'WFDefProxy: Real World Implementation and Evaluation of Website Fingerprinting Defenses',
-    //   year: '2023',
-    //   authors: ['Jiajun Gong', 'Wuqi Zhang', 'Charles Zhang', 'Tao Wang'],
-    //   venue: 'IEEE Transactions on Information Forensics and Security',
-    //   venueShort: 'TIFS',
-    //   abstract: `Tor, an onion-routing anonymity network, can be attacked by Website Fingerprinting (WF), which de-anonymizes encrypted web browsing traffic by analyzing its unique sequence characteristics. Although many defenses have been proposed, few have been implemented and tested in the real world; most state-of-the-art defenses were only simulated. Simulations fail to capture the real performance of these defenses as they make simplifying assumptions about the protocol stack and network conditions. To allow WF defenses to be analyzed as real implementations, we create WFDefProxy, the first general platform for WF defense implementation on Tor as pluggable transports. We implement three state-of-the-art WF defenses: FRONT, Tamaraw, and RegulaTor. We evaluate each defense extensively by directly collecting defended datasets under WFDefProxy. Our results show that simulation can be inaccurate in many cases. Specifically, Tamaraw’s time overhead was underestimated by 22% in one setting and overestimated by 24% in another. RegulaTor’s time overhead was underestimated by 30–40%. We find that a major source of simulation inaccuracy is that they cannot incorporate how packets depend on each other. We also find that adverse network conditions (which are ignored in simulation), especially congestion, can affect the evaluated overhead of defenses. These results show that it is important to evaluate defenses as implementations instead of only simulations to avoid errors in evaluation.`,
-    //   projectUrl: 'https://github.com/websitefingerprinting/wfdef',
-    //   arxivUrl: '',
-    //   paperUrl: 'https://ieeexplore.ieee.org/document/10295524/',
-    //   bibtex: '',
-    // },
-    // {
-    //   type: 'journal',
-    //   title:
-    //     'Combatting Front-Running in Smart Contracts: Attack Mining, Benchmark Construction and Vulnerability Detector Evaluation',
-    //   year: '2023',
-    //   authors: [
-    //     'Wuqi Zhang',
-    //     'Lili Wei',
-    //     'Shing-Chi Cheung',
-    //     'Yepang Liu',
-    //     'Shuqing Li',
-    //     'Lu Liu',
-    //     'Michael R. Lyu',
-    //   ],
-    //   venue: 'Transactions on Software Engineering',
-    //   venueShort: 'TSE',
-    //   abstract: `
-    //   Front-running attacks have been a major concern on the blockchain. Attackers launch front-running attacks by inserting additional transactions before upcoming victim transactions to manipulate victim transaction executions and make profits. Recent studies have shown that front-running attacks are prevalent on the Ethereum blockchain and have caused millions of US dollars loss. Vulnerable smart contracts, blockchain programs invoked by transactions, are held responsible for front-running attacks. Although techniques to detect front-running vulnerabilities have been proposed, their performance on real-world vulnerable contracts is unclear. There is no large-scale benchmark based on real attacks to evaluate their capabilities. This motivates us to build a benchmark consisting of 513 real-world attacks with vulnerable code labeled in 235 distinct smart contracts. We propose automated techniques to effectively collect real-world attacks and localize the corresponding vulnerable code at scale. Our experiments show that our approaches are effective, achieving higher recall in finding real attacks and higher precision in pinpointing vulnerabilities compared to the existing techniques. The evaluation of seven state-of-the-art vulnerability detection techniques on the benchmark reveals their inadequacy in detecting front-running vulnerabilities, with a low recall of at most 6.04%. Our further analysis identifies four common limitations in existing techniques: lack of support for inter-contract analysis, inefficient constraint solving for cryptographic operations, improper vulnerability patterns, and lack of token support.
-    // `,
-    //   projectUrl: 'https://github.com/Troublor/erebus-redgiant',
-    //   arxivUrl: '',
-    //   paperUrl: 'https://ieeexplore.ieee.org/document/10108045',
-    //   /* eslint-disable no-useless-escape */
-    //   bibtex: '',
-    // },
-    // {
-    //   type: 'journal',
-    //   title:
-    //     'Finding Deviated Behaviors of the Compressed DNN Models for Image Classifications',
-    //   year: '2023',
-    //   authors: [
-    //     'Yongqiang Tian',
-    //     'Wuqi Zhang',
-    //     'Ming Wen',
-    //     'Shing-Chi Cheung',
-    //     'Chengnian Sun',
-    //     'Shiqing Ma',
-    //     'Yu Jiang',
-    //   ],
-    //   venue: 'ACM Transactions on Software Engineering and Methodology (TOSEM)',
-    //   venueShort: 'TOSEM',
-    //   abstract: '',
-    //   projectUrl: '',
-    //   arxivUrl: '',
-    //   paperUrl: 'https://dl.acm.org/doi/10.1145/3583564',
-    //   bibtex: '',
-    // },
-    //     {
-    //       type: 'conference',
-    //       title:
-    //         'Surakav: Generating Realistic Traces for a Strong Website Fingerprinting Defense',
-    //       year: '2022',
-    //       authors: ['Jiajun Gong', 'Wuqi Zhang', 'Charles Zhang', 'Tao Wang'],
-    //       venue: 'The 43rd IEEE Symposium on Security and Privacy ',
-    //       venueShort: 'S&P',
-    //       abstract: `
-    //       Website Fingerprinting (WF) attacks utilize size and timing information of encrypted network traffic to infer the user's browsing activity, posing a great threat to privacy-enhancing technologies like Tor; nevertheless, Tor has not adopted any defense because existing defenses are not convincing enough to show their effectiveness. Some defenses have been overcome by newer attacks; other defenses are never implemented and tested in the real open-world scenario.
-    // In this paper, we propose Surakav, a tunable and practical defense that is effective against WF attacks with reasonable overhead. Surakav makes use of a Generative Adversarial Network (GAN) to generate realistic sending patterns and regulates buffered data according to the sampled patterns. We implement Surakav and evaluate it on the live Tor network. Experiments show that Surakav is able to reduce the attacker's true positive rate by 57% with 55% data overhead and 16% time overhead, saving 42% data overhead compared to FRONT. In the heavyweight setting, Surakav outperforms the strongest known defense, Tamaraw, requiring 50% less overhead in data and time to lower the attacker's true positive rate to only 8%. We also show that two existing defenses, Walkie-Talkie and TrafficSliver, can be fortified with our GAN-based trace generator.
-    //     `,
-    //       projectUrl: 'https://github.com/websitefingerprinting/surakav-imp',
-    //       arxivUrl: '',
-    //       paperUrl: 'https://ieeexplore.ieee.org/document/9833722',
-    //       /* eslint-disable no-useless-escape */
-    //       bibtex: `
-    //     `,
-    //     },
+    {
+      type: 'conference',
+      title: 'Sanitizing Large Language Models in Bug Detection with Data-Flow',
+      year: '2024',
+      authors: [
+        'Chengpeng Wang',
+        'Wuqi Zhang',
+        'Zian Su',
+        'Xiangzhe Xu',
+        'Xiangyu Zhang',
+      ],
+      venue:
+        'The 2024 Conference on Empirical Methods in Natural Language Processing',
+      venueShort: 'EMNLP',
+      projectUrl: 'https://github.com/chengpeng-wang/LLMSAN',
+      arxivUrl: '',
+      paperUrl:
+        'https://chengpeng-wang.github.io/publications/LLMSAN_EMNLP2024.pdf',
+      bibtex: '',
+    },
+    {
+      type: 'conference',
+      title: 'LLMDFA: Analyzing Dataflow in Code with Large Language Models',
+      year: '2024',
+      authors: [
+        'Chengpeng Wang',
+        'Wuqi Zhang',
+        'Zian Su',
+        'Xiangzhe Xu',
+        'Xiaoheng Xie',
+        'Xiangyu Zhang',
+      ],
+      venue:
+        'The 38th Annual Conference on Neural Information Processing Systems',
+      venueShort: 'NeurIPS',
+      projectUrl: '',
+      arxivUrl: 'https://arxiv.org/abs/2402.10754',
+      paperUrl: 'https://neurips.cc/virtual/2024/poster/95227',
+      bibtex: '',
+    },
+    {
+      type: 'conference',
+      title: 'Towards Understanding the Bugs in Solidity Compiler',
+      year: '2024',
+      authors: [
+        'Haoyang Ma',
+        'Wuqi Zhang',
+        'Qingchao Shen',
+        'Yongqiang Tian',
+        'Junjie Chen',
+        'Shing-Chi Cheung',
+      ],
+      venue:
+        'The 33rd ACM SIGSOFT International Symposium on Software Testing and Analysis',
+      venueShort: 'ISSTA',
+      projectUrl: 'https://github.com/haoyang9804/ISSTA24-Solidity-Study',
+      arxivUrl: '',
+      paperUrl: 'https://dl.acm.org/doi/abs/10.1145/3650212.3680362',
+      bibtex: '',
+    },
+    {
+      type: 'conference',
+      title: 'Consolidating Smart Contracts with Behavioral Contracts',
+      year: '2024',
+      authors: [
+        'Guannan Wei',
+        'Danning Xie',
+        'Wuqi Zhang',
+        'Yongwei Yuan',
+        'Zhuo Zhang',
+      ],
+      venue: 'Proceedings of the ACM on Programming Languages, issue PLDI',
+      venueShort: 'PLDI',
+      projectUrl: 'https://github.com/Kraks/contract-for-contract',
+      arxivUrl: '',
+      paperUrl: 'https://dl.acm.org/doi/abs/10.1145/3656416',
+      bibtex: '',
+    },
+    {
+      type: 'conference',
+      title:
+        'Nyx: Detecting Exploitable Front-Running Vulnerabilities in Smart Contracts',
+      year: '2024',
+      authors: [
+        'Wuqi Zhang',
+        'Zhuo Zhang',
+        'Qingkai Shi',
+        'Lu Liu',
+        'Lili Wei',
+        'Yepang Liu',
+        'Xiangyu Zhang',
+        'Shing-Chi Cheung',
+      ],
+      venue: 'The 45th IEEE Symposium on Security and Privacy',
+      venueShort: 'S&P',
+      abstract: `Smart contracts are susceptible to front-running attacks, in which malicious users leverage prior knowledge of upcoming transactions to execute attack transactions in advance and benefit their own portfolios. Existing contract analysis techniques raise a number of false positives and false negatives in that they simplistically treat data races in a contract as front-running vulnerabilities and can only analyze contracts in isolation. In this work, we formalize the definition of exploitable front-running vulnerabilities based on previous empirical studies on historical attacks, and present Nyx, a novel static analyzer to detect them. Nyx features a Datalog-based preprocessing procedure that efficiently and soundly prunes a large part of the search space, followed by a symbolic validation engine that precisely locates vulnerabilities with an SMT solver. We evaluate Nyx using a large dataset that comprises 513 real-world front-running attacks in smart contracts. Compared to six state-of-the-art techniques, Nyx surpasses them by 32.64%-90.19% in terms of recall and 2.89%-70.89% in terms of precision. Nyx has also identified four zero-days in real-world smart contracts.`,
+      projectUrl: 'https://github.com/Troublor/Nyx',
+      arxivUrl: '',
+      paperUrl: 'https://ieeexplore.ieee.org/document/10646603',
+      bibtex: '',
+    },
+    {
+      type: 'journal',
+      title:
+        'WFDefProxy: Real World Implementation and Evaluation of Website Fingerprinting Defenses',
+      year: '2023',
+      authors: ['Jiajun Gong', 'Wuqi Zhang', 'Charles Zhang', 'Tao Wang'],
+      venue: 'IEEE Transactions on Information Forensics and Security',
+      venueShort: 'TIFS',
+      abstract: `Tor, an onion-routing anonymity network, can be attacked by Website Fingerprinting (WF), which de-anonymizes encrypted web browsing traffic by analyzing its unique sequence characteristics. Although many defenses have been proposed, few have been implemented and tested in the real world; most state-of-the-art defenses were only simulated. Simulations fail to capture the real performance of these defenses as they make simplifying assumptions about the protocol stack and network conditions. To allow WF defenses to be analyzed as real implementations, we create WFDefProxy, the first general platform for WF defense implementation on Tor as pluggable transports. We implement three state-of-the-art WF defenses: FRONT, Tamaraw, and RegulaTor. We evaluate each defense extensively by directly collecting defended datasets under WFDefProxy. Our results show that simulation can be inaccurate in many cases. Specifically, Tamaraw’s time overhead was underestimated by 22% in one setting and overestimated by 24% in another. RegulaTor’s time overhead was underestimated by 30–40%. We find that a major source of simulation inaccuracy is that they cannot incorporate how packets depend on each other. We also find that adverse network conditions (which are ignored in simulation), especially congestion, can affect the evaluated overhead of defenses. These results show that it is important to evaluate defenses as implementations instead of only simulations to avoid errors in evaluation.`,
+      projectUrl: 'https://github.com/websitefingerprinting/wfdef',
+      arxivUrl: '',
+      paperUrl: 'https://ieeexplore.ieee.org/document/10295524/',
+      bibtex: '',
+    },
+    {
+      type: 'journal',
+      title:
+        'Combatting Front-Running in Smart Contracts: Attack Mining, Benchmark Construction and Vulnerability Detector Evaluation',
+      year: '2023',
+      authors: [
+        'Wuqi Zhang',
+        'Lili Wei',
+        'Shing-Chi Cheung',
+        'Yepang Liu',
+        'Shuqing Li',
+        'Lu Liu',
+        'Michael R. Lyu',
+      ],
+      venue: 'Transactions on Software Engineering',
+      venueShort: 'TSE',
+      abstract: `
+      Front-running attacks have been a major concern on the blockchain. Attackers launch front-running attacks by inserting additional transactions before upcoming victim transactions to manipulate victim transaction executions and make profits. Recent studies have shown that front-running attacks are prevalent on the Ethereum blockchain and have caused millions of US dollars loss. Vulnerable smart contracts, blockchain programs invoked by transactions, are held responsible for front-running attacks. Although techniques to detect front-running vulnerabilities have been proposed, their performance on real-world vulnerable contracts is unclear. There is no large-scale benchmark based on real attacks to evaluate their capabilities. This motivates us to build a benchmark consisting of 513 real-world attacks with vulnerable code labeled in 235 distinct smart contracts. We propose automated techniques to effectively collect real-world attacks and localize the corresponding vulnerable code at scale. Our experiments show that our approaches are effective, achieving higher recall in finding real attacks and higher precision in pinpointing vulnerabilities compared to the existing techniques. The evaluation of seven state-of-the-art vulnerability detection techniques on the benchmark reveals their inadequacy in detecting front-running vulnerabilities, with a low recall of at most 6.04%. Our further analysis identifies four common limitations in existing techniques: lack of support for inter-contract analysis, inefficient constraint solving for cryptographic operations, improper vulnerability patterns, and lack of token support.
+    `,
+      projectUrl: 'https://github.com/Troublor/erebus-redgiant',
+      arxivUrl: '',
+      paperUrl: 'https://ieeexplore.ieee.org/document/10108045',
+      /* eslint-disable no-useless-escape */
+      bibtex: '',
+    },
+    {
+      type: 'journal',
+      title:
+        'Finding Deviated Behaviors of the Compressed DNN Models for Image Classifications',
+      year: '2023',
+      authors: [
+        'Yongqiang Tian',
+        'Wuqi Zhang',
+        'Ming Wen',
+        'Shing-Chi Cheung',
+        'Chengnian Sun',
+        'Shiqing Ma',
+        'Yu Jiang',
+      ],
+      venue: 'ACM Transactions on Software Engineering and Methodology (TOSEM)',
+      venueShort: 'TOSEM',
+      abstract: '',
+      projectUrl: '',
+      arxivUrl: '',
+      paperUrl: 'https://dl.acm.org/doi/10.1145/3583564',
+      bibtex: '',
+    },
+    {
+      type: 'conference',
+      title:
+        'Surakav: Generating Realistic Traces for a Strong Website Fingerprinting Defense',
+      year: '2022',
+      authors: ['Jiajun Gong', 'Wuqi Zhang', 'Charles Zhang', 'Tao Wang'],
+      venue: 'The 43rd IEEE Symposium on Security and Privacy ',
+      venueShort: 'S&P',
+      abstract: `
+          Website Fingerprinting (WF) attacks utilize size and timing information of encrypted network traffic to infer the user's browsing activity, posing a great threat to privacy-enhancing technologies like Tor; nevertheless, Tor has not adopted any defense because existing defenses are not convincing enough to show their effectiveness. Some defenses have been overcome by newer attacks; other defenses are never implemented and tested in the real open-world scenario.
+    In this paper, we propose Surakav, a tunable and practical defense that is effective against WF attacks with reasonable overhead. Surakav makes use of a Generative Adversarial Network (GAN) to generate realistic sending patterns and regulates buffered data according to the sampled patterns. We implement Surakav and evaluate it on the live Tor network. Experiments show that Surakav is able to reduce the attacker's true positive rate by 57% with 55% data overhead and 16% time overhead, saving 42% data overhead compared to FRONT. In the heavyweight setting, Surakav outperforms the strongest known defense, Tamaraw, requiring 50% less overhead in data and time to lower the attacker's true positive rate to only 8%. We also show that two existing defenses, Walkie-Talkie and TrafficSliver, can be fortified with our GAN-based trace generator.
+        `,
+      projectUrl: 'https://github.com/websitefingerprinting/surakav-imp',
+      arxivUrl: '',
+      paperUrl: 'https://ieeexplore.ieee.org/document/9833722',
+      /* eslint-disable no-useless-escape */
+      bibtex: `
+        `,
+    },
     {
       type: 'conference',
       title:
