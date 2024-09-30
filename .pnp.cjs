@@ -35,7 +35,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@fortawesome/free-brands-svg-icons", "npm:5.15.4"],\
             ["@fortawesome/free-regular-svg-icons", "npm:6.4.0"],\
             ["@fortawesome/free-solid-svg-icons", "npm:5.15.4"],\
-            ["@fortawesome/react-fontawesome", "virtual:ee531bcb02deb6dbd9d7fcc391da5bab012e4ba80ac4bd4c16942563ef06b0fefb8b709798262b990781fcafda3eb8dec115eebefccb9266ce2da1232f2b70e6#npm:0.2.0"],\
+            ["@fortawesome/react-fontawesome", "virtual:ee531bcb02deb6dbd9d7fcc391da5bab012e4ba80ac4bd4c16942563ef06b0fefb8b709798262b990781fcafda3eb8dec115eebefccb9266ce2da1232f2b70e6#npm:0.2.2"],\
             ["@mui/icons-material", "virtual:ee531bcb02deb6dbd9d7fcc391da5bab012e4ba80ac4bd4c16942563ef06b0fefb8b709798262b990781fcafda3eb8dec115eebefccb9266ce2da1232f2b70e6#npm:5.15.9"],\
             ["@mui/material", "virtual:ee531bcb02deb6dbd9d7fcc391da5bab012e4ba80ac4bd4c16942563ef06b0fefb8b709798262b990781fcafda3eb8dec115eebefccb9266ce2da1232f2b70e6#npm:5.15.5"],\
             ["@testing-library/jest-dom", "npm:5.16.5"],\
@@ -5665,17 +5665,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@fortawesome/react-fontawesome", [\
-        ["npm:0.2.0", {\
-          "packageLocation": "./.yarn/cache/@fortawesome-react-fontawesome-npm-0.2.0-a36215138f-f652a0c217.zip/node_modules/@fortawesome/react-fontawesome/",\
+        ["npm:0.2.2", {\
+          "packageLocation": "./.yarn/cache/@fortawesome-react-fontawesome-npm-0.2.2-e1863961b2-e4bed35bfb.zip/node_modules/@fortawesome/react-fontawesome/",\
           "packageDependencies": [\
-            ["@fortawesome/react-fontawesome", "npm:0.2.0"]\
+            ["@fortawesome/react-fontawesome", "npm:0.2.2"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:ee531bcb02deb6dbd9d7fcc391da5bab012e4ba80ac4bd4c16942563ef06b0fefb8b709798262b990781fcafda3eb8dec115eebefccb9266ce2da1232f2b70e6#npm:0.2.0", {\
-          "packageLocation": "./.yarn/__virtual__/@fortawesome-react-fontawesome-virtual-b0e65cdd9a/0/cache/@fortawesome-react-fontawesome-npm-0.2.0-a36215138f-f652a0c217.zip/node_modules/@fortawesome/react-fontawesome/",\
+        ["virtual:ee531bcb02deb6dbd9d7fcc391da5bab012e4ba80ac4bd4c16942563ef06b0fefb8b709798262b990781fcafda3eb8dec115eebefccb9266ce2da1232f2b70e6#npm:0.2.2", {\
+          "packageLocation": "./.yarn/__virtual__/@fortawesome-react-fontawesome-virtual-d5299e98c6/0/cache/@fortawesome-react-fontawesome-npm-0.2.2-e1863961b2-e4bed35bfb.zip/node_modules/@fortawesome/react-fontawesome/",\
           "packageDependencies": [\
-            ["@fortawesome/react-fontawesome", "virtual:ee531bcb02deb6dbd9d7fcc391da5bab012e4ba80ac4bd4c16942563ef06b0fefb8b709798262b990781fcafda3eb8dec115eebefccb9266ce2da1232f2b70e6#npm:0.2.0"],\
+            ["@fortawesome/react-fontawesome", "virtual:ee531bcb02deb6dbd9d7fcc391da5bab012e4ba80ac4bd4c16942563ef06b0fefb8b709798262b990781fcafda3eb8dec115eebefccb9266ce2da1232f2b70e6#npm:0.2.2"],\
             ["@fortawesome/fontawesome-svg-core", "npm:1.2.36"],\
             ["@types/fortawesome__fontawesome-svg-core", null],\
             ["@types/react", "npm:18.3.10"],\
@@ -22144,7 +22144,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@fortawesome/free-brands-svg-icons", "npm:5.15.4"],\
             ["@fortawesome/free-regular-svg-icons", "npm:6.4.0"],\
             ["@fortawesome/free-solid-svg-icons", "npm:5.15.4"],\
-            ["@fortawesome/react-fontawesome", "virtual:ee531bcb02deb6dbd9d7fcc391da5bab012e4ba80ac4bd4c16942563ef06b0fefb8b709798262b990781fcafda3eb8dec115eebefccb9266ce2da1232f2b70e6#npm:0.2.0"],\
+            ["@fortawesome/react-fontawesome", "virtual:ee531bcb02deb6dbd9d7fcc391da5bab012e4ba80ac4bd4c16942563ef06b0fefb8b709798262b990781fcafda3eb8dec115eebefccb9266ce2da1232f2b70e6#npm:0.2.2"],\
             ["@mui/icons-material", "virtual:ee531bcb02deb6dbd9d7fcc391da5bab012e4ba80ac4bd4c16942563ef06b0fefb8b709798262b990781fcafda3eb8dec115eebefccb9266ce2da1232f2b70e6#npm:5.15.9"],\
             ["@mui/material", "virtual:ee531bcb02deb6dbd9d7fcc391da5bab012e4ba80ac4bd4c16942563ef06b0fefb8b709798262b990781fcafda3eb8dec115eebefccb9266ce2da1232f2b70e6#npm:5.15.5"],\
             ["@testing-library/jest-dom", "npm:5.16.5"],\
