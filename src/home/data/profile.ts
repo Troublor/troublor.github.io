@@ -146,8 +146,7 @@ export default <Profile>{
     {
       period: '2024 - Present',
       location: 'Hong Kong, China',
-      organization:
-        'MegaETH (MegaRollup Inc.)',
+      organization: 'MegaETH (MegaRollup Inc.)',
       position: 'Research Scientist',
       description: '',
     },
@@ -315,11 +314,13 @@ export default <Profile>{
         'Xiangzhe Xu',
         'Xiangyu Zhang',
       ],
-      venue: 'The 2024 Conference on Empirical Methods in Natural Language Processing',
+      venue:
+        'The 2024 Conference on Empirical Methods in Natural Language Processing',
       venueShort: 'EMNLP',
       projectUrl: 'https://github.com/chengpeng-wang/LLMSAN',
       arxivUrl: '',
-      paperUrl: 'https://chengpeng-wang.github.io/publications/LLMSAN_EMNLP2024.pdf',
+      paperUrl:
+        'https://chengpeng-wang.github.io/publications/LLMSAN_EMNLP2024.pdf',
       bibtex: '',
     },
     {
@@ -334,7 +335,8 @@ export default <Profile>{
         'Xiaoheng Xie',
         'Xiangyu Zhang',
       ],
-      venue: 'The 38th Annual Conference on Neural Information Processing Systems',
+      venue:
+        'The 38th Annual Conference on Neural Information Processing Systems',
       venueShort: 'NeurIPS',
       projectUrl: '',
       arxivUrl: 'https://arxiv.org/abs/2402.10754',
@@ -353,7 +355,8 @@ export default <Profile>{
         'Junjie Chen',
         'Shing-Chi Cheung',
       ],
-      venue: 'The 33rd ACM SIGSOFT International Symposium on Software Testing and Analysis',
+      venue:
+        'The 33rd ACM SIGSOFT International Symposium on Software Testing and Analysis',
       venueShort: 'ISSTA',
       projectUrl: 'https://github.com/haoyang9804/ISSTA24-Solidity-Study',
       arxivUrl: '',
