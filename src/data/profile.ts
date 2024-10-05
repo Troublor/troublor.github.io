@@ -59,7 +59,7 @@ export const profile: Profile = {
     {
       name: 'Twitter',
       link: 'https://twitter.com/troublor',
-      iconName: 'faTwitter',
+      iconName: 'faXTwitter',
     },
     {
       name: 'LinkedIn',
