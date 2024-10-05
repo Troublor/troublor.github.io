@@ -1,24 +1,18 @@
 import React from 'react';
 import * as smoothScroll from 'smoothscroll-polyfill';
 
-interface Props {
-  offset?: number;
-}
+export function Scroller({
+  offset,
+  ...rest
+}: { offset?: number } & React.AnchorHTMLAttributes<HTMLAnchorElement>) {
+  const { children, onClick } = rest;
 
-export class Scroller extends React.Component<
-  Props & React.AnchorHTMLAttributes<HTMLAnchorElement>
-> {
-  componentDidMount(): void {
+  React.useEffect(() => {
     smoothScroll.polyfill();
-  }
+  }, []);
 
-  smoothScroll = (e: React.MouseEvent<HTMLAnchorElement>) => {
+  const scroll = (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault();
-
-    let offset = 0;
-    if (this.props.offset) {
-      offset = this.props.offset;
-    }
 
     const id = e.currentTarget.getAttribute('href')?.slice(1);
     if (id) {
@@ -27,29 +21,24 @@ export class Scroller extends React.Component<
         const offsetTop =
           $anchor.getBoundingClientRect().top + window.pageYOffset;
         window.scroll({
-          top: offsetTop - offset,
+          top: offsetTop - (offset || 0),
           behavior: 'smooth',
         });
       }
     }
 
-    if (this.props.onClick) {
-      this.props.onClick(e);
+    if (onClick) {
+      onClick(e);
     }
   };
 
-  render(): React.ReactElement {
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars
-    // eslint-disable-next-line unused-imports/no-unused-vars
-    const { offset, ...rest } = this.props;
-    return (
-      <a
-        {...rest}
-        style={{ color: '#FFFFFF', textDecoration: 'none' }}
-        onClick={this.smoothScroll}
-      >
-        {this.props.children}
-      </a>
-    );
-  }
+  return (
+    <a
+      {...rest}
+      style={{ color: '#FFFFFF', textDecoration: 'none' }}
+      onClick={scroll}
+    >
+      {children}
+    </a>
+  );
 }

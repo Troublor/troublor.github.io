@@ -1,3 +1,5 @@
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-ignore
 import { createTheme, Theme } from '@mui/material/styles';
 
 declare module '@mui/material/styles' {
@@ -31,7 +33,7 @@ export const defaultTheme = createTheme({
     },
     text: {
       primary: '#454360',
-      secondary: '#fff',
+      secondary: '#454360',
     },
     background: {
       default: '#f1f7ff',
@@ -41,15 +43,15 @@ export const defaultTheme = createTheme({
   typography: {
     fontFamily: ['Rubik', 'sans-serif'].join(','),
     h2: {
-      fontSize: '2rem',
+      fontSize: '1.5rem',
       fontWeight: 700,
     },
     h4: {
-      fontSize: '24px',
+      fontSize: '20px',
       fontWeight: 700,
     },
     h5: {
-      fontSize: '20px',
+      fontSize: '18px',
       fontWeight: 700,
     },
     h6: {

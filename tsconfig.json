@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
     "sourceMap": true,
-    "target": "es2022",
-    "module": "es2022",
+    "target": "ES5",
+    "module": "ESNext",
     "outDir": "./dist",
     "jsx": "react",
     "moduleResolution": "Node",
@@ -13,7 +13,7 @@
     "esModuleInterop": true,
     "strict": true,
     "strictNullChecks": true,
-    "lib": ["ES2020", "DOM"],
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
     "types": ["node", "jest", "react", "react-dom"]
   },
   "include": ["src"]
