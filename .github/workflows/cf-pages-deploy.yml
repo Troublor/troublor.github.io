@@ -29,9 +29,10 @@ jobs:
       - name: Setup Node.js environment
         uses: actions/setup-node@v2.5.1
         with:
-          node-version: 16.x
+          node-version: 22.x
       - name: build
         run: |
+          corepack enable
           yarn
           yarn build
 
