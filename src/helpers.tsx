@@ -59,7 +59,7 @@ export function decorateTextWithLink(
       return (
         <>
           {decorateTextWithLink(left, decoration)}
-          <Typography component="span" color={'inherit'}>
+          <Typography component="span" color={'primary.main'}>
             {highlight}
           </Typography>
           {decorateTextWithLink(right, decoration)}

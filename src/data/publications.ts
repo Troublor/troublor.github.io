@@ -13,6 +13,9 @@ export const publicationList: PublicationList = [
     arxivUrl: 'https://arxiv.org/abs/2403.16898',
     paperUrl: '',
     bibtex: '',
+    abstract: `
+    Various techniques have been proposed to leverage the capabilities of code language models (CLMs) for SE tasks. While these techniques typically evaluate their effectiveness using publicly available datasets, the evaluation can be subject to data contamination threats where the evaluation datasets have already been used to train the concerned CLMs. This can significantly affect the reliability of the evaluation. Different countermeasures have been suggested to mitigate the data contamination threat. Countermeasures include using more recent data, curating new data, and refactoring existing data are introduced, yet it is unclear whether these countermeasures could really mitigate data contamination threats to model evaluation. To fill the gap, we systematically study to quantify the impacts of these countermeasures on CLMs' performance. To facilitate the study, we collected over 2 million Python functions with timestamps ranging from January 1st, 2018, to December 31st, 2023. The data created before the models' cut-off date are considered "contaminated data", while the data where the countermeasures are taken are regarded as "cleansed data". We study the impact of these countermeasures by investigating the difference in CLMs' performance on contaminated and cleansed data derived from different countermeasures. Our experiments yield several interesting observations. For instance, CLMs do not necessarily perform worse on data after the models' cut-off date; on the contrary, they sometimes perform better. In addition, refactoring did not always result in decreased performance; it could lead to improvements instead. Furthermore, existing metrics such as perplexity cannot distinguish contaminated/cleansed data. We hope that the results and observations could help deepen the understanding of CLMs' capabilities and inform the community about data contamination.
+    `,
   },
   {
     type: 'conference',
@@ -33,6 +36,9 @@ export const publicationList: PublicationList = [
     paperUrl:
       'https://chengpeng-wang.github.io/publications/LLMSAN_EMNLP2024.pdf',
     bibtex: '',
+    abstract: `
+    Large language models (LLMs) show potential in code reasoning tasks, facilitating the customization of detecting bugs in software development. However, the hallucination effect can significantly compromise the reliability of bug reports. This work formulates a new schema of bug detection and presents a novel sanitization technique that detects false positives for hallucination mitigation. Our key idea is to enforce LLMs to emit data-flow paths in few-shot chain-of-thought prompting and validate them via the program-property decomposition. Specifically, we dissect data-flow paths into basic properties upon concise code snippets and leverage parsing-based analysis and LLMs for validation. Our approach averagely achieves 91.03% precision and 74.00% recall upon synthetic benchmarks, and boosts the precision by 21.99% with the sanitization. The evaluation upon real-world Android malware applications also demonstrates the superiority over an industrial analyzer, surpassing the precision and recall by 15.36% and 3.61%, respectively. LLMSAN is open-sourced at https://github.com/chengpeng-wang/LLMSAN.
+    `,
   },
   {
     type: 'conference',
@@ -53,6 +59,9 @@ export const publicationList: PublicationList = [
     arxivUrl: 'https://arxiv.org/abs/2402.10754',
     paperUrl: 'https://neurips.cc/virtual/2024/poster/95227',
     bibtex: '',
+    abstract: `
+    Dataflow analysis is a fundamental code analysis technique that identifies dependencies between program values. Traditional approaches typically necessitate successful compilation and expert customization, hindering their applicability and usability for analyzing uncompilable programs with evolving analysis needs in real-world scenarios. This paper presents LLMDFA, an LLM-powered compilation-free and customizable dataflow analysis framework. To address hallucinations for reliable results, we decompose the problem into several subtasks and introduce a series of novel strategies. Specifically, we leverage LLMs to synthesize code that outsources delicate reasoning to external expert tools, such as using a parsing library to extract program values of interest and invoking an automated theorem prover to validate path feasibility. Additionally, we adopt a few-shot chain-of-thought prompting to summarize dataflow facts in individual functions, aligning the LLMs with the program semantics of small code snippets to mitigate hallucinations. We evaluate LLMDFA on synthetic programs to detect three representative types of bugs and on real-world Android applications for customized bug detection. On average, LLMDFA achieves 87.10% precision and 80.77% recall, surpassing existing techniques with F1 score improvements of up to 0.35.
+    `,
   },
   {
     type: 'conference',
@@ -73,6 +82,9 @@ export const publicationList: PublicationList = [
     arxivUrl: '',
     paperUrl: 'https://dl.acm.org/doi/abs/10.1145/3650212.3680362',
     bibtex: '',
+    abstract: `
+    Solidity compiler plays a key role in enabling the development of smart contract applications on Ethereum by governing the syntax of a domain-specific language called Solidity and performing compilation and optimization of Solidity code. The correctness of Solidity compiler is critical in fostering transparency, efficiency, and trust in industries reliant on smart contracts. However, like other software systems, Solidity compiler is prone to bugs, which may produce incorrect bytecodes on blockchain platforms, resulting in severe security concerns. As a domain-specific compiler for smart contracts, Solidity compiler differs from other compilers in many perspectives, posing unique challenges to detect its bugs. To understand the bugs in Solidity compiler and benefit future research, in this paper, we present the first systematic study on 533 Solidity compiler bugs. We carefully examined their characteristics (including symptoms, root causes, and distribution), and their triggering test cases. Our study leads to seven bug-revealing takeaways for Solidity compiler. Moreover, to study the limitations of Solidity compiler fuzzers and bring our findings into practical scenarios, we evaluate three Solidity compiler fuzzers on our constructed benchmark. The results show that these fuzzers are inefficient in detecting Solidity compiler bugs. The inefficiency arises from their failure to consider the interesting bug-inducing features, bug-related compilation flags, and test oracles.
+    `,
   },
   {
     type: 'conference',
@@ -91,6 +103,9 @@ export const publicationList: PublicationList = [
     arxivUrl: '',
     paperUrl: 'https://dl.acm.org/doi/abs/10.1145/3656416',
     bibtex: '',
+    abstract: `
+    Ensuring the reliability of smart contracts is of vital importance due to the wide adoption of smart contract programs in decentralized financial applications. However, statically checking many rich properties of smart contract programs can be challenging. On the other hand, dynamic validation approaches have shown promise for widespread adoption in practice. Nevertheless, as part of the programming environment for smart contracts, existing dynamic validation approaches have not provided programmers with a notion to clearly articulate the interface between components, especially for addresses representing opaque contract instances. We argue that the “design-by-contract” approach should complement the development of smart contract programs. Unfortunately, there is only limited linguistic support for that in existing smart contract languages. In this paper, we design a Solidity language extension ConSol that supports behavioral contracts. ConSol provides programmers with a modular specification and monitoring system for both functional and latent address behaviors. The key capability of ConSol is to attach specifications to first-class addresses and monitor violations when invoking these addresses. We evaluate ConSol using 20 real-world cases, demonstrating its effectiveness in expressing critical conditions and preventing attacks. Additionally, we assess ConSol’s efficiency and compare gas consumption with manually inserted assertions, showing that our approach introduces only marginal gas overhead. By separating specifications and implementations using behavioral contracts, ConSol assists programmers in writing smart contract code that is more robust and readable.
+    `,
   },
   {
     type: 'conference',
@@ -170,7 +185,10 @@ export const publicationList: PublicationList = [
     ],
     venue: 'ACM Transactions on Software Engineering and Methodology (TOSEM)',
     venueShort: 'TOSEM',
-    abstract: '',
+    abstract: `
+    Model compression can significantly reduce the sizes of deep neural network (DNN) models and thus facilitate the dissemination of sophisticated, sizable DNN models, especially for deployment on mobile or embedded devices. However, the prediction results of compressed models may deviate from those of their original models. To help developers thoroughly understand the impact of model compression, it is essential to test these models to find those deviated behaviors before dissemination. However, this is a non-trivial task, because the architectures and gradients of compressed models are usually not available.
+    To this end, we propose Dflare, a novel, search-based, black-box testing technique to automatically find triggering inputs that result in deviated behaviors in image classification tasks. Dflare iteratively applies a series of mutation operations to a given seed image until a triggering input is found. For better efficacy and efficiency, Dflare models the search problem as Markov Chains and leverages the Metropolis-Hasting algorithm to guide the selection of mutation operators in each iteration. Further, Dflare utilizes a novel fitness function to prioritize the mutated inputs that either cause large differences between two models’ outputs or trigger previously unobserved models’ probability vectors. We evaluated Dflare on 21 compressed models for image classification tasks with three datasets. The results show that Dflare not only constantly outperforms the baseline in terms of efficacy but also significantly improves the efficiency: Dflare is 17.84×–446.06× as fast as the baseline in terms of time; the number of queries required by Dflare to find one triggering input is only 0.186–1.937% of those issued by the baseline. We also demonstrated that the triggering inputs found by Dflare can be used to repair up to 48.48% deviated behaviors in image classification tasks and further decrease the effectiveness of Dflare on the repaired models.
+    `,
     projectUrl: '',
     arxivUrl: '',
     paperUrl: 'https://dl.acm.org/doi/10.1145/3583564',

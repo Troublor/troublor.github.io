@@ -42,7 +42,9 @@ jobs:
         uses: actions/configure-pages@v2
 
       - name: Install dependencies
-        run: yarn
+        run: |
+          corepack enable
+          yarn
 
       - name: Build
         run: |
