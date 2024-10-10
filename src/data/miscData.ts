@@ -72,8 +72,9 @@ export const miscData: MiscData = {
       origin: 'Luther (Detroit: Become Human)',
     },
     {
-      sentence: 'Do not worry about tomorrow, for tomorrow will worry about itself.',
+      sentence:
+        'Do not worry about tomorrow, for tomorrow will worry about itself.',
       origin: 'Matthew 6:34',
-    }
+    },
   ],
 };
