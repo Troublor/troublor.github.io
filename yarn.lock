@@ -3321,10 +3321,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^16.7.13":
-  version: 16.18.112
-  resolution: "@types/node@npm:16.18.112"
-  checksum: 10c0/ac62165ef3a00e8cabc92769f1699d01da3fa712a2aaaaf6010fb98a0f055a40c44d87cc8f9f2abcfec7e8e3253236094bc0ce2c42c11008efb155c7ac2bda52
+"@types/node@npm:^22.7.5":
+  version: 22.7.5
+  resolution: "@types/node@npm:22.7.5"
+  dependencies:
+    undici-types: "npm:~6.19.2"
+  checksum: 10c0/cf11f74f1a26053ec58066616e3a8685b6bcd7259bc569738b8f752009f9f0f7f85a1b2d24908e5b0f752482d1e8b6babdf1fbb25758711ec7bb9500bfcd6e60
   languageName: node
   linkType: hard
 
@@ -13629,7 +13631,7 @@ __metadata:
     "@testing-library/react": "npm:^13.0.0"
     "@testing-library/user-event": "npm:^13.2.1"
     "@types/jest": "npm:^27.0.1"
-    "@types/node": "npm:^16.7.13"
+    "@types/node": "npm:^22.7.5"
     "@types/react": "npm:^18.0.0"
     "@types/react-dom": "npm:^18.0.0"
     "@types/smoothscroll-polyfill": "npm:^0"
