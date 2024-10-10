@@ -71,5 +71,9 @@ export const miscData: MiscData = {
         "Forgetting who you are, to become what someone needs you to be. Maybe that's what it means to be alive.",
       origin: 'Luther (Detroit: Become Human)',
     },
+    {
+      sentence: 'Do not worry about tomorrow, for tomorrow will worry about itself.',
+      origin: 'Matthew 6:34',
+    }
   ],
 };
