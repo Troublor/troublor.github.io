@@ -76,5 +76,10 @@ export const miscData: MiscData = {
         'Do not worry about tomorrow, for tomorrow will worry about itself.',
       origin: 'Matthew 6:34',
     },
+    {
+      sentence:
+        'We are enriched not by what we possess, but by what we can do without.',
+      origin: 'Immanuel Kant',
+    },
   ],
 };
