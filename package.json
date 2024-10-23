@@ -21,7 +21,7 @@
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
     "typescript": "^5.6.3",
-    "web-vitals": "^4.2.3"
+    "web-vitals": "^4.2.4"
   },
   "dependencies": {
     "@emotion/react": "^11.13.3",
