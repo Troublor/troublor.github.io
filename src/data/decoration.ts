@@ -31,6 +31,9 @@ export const globalDecoration: TextDecoration = {
     Foundry: 'https://github.com/foundry-rs/foundry',
     Slither: 'https://github.com/crytic/slither',
     'Jialun Cao': 'https://bella-academic.netlify.app',
+    'Mengya Zhang': 'https://miazmy1221.github.io/',
+    'Xiaokuan Zhang': 'https://mainarke.github.io/',
+    'Zhiqiang Lin': 'https://cse.osu.edu/people/lin.3021',
   },
   highlights: ['Wuqi Zhang'],
 };
