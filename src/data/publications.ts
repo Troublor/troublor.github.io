@@ -2,6 +2,29 @@ import { PublicationList } from './interface';
 
 export const publicationList: PublicationList = [
   {
+    type: 'conference',
+    title:
+      'An Empirical Study of Proxy Smart Contracts at the Ethereum Ecosystem Scale',
+    date: [2025, 4],
+    authors: [
+      'Mengya Zhang*',
+      'Preksha Shukla*',
+      'Wuqi Zhang*',
+      'Zhuo Zhang',
+      'Pranav Agrawal',
+      'Zhiqiang Lin',
+      'Xiangyu Zhang',
+      'Xiaokuan Zhang',
+    ],
+    venue: 'The 47th International Conference on Software Engineering',
+    venueShort: 'ICSE',
+    projectUrl: '',
+    arxivUrl: '',
+    paperUrl: '',
+    bibtex: '',
+    abstract: ``,
+  },
+  {
     type: 'preprint',
     title:
       'Concerned with Data Contamination? Assessing Countermeasures in Code Language Model',

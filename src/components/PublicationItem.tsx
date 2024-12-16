@@ -50,6 +50,8 @@ export function PublicationItem({
 }: GlobalDecorationProp & Props): React.ReactElement {
   const [open, setOpen] = React.useState(false);
 
+  const hasCoauthorSign = publication.authors.some((a) => a.endsWith('*'));
+
   function toggleAbstract() {
     setOpen(!open);
   }
@@ -98,6 +100,15 @@ export function PublicationItem({
             </Typography>
           ))}
         </Typography>
+        {hasCoauthorSign && (
+          <Typography
+            variant={'body2'}
+            marginTop={'0px!important'}
+            component={'span'}
+          >
+            * equal contribution
+          </Typography>
+        )}
         <Typography variant={'body1'} component={'div'}>
           {publication.venue}
         </Typography>
