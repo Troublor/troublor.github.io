@@ -2479,19 +2479,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mui/icons-material@npm:^6.2.0":
-  version: 6.2.0
-  resolution: "@mui/icons-material@npm:6.2.0"
+"@mui/icons-material@npm:^6.2.1":
+  version: 6.2.1
+  resolution: "@mui/icons-material@npm:6.2.1"
   dependencies:
     "@babel/runtime": "npm:^7.26.0"
   peerDependencies:
-    "@mui/material": ^6.2.0
+    "@mui/material": ^6.2.1
     "@types/react": ^17.0.0 || ^18.0.0 || ^19.0.0
     react: ^17.0.0 || ^18.0.0 || ^19.0.0
   peerDependenciesMeta:
     "@types/react":
       optional: true
-  checksum: 10c0/317990cd9c349a9dadc24f2ece6aa7b99b202f01c549010881d361cc44f816f2a5def0e70b6241967184f1dea16e7459715d32299ca0fd9524226c9f1f91efc2
+  checksum: 10c0/5ff137c8fbe6875b871d9c47e4a1d767d8b8f3f9b092a9b7fc5bb9fedf479dadf528f6602992408ba514e3fd69b2c8c0e6a14a4676a5cc4f4b779f33ba5b5d0a
   languageName: node
   linkType: hard
 
@@ -13647,7 +13647,7 @@ __metadata:
     "@fortawesome/free-regular-svg-icons": "npm:^6.6.0"
     "@fortawesome/free-solid-svg-icons": "npm:^6.6.0"
     "@fortawesome/react-fontawesome": "npm:^0.2.2"
-    "@mui/icons-material": "npm:^6.2.0"
+    "@mui/icons-material": "npm:^6.2.1"
     "@mui/material": "npm:^6.2.0"
     "@testing-library/jest-dom": "npm:^6.6.3"
     "@testing-library/react": "npm:^16.1.0"
